@@ -2,5 +2,10 @@
 
 Static GitHub Pages build for browsing Pokemon Card deck comparison data.
 
+- Events: 3
+- Decks: 21
+- Library updated: 2026-06-20T07:24:43+00:00
+
 The public site is read-only and loads `library.json` from this repository.
-Official deck fetching and local persistence are available from the source tool in the Codex workspace.
+Official deck fetching and local persistence are available from the local
+`tools/pokemon-deck-compare` source tool.
