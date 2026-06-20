@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pokemon Deck Compare</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="app-shell">
+      <section class="workspace" aria-labelledby="page-title">
+        <div class="workspace__header">
+          <div>
+            <p class="eyebrow">Pokemon Card Deck Analysis</p>
+            <h1 id="page-title">Deck Archetype Comparator</h1>
+          </div>
+          <div class="toolbar" aria-label="Input actions">
+            <button id="loadSample" type="button">Load sample</button>
+            <button id="clearInput" type="button">Clear</button>
+          </div>
+        </div>
+
+        <div class="event-panel" aria-labelledby="event-title">
+          <div>
+            <h2 id="event-title">Event article</h2>
+            <p>
+              Collect archetype names and official deck IDs from an event summary
+              page.
+            </p>
+          </div>
+          <label class="url-input-panel">
+            <span>Article URL</span>
+            <input
+              id="eventUrlInput"
+              type="url"
+              value="https://pokekameshi.com/cl2026aichidec-extra/"
+            />
+          </label>
+          <div class="fetch-actions">
+            <button id="collectEventDecks" type="button">Collect IDs</button>
+            <span id="eventStatus" role="status" aria-live="polite"></span>
+          </div>
+          <div class="event-results" id="eventResults" hidden></div>
+        </div>
+
+        <div class="fetch-panel" aria-labelledby="fetch-title">
+          <div>
+            <h2 id="fetch-title">Official deck IDs</h2>
+            <p>
+              Paste one or more official deck URLs or deck IDs. Fetching requires
+              the local server in this folder.
+            </p>
+          </div>
+          <label class="id-input-panel">
+            <span>URLs or IDs</span>
+            <textarea
+              id="deckIdInput"
+              spellcheck="false"
+              rows="4"
+              placeholder="https://www.pokemon-card.com/deck/confirm.html/deckID/Y4KKGc-fGnNbM-8xc8Dx"
+            ></textarea>
+          </label>
+          <div class="fetch-actions">
+            <button id="fetchDecks" type="button">Fetch deck lists</button>
+            <span id="fetchStatus" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="library-panel" aria-labelledby="library-title">
+          <div>
+            <h2 id="library-title">Library</h2>
+            <p>Persist fetched decks with event, placement, and archetype metadata.</p>
+          </div>
+          <div class="library-actions">
+            <button id="saveLibrary" type="button">Save current</button>
+            <button id="loadLibrary" type="button">Load saved</button>
+          </div>
+          <div class="library-status">
+            <strong id="libraryMeta">No saved library loaded</strong>
+            <span id="libraryStatus" role="status" aria-live="polite"></span>
+          </div>
+        </div>
+
+        <div class="input-grid">
+          <label class="input-panel">
+            <span>Deck lists</span>
+            <textarea
+              id="deckInput"
+              spellcheck="false"
+              aria-describedby="deckInputHelp"
+            ></textarea>
+          </label>
+          <aside class="format-panel" id="deckInputHelp">
+            <h2>Paste format</h2>
+            <p>Start each list with a heading such as <code>### Deck Name</code>.</p>
+            <p>Card lines can be <code>4 Card</code>, <code>Card x4</code>, or <code>Card 4</code>.</p>
+            <p>Category headings are optional but improve filtering and slot summaries.</p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="controls" aria-label="Comparison controls">
+        <label>
+          Core threshold
+          <span class="range-wrap">
+            <input id="threshold" type="range" min="1" max="100" value="67" />
+            <strong id="thresholdValue">67%</strong>
+          </span>
+        </label>
+        <label>
+          Category
+          <select id="categoryFilter"></select>
+        </label>
+        <label>
+          Search
+          <input id="search" type="search" placeholder="Card name" />
+        </label>
+        <label>
+          Sort
+          <select id="sort">
+            <option value="adoption">Adoption</option>
+            <option value="avg">Average count</option>
+            <option value="category">Category</option>
+            <option value="name">Name</option>
+          </select>
+        </label>
+        <div class="control-group">
+          <span>View</span>
+          <div class="segmented" aria-label="View mode">
+            <button id="textView" type="button" aria-pressed="true">Text</button>
+            <button id="imageView" type="button" aria-pressed="false">Image</button>
+          </div>
+        </div>
+        <button id="copyCsv" type="button">Copy CSV</button>
+      </section>
+
+      <p id="deckWarning" class="warning" hidden>No deck data found.</p>
+
+      <section class="summary-strip" id="summary" aria-label="Summary"></section>
+
+      <section class="event-analysis" id="eventAnalysis" hidden>
+        <div class="panel">
+          <div class="panel__header">
+            <h2>Archetype distribution</h2>
+            <span>Event-tagged decks by archetype</span>
+          </div>
+          <div class="distribution-list" id="archetypeDistribution"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel__header">
+            <h2>Deck metadata</h2>
+            <span>Event, placement, and archetype per deck</span>
+          </div>
+          <div class="table-wrap table-wrap--compact" id="deckMetadata"></div>
+        </div>
+
+        <div class="panel event-analysis__wide">
+          <div class="panel__header">
+            <div>
+              <h2>Archetype adoption</h2>
+              <span id="archetypeScope">No event-tagged decks</span>
+            </div>
+            <label class="compact-select">
+              Archetype
+              <select id="archetypeSelect"></select>
+            </label>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>Card</th>
+                  <th>Category</th>
+                  <th>Adoption</th>
+                  <th>Avg</th>
+                  <th>Range</th>
+                </tr>
+              </thead>
+              <tbody id="archetypeAdoptionBody"></tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section class="dashboard">
+        <div class="panel panel--wide">
+          <div class="panel__header">
+            <h2>Core cards</h2>
+            <span id="coreCardsScope">Cards at or above the selected adoption threshold</span>
+          </div>
+          <div class="core-grid" id="coreCards"></div>
+        </div>
+
+        <div class="panel">
+          <div class="panel__header">
+            <h2>Category slots</h2>
+            <span id="categorySlotsScope">Total card slots by deck</span>
+          </div>
+          <div class="category-summary" id="categorySummary"></div>
+        </div>
+      </section>
+
+      <section class="panel matrix-panel">
+        <div class="panel__header">
+          <h2>Deck matrix</h2>
+          <span id="matrixScope">Counts, adoption rate, average, and min-max range</span>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead id="matrixHead"></thead>
+            <tbody id="matrixBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
