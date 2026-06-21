@@ -14,99 +14,27 @@
             <p class="eyebrow">Pokemon Card Deck Analysis</p>
             <h1 id="page-title">Deck Archetype Comparator</h1>
           </div>
-          <div class="toolbar" aria-label="Input actions">
-            <button id="loadSample" type="button">Load sample</button>
-            <button id="clearInput" type="button">Clear</button>
-          </div>
-        </div>
-
-        <div class="event-panel" aria-labelledby="event-title">
-          <div>
-            <h2 id="event-title">Environment article</h2>
-            <p>
-              Collect archetype names and official deck IDs from an environment summary
-              page.
-            </p>
-          </div>
-          <label class="url-input-panel">
-            <span>Article URL</span>
-            <input
-              id="eventUrlInput"
-              type="url"
-              value="https://pokekameshi.com/cl2026aichidec-extra/"
-            />
-          </label>
-          <div class="fetch-actions">
-            <button id="collectEventDecks" type="button">Collect IDs</button>
-            <span id="eventStatus" role="status" aria-live="polite"></span>
-          </div>
-          <div class="event-results" id="eventResults" hidden></div>
-        </div>
-
-        <div class="fetch-panel" aria-labelledby="fetch-title">
-          <div>
-            <h2 id="fetch-title">Official deck IDs</h2>
-            <p>
-              Paste one or more official deck URLs or deck IDs. Fetching requires
-              the local server in this folder.
-            </p>
-          </div>
-          <label class="id-input-panel">
-            <span>URLs or IDs</span>
-            <textarea
-              id="deckIdInput"
-              spellcheck="false"
-              rows="4"
-              placeholder="https://www.pokemon-card.com/deck/confirm.html/deckID/Y4KKGc-fGnNbM-8xc8Dx"
-            ></textarea>
-          </label>
-          <div class="fetch-actions">
-            <button id="fetchDecks" type="button">Fetch deck lists</button>
-            <span id="fetchStatus" role="status" aria-live="polite"></span>
-          </div>
-        </div>
-
-        <div class="library-panel" aria-labelledby="library-title">
-          <div>
-            <h2 id="library-title">Library</h2>
-            <p>Persist fetched decks with environment, placement, and archetype metadata.</p>
-          </div>
-          <div class="library-actions">
-            <button id="saveLibrary" type="button">Save current</button>
-            <button id="loadLibrary" type="button">Load saved</button>
-          </div>
-          <div class="library-status">
-            <strong id="libraryMeta">No saved library loaded</strong>
-            <span id="libraryStatus" role="status" aria-live="polite"></span>
-          </div>
-        </div>
-
-        <div class="input-grid">
-          <label class="input-panel">
-            <span>Deck lists</span>
-            <textarea
-              id="deckInput"
-              spellcheck="false"
-              aria-describedby="deckInputHelp"
-            ></textarea>
-          </label>
-          <aside class="format-panel" id="deckInputHelp">
-            <h2>Paste format</h2>
-            <p>Start each list with a heading such as <code>### Deck Name</code>.</p>
-            <p>Card lines can be <code>4 Card</code>, <code>Card x4</code>, or <code>Card 4</code>.</p>
-            <p>Category headings are optional but improve filtering and slot summaries.</p>
-          </aside>
         </div>
       </section>
 
+      <div hidden>
+        <button id="loadSample" type="button">Load sample</button>
+        <button id="clearInput" type="button">Clear</button>
+        <input id="eventUrlInput" type="url" value="" />
+        <button id="collectEventDecks" type="button">Collect IDs</button>
+        <span id="eventStatus" role="status" aria-live="polite"></span>
+        <div id="eventResults"></div>
+        <textarea id="deckIdInput"></textarea>
+        <button id="fetchDecks" type="button">Fetch deck lists</button>
+        <span id="fetchStatus" role="status" aria-live="polite"></span>
+        <button id="saveLibrary" type="button">Save current</button>
+        <button id="loadLibrary" type="button">Load saved</button>
+        <strong id="libraryMeta">No saved library loaded</strong>
+        <span id="libraryStatus" role="status" aria-live="polite"></span>
+        <textarea id="deckInput" spellcheck="false"></textarea>
+      </div>
+
       <section class="controls" aria-label="Comparison controls">
-        <label>
-          Core threshold
-          <span class="range-wrap">
-            <input id="threshold" type="range" min="0" max="100" value="0" />
-            <strong id="thresholdValue">0%</strong>
-          </span>
-        </label>
         <label>
           Category
           <select id="categoryFilter"></select>
@@ -124,10 +52,6 @@
             <option value="name">Name</option>
           </select>
         </label>
-        <div class="control-group control-group--wide">
-          <span>Environment</span>
-          <div class="filter-list" id="environmentFilters"></div>
-        </div>
         <div class="control-group">
           <span>View</span>
           <div class="segmented" aria-label="View mode">
@@ -136,6 +60,14 @@
           </div>
         </div>
         <button id="copyCsv" type="button">Copy CSV</button>
+      </section>
+
+      <section class="panel environment-filter-panel" aria-labelledby="environment-filter-title">
+        <div class="panel__header">
+          <h2 id="environment-filter-title">Environment</h2>
+          <span>Filter every view by one or more environments</span>
+        </div>
+        <div class="filter-list filter-list--environment" id="environmentFilters"></div>
       </section>
 
       <p id="deckWarning" class="warning" hidden>No deck data found.</p>
@@ -226,8 +158,17 @@
       <section class="dashboard">
         <div class="panel panel--wide">
           <div class="panel__header">
-            <h2>Core cards</h2>
-            <span id="coreCardsScope">Cards at or above the selected adoption threshold</span>
+            <div>
+              <h2>Core cards</h2>
+              <span id="coreCardsScope">Cards at or above the selected adoption threshold</span>
+            </div>
+            <label class="compact-threshold">
+              Core threshold
+              <span class="range-wrap">
+                <input id="threshold" type="range" min="0" max="100" value="0" />
+                <strong id="thresholdValue">0%</strong>
+              </span>
+            </label>
           </div>
           <div class="core-grid" id="coreCards"></div>
         </div>

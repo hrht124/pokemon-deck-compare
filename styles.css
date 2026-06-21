@@ -412,6 +412,7 @@ select:focus {
 }
 
 .environment-dashboard,
+.environment-filter-panel,
 .deck-detail-panel,
 .card-detail-panel {
   margin-top: 18px;
@@ -654,6 +655,23 @@ select:focus {
   color: var(--text);
 }
 
+.compact-threshold {
+  display: grid;
+  min-width: min(100%, 300px);
+  gap: 6px;
+  color: var(--muted);
+  font-size: 0.85rem;
+  font-weight: 700;
+}
+
+.compact-threshold .range-wrap {
+  grid-template-columns: minmax(160px, 1fr) 48px;
+}
+
+.filter-list--environment {
+  max-width: none;
+}
+
 .distribution-list {
   display: grid;
   gap: 8px;
@@ -820,6 +838,10 @@ body[data-view-mode="image"] .core-card {
   max-height: 360px;
   overflow: auto;
   padding-right: 4px;
+}
+
+#categorySummary {
+  max-height: 520px;
 }
 
 .deck-category-row {
