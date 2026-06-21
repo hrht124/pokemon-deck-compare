@@ -536,6 +536,12 @@ select:focus {
   gap: 12px;
 }
 
+.diff-list-wrap {
+  height: 132px;
+  overflow: auto;
+  padding-right: 4px;
+}
+
 .diff-list span {
   color: var(--muted);
   font-weight: 700;
@@ -720,7 +726,7 @@ select:focus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 12px;
-  max-height: 520px;
+  height: 520px;
   overflow: auto;
   padding-right: 4px;
 }
@@ -833,15 +839,16 @@ body[data-view-mode="image"] .core-card {
   gap: 14px;
 }
 
-#archetypeDistribution,
-#categorySummary {
+#archetypeDistribution {
   max-height: 360px;
   overflow: auto;
   padding-right: 4px;
 }
 
 #categorySummary {
-  max-height: 520px;
+  height: 520px;
+  overflow: auto;
+  padding-right: 4px;
 }
 
 .deck-category-row {

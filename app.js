@@ -1432,15 +1432,15 @@ Energy
 
   function renderDiffList(items, emptyText) {
     if (!items.length) {
-      return `<p class="empty">${escapeHtml(emptyText)}</p>`;
+      return `<div class="diff-list-wrap"><p class="empty">${escapeHtml(emptyText)}</p></div>`;
     }
-    return `<ul class="diff-list">${items
+    return `<div class="diff-list-wrap"><ul class="diff-list">${items
       .slice(0, 12)
       .map(
         (item) =>
           `<li><strong>${escapeHtml(item.name)}</strong><span>${item.actual} vs avg ${item.expected}</span></li>`,
       )
-      .join("")}</ul>`;
+      .join("")}</ul></div>`;
   }
 
   function renderDeckDetail() {
