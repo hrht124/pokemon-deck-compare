@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-21T21:28:30+00:00",
+  "updated_at": "2026-06-21T21:39:44+00:00",
   "events": {
     "archives-321697": {
       "id": "archives-321697",
@@ -17,7 +17,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "準優勝",
           "archetype": "ムーランド",
           "deck_id": "FVkbFV-S0oL2k-VvFvkF",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/FVkbFV-S0oL2k-VvFvkF",
@@ -26,7 +26,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP4",
           "archetype": "カビゴン",
           "deck_id": "g9NQng-zfnpte-NngnLg",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/g9NQng-zfnpte-NngnLg",
@@ -35,7 +35,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP4",
           "archetype": "アローラライチュウ",
           "deck_id": "LNnnHg-baOFyZ-Qgg69n",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/LNnnHg-baOFyZ-Qgg69n",
@@ -44,7 +44,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP8",
           "archetype": "ミュウ",
           "deck_id": "fFVFwv-Wlj8nQ-bvfdkk",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/fFVFwv-Wlj8nQ-bvfdkk",
@@ -53,7 +53,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP8",
           "archetype": "テツノイバラ",
           "deck_id": "xcYcJ8-qkR87j-cc4GGc",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/xcYcJ8-qkR87j-cc4GGc",
@@ -62,7 +62,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP8",
           "archetype": "カビゴン",
           "deck_id": "nQnggi-vYIYm3-69nQNn",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/nQnggi-vYIYm3-69nQNn",
@@ -71,7 +71,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP8",
           "archetype": "メガアブソル",
           "deck_id": "dbbFfF-UqzI3W-kkkbvf",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/dbbFfF-UqzI3W-kkkbvf",
@@ -80,7 +80,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "メガアブソル",
           "deck_id": "8cY8cc-3eQBxJ-c8Kx8G",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/8cY8cc-3eQBxJ-c8Kx8G",
@@ -89,7 +89,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "レジドラゴ",
           "deck_id": "Y4KKGc-fGnNbM-8xc8Dx",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Y4KKGc-fGnNbM-8xc8Dx",
@@ -98,7 +98,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "メガアブソル",
           "deck_id": "wFwfvk-FTIBlZ-Fb5vkk",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/wFwfvk-FTIBlZ-Fb5vkk",
@@ -107,7 +107,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "レジドラゴ",
           "deck_id": "8c8ccG-HLfGTF-a8Yxx8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/8c8ccG-HLfGTF-a8Yxx8",
@@ -116,7 +116,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "レジドラゴ",
           "deck_id": "Y8K84Y-Siioz1-ccc8aG",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Y8K84Y-Siioz1-ccc8aG",
@@ -125,7 +125,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "レジドラゴ",
           "deck_id": "VdwFkF-DCIv0U-FFvVVb",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/VdwFkF-DCIv0U-FFvVVb",
@@ -134,7 +134,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "メガミミロップ",
           "deck_id": "nig96i-G4v0GI-QQngHL",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/nig96i-G4v0GI-QQngHL",
@@ -143,7 +143,7 @@
           "source_url": "https://pokecabook.com/archives/321697"
         },
         {
-          "placement": "優勝",
+          "placement": "TOP16",
           "archetype": "メガアブソル",
           "deck_id": "Lgnng9-OKq2xZ-gQNLgH",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Lgnng9-OKq2xZ-gQNLgH",
@@ -1439,7 +1439,7 @@
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "FVkbFV-S0oL2k-VvFvkF": {
       "id": "FVkbFV-S0oL2k-VvFvkF",
@@ -1792,13 +1792,13 @@
       "text": "### FVkbFV-S0oL2k-VvFvkF\n\nPokemon\n2 ホルビー\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n1 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 ラフレシアGX\n2 ヨーテリー\n2 ハーデリア\n1 ムーランド\n1 ジーランス\n1 バリヤード\n1 キリンリキ\n1 スボミー\n1 ジラーチ\n\nTrainer\n4 タッグコール\n3 隠密フード\n2 ワザマシン エヴォリューション\n1 カウンターゲイン\n1 クロケア\n1 カリン\n1 プルメリ\n1 グラジオ\n1 ザオボー\n2 グズマ\n1 ルザミーネ\n4 グズマ&ハラ\n1 ジュジュベ&ハチクマン\n1 シャクヤ\n1 エール団の応援\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 キャプチャーエネルギー\n2 ジェットエネルギー\n1 メモリーエネルギー\n1 基本草エネルギー",
       "metadata": {
         "deckId": "FVkbFV-S0oL2k-VvFvkF",
-        "placement": "優勝",
+        "placement": "準優勝",
         "archetype": "ムーランド",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "g9NQng-zfnpte-NngnLg": {
       "id": "g9NQng-zfnpte-NngnLg",
@@ -2151,13 +2151,13 @@
       "text": "### g9NQng-zfnpte-NngnLg\n\nPokemon\n3 カビゴン\n2 ガラルマッギョ\n1 レジロック\n1 ミミッキュ\n1 キリンリキ\n1 ホルビー\n1 フリーザーGX\n1 ロトムV\n\nTrainer\n1 ポケモン回収サイクロン(ACE SPEC)\n2 改造ハンマー\n2 トレーナーズポスト\n3 ネストボール\n3 バトルサーチャー\n1 クイックボール\n1 ヒスイのヘビーボール\n2 カウンターキャッチャー\n1 夜のタンカ\n1 かるいし\n1 隠密フード\n1 ツールジャマー\n1 森の封印石\n1 ロケット団の工作\n2 フレア団のしたっぱ\n4 プルメリ\n2 センパイとコウハイ\n1 グラジオ\n2 ルザミーネ\n1 グズマ\n1 ザオボー\n4 ペパー\n1 ボタン\n1 ビワ\n1 リーリエの決心\n1 トロピカルビーチ\n1 プレイヤーズセレモニー\n1 シンオウ神殿\n\nEnergy\n3 キャプチャーエネルギー\n2 基本水エネルギー",
       "metadata": {
         "deckId": "g9NQng-zfnpte-NngnLg",
-        "placement": "優勝",
+        "placement": "TOP4",
         "archetype": "カビゴン",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "LNnnHg-baOFyZ-Qgg69n": {
       "id": "LNnnHg-baOFyZ-Qgg69n",
@@ -2447,13 +2447,13 @@
       "text": "### LNnnHg-baOFyZ-Qgg69n\n\nPokemon\n1 メタモン プリズムスター\n2 アローラ ライチュウ\n2 ビリリダマ\n3 マルマインGX\n1 イキリンコex\n2 クロバットV\n2 デデンネGX\n1 ゲンガー&ミミッキュGX\n1 ピカチュウ\n1 クレッフィ\n1 ワタシラガV\n1 カプ・テテフGX\n\nTrainer\n4 クイックボール\n1 ハイパーボール\n2 ヒスイのヘビーボール\n1 バトルVIPパス\n4 バトルコンプレッサー（フレア団ギア）\n3 あなぬけのヒモ\n4 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 望遠スコープ\n1 Uターンボード\n1 森の封印石\n1 グラジオ\n1 ゼイユ\n1 ポケモンレンジャー\n1 リーリエの決心\n3 スカイフィールド\n\nEnergy\n4 カウンターエネルギー\n4 リバーサルエネルギー\n4 ユニットエネルギー雷超鋼",
       "metadata": {
         "deckId": "LNnnHg-baOFyZ-Qgg69n",
-        "placement": "優勝",
+        "placement": "TOP4",
         "archetype": "アローラライチュウ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "fFVFwv-Wlj8nQ-bvfdkk": {
       "id": "fFVFwv-Wlj8nQ-bvfdkk",
@@ -2734,13 +2734,13 @@
       "text": "### fFVFwv-Wlj8nQ-bvfdkk\n\nPokemon\n3 ミュウVMAX\n4 ミュウV\n4 ゲノセクトV\n1 デデンネGX\n1 クロバットV\n1 リーリエのピッピex\n\nTrainer\n3 トレーナーズポスト\n1 改造ハンマー\n1 フィールドブロアー\n2 スペシャルチャージ\n2 バトルサーチャー\n3 バトルVIPパス\n4 クイックボール\n1 あなぬけのヒモ\n4 ハイパーボール\n1 ロストスイーパー\n1 ヒスイのヘビーボール\n1 シークレットボックス(ACE SPEC)\n2 スペシャルレッドカード\n2 かるいし\n2 ちからのハチマキ\n1 森の封印石\n2 カリン\n1 ミツル\n1 ポケモンレンジャー\n2 グズマ\n1 マリィ\n2 スカイフィールド\n2 頂への雪道\n\nEnergy\n4 ダブル無色エネルギー",
       "metadata": {
         "deckId": "fFVFwv-Wlj8nQ-bvfdkk",
-        "placement": "優勝",
+        "placement": "TOP8",
         "archetype": "ミュウ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "xcYcJ8-qkR87j-cc4GGc": {
       "id": "xcYcJ8-qkR87j-cc4GGc",
@@ -3066,13 +3066,13 @@
       "text": "### xcYcJ8-qkR87j-cc4GGc\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 タッグコール\n2 キャンプセット\n1 殿堂の書\n3 トレーナーズポスト\n3 バトルサーチャー\n4 クラッシュハンマー\n2 改造ハンマー\n1 魅惑のポフレ\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n1 殿堂ベルト\n1 ハンディサーキュレーター\n1 ツールジャマー\n2 グズマ&ハラ\n1 シロナ&カトレア\n4 プルメリ\n2 フレア団のしたっぱ\n1 スカル団のしたっぱ\n1 ザオボー\n1 ビワ\n1 カゲツ\n3 グズマ\n2 ルザミーネ\n1 グラジオ\n1 リーリエの決心\n1 ロケット団の工作\n1 トロピカルビーチ\n1 プレイヤーズセレモニー\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n2 キャプチャーエネルギー\n1 スパイクエネルギー\n1 ダブル無色エネルギー",
       "metadata": {
         "deckId": "xcYcJ8-qkR87j-cc4GGc",
-        "placement": "優勝",
+        "placement": "TOP8",
         "archetype": "テツノイバラ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "nQnggi-vYIYm3-69nQNn": {
       "id": "nQnggi-vYIYm3-69nQNn",
@@ -3416,13 +3416,13 @@
       "text": "### nQnggi-vYIYm3-69nQNn\n\nPokemon\n3 ソーナンス\n2 レジロック\n2 カビゴン\n1 ラクライ\n1 キリンリキ\n3 ミミッキュ\n\nTrainer\n3 バトルサーチャー\n3 殿堂の書\n2 みがわりロボ（フレア団ギア）\n1 リーリエのピッピ人形\n1 レスキュータンカ\n1 改造ハンマー\n1 魅惑のポフレ\n1 ターゲットホイッスル（フレア団ギア）\n1 フィールドブロアー\n1 メガトンブロアー(ACE SPEC)\n3 カウンターキャッチャー\n1 ネストボール\n1 ツールジャマー\n4 ダイゴの決断\n2 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 グズマ\n1 ポケモンレンジャー\n1 ロケット団の工作\n1 ジュジュベ&ハチクマン\n2 N\n2 センパイとコウハイ\n2 ルザミーネ\n1 グラジオ\n2 リーリエの決心\n2 混沌のうねり\n1 ボウルタウン\n\nEnergy\n1 リサイクルエネルギー\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
       "metadata": {
         "deckId": "nQnggi-vYIYm3-69nQNn",
-        "placement": "優勝",
+        "placement": "TOP8",
         "archetype": "カビゴン",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "dbbFfF-UqzI3W-kkkbvf": {
       "id": "dbbFfF-UqzI3W-kkkbvf",
@@ -3766,13 +3766,13 @@
       "text": "### dbbFfF-UqzI3W-kkkbvf\n\nPokemon\n2 メガアブソルex\n2 ダストダス\n2 ヤブクロン\n1 イキリンコex\n1 カプ・コケコ プリズムスター\n1 カプ・テテフGX\n1 クロバットV\n1 スボミー\n1 デデンネGX\n\nTrainer\n4 クイックボール\n4 ダークパッチ\n3 バトルサーチャー\n2 ハイパーボール\n2 バトルコンプレッサー\n2 バトルVIPパス\n1 ぐんぐんシェイク\n1 シークレットボックス(ACE SPEC)\n1 すごいつりざお\n1 ヒスイのヘビーボール\n1 フィールドブロアー\n1 ぼうけんのカバン\n1 ポケモン通信\n1 夜のタンカ\n4 かるいし\n1 ちからのハチマキ\n1 森の封印石\n1 アカマツ\n1 カリン\n1 グズマ\n1 ゼイユ\n1 ツツジ\n1 ナンジャモ\n1 ミツル\n1 リーリエの決心\n2 シンオウ神殿\n\nEnergy\n5 基本悪エネルギー\n2 基本雷エネルギー",
       "metadata": {
         "deckId": "dbbFfF-UqzI3W-kkkbvf",
-        "placement": "優勝",
+        "placement": "TOP8",
         "archetype": "メガアブソル",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "8cY8cc-3eQBxJ-c8Kx8G": {
       "id": "8cY8cc-3eQBxJ-c8Kx8G",
@@ -4080,13 +4080,13 @@
       "text": "### 8cY8cc-3eQBxJ-c8Kx8G\n\nPokemon\n1 メガアブソルex\n1 ゲンガー&ミミッキュGX\n1 ヤミラミV\n2 マルマインGX\n1 ビリリダマ\n2 リククラゲ\n1 ノノクラゲ\n4 アンノーン\n1 デデンネGX\n1 イキリンコex\n\nTrainer\n4 バトルVIPパス\n3 ハイパーボール\n2 ヒスイのヘビーボール\n4 トレーナーズポスト\n4 レスキューキャリー\n3 レスキュータンカ\n2 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 あなぬけのヒモ\n1 キャンセルコロン\n1 シークレットボックス(ACE SPEC)\n1 かるいし\n1 ちからのハチマキ\n1 森の封印石\n2 ナンジャモ\n2 グズマ\n1 プルメリ\n2 サイレントラボ\n1 頂への雪道\n1 ポケストップ\n\nEnergy\n4 プリズムエネルギー\n1 テレパス超エネルギー\n2 基本悪エネルギー",
       "metadata": {
         "deckId": "8cY8cc-3eQBxJ-c8Kx8G",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "メガアブソル",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "Y4KKGc-fGnNbM-8xc8Dx": {
       "id": "Y4KKGc-fGnNbM-8xc8Dx",
@@ -4421,13 +4421,13 @@
       "text": "### Y4KKGc-fGnNbM-8xc8Dx\n\nPokemon\n4 レジドラゴV\n3 レジドラゴVSTAR\n1 ドラパルトex\n1 ディアルガGX\n1 コライドンex\n1 キュレム\n1 ヒスイ ヌメルゴンVSTAR\n1 デデンネGX\n1 イキリンコex\n1 カプ・テテフGX\n1 ラティアスex\n2 スボミー\n1 マーシャドー\n1 ソーナンス\n\nTrainer\n3 クイックボール\n3 ミステリートレジャー\n3 バトルVIPパス\n1 ヒスイのヘビーボール\n1 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n1 すごいつりざお\n1 プライムキャッチャー(ACE SPEC)\n2 ちからのハチマキ\n2 博士の研究\n1 ナンジャモ\n1 ゼイユ\n1 リーリエの決心\n1 マリィ\n2 グズマ\n1 キバナ\n1 アカマツ\n1 ザオボー\n1 パラレルシティ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 基本草エネルギー\n2 基本炎エネルギー",
       "metadata": {
         "deckId": "Y4KKGc-fGnNbM-8xc8Dx",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "レジドラゴ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "wFwfvk-FTIBlZ-Fb5vkk": {
       "id": "wFwfvk-FTIBlZ-Fb5vkk",
@@ -4672,13 +4672,13 @@
       "text": "### wFwfvk-FTIBlZ-Fb5vkk\n\nPokemon\n3 メガアブソルex\n2 ヤレユータンV\n2 ヤブクロン\n2 ダストダス\n1 ラティアスex\n1 カプ・テテフGX\n1 クロバットV\n1 イキリンコex\n\nTrainer\n4 バトルVIPパス\n4 クイックボール\n4 はかせのてがみ\n3 ダークパッチ\n2 ぐんぐんシェイク\n1 あなぬけのヒモ\n1 すごいつりざお\n1 バトルサーチャー\n1 シークレットボックス(ACE SPEC)\n3 かるいし\n2 森の封印石\n1 ちからのハチマキ\n3 ゼイユ\n3 マリィ\n2 グズマ\n2 ファッションモール\n2 シンオウ神殿\n\nEnergy\n8 基本悪エネルギー",
       "metadata": {
         "deckId": "wFwfvk-FTIBlZ-Fb5vkk",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "メガアブソル",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "8c8ccG-HLfGTF-a8Yxx8": {
       "id": "8c8ccG-HLfGTF-a8Yxx8",
@@ -5004,13 +5004,13 @@
       "text": "### 8c8ccG-HLfGTF-a8Yxx8\n\nPokemon\n3 レジドラゴVSTAR\n4 レジドラゴV\n1 ドラパルトex\n1 オンバーンex\n1 コライドンex\n2 ディアルガGX\n1 キュレム\n1 デデンネGX\n1 クロバットV\n1 ラティアスex\n1 カプ・テテフGX\n1 マーシャドー\n1 キチキギスex\n1 スボミー\n\nTrainer\n4 ミステリートレジャー\n4 クイックボール\n1 ハイパーボール\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 すごいつりざお\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n1 カウンターキャッチャー\n2 ちからのハチマキ\n2 プラターヌ博士\n1 マリィ\n1 アカマツ\n2 キバナ\n2 グズマ\n1 ナンジャモ\n1 頂への雪道\n1 パラレルシティ\n\nEnergy\n4 ダブルドラゴンエネルギー\n2 基本炎エネルギー\n4 基本草エネルギー",
       "metadata": {
         "deckId": "8c8ccG-HLfGTF-a8Yxx8",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "レジドラゴ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "Y8K84Y-Siioz1-ccc8aG": {
       "id": "Y8K84Y-Siioz1-ccc8aG",
@@ -5327,13 +5327,13 @@
       "text": "### Y8K84Y-Siioz1-ccc8aG\n\nPokemon\n3 レジドラゴVSTAR\n4 レジドラゴV\n1 ボーマンダex\n1 ドラパルトex\n1 オンバーンex\n1 ディアルガGX\n1 キュレム\n1 ラティアスex\n1 カプ・テテフGX\n1 デデンネGX\n1 イキリンコex\n1 スボミー\n\nTrainer\n4 ミステリートレジャー\n3 クイックボール\n3 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n2 バトルコンプレッサー（フレア団ギア）\n1 すごいつりざお\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n2 ちからのハチマキ\n3 アララギ博士\n1 リーリエの決心\n1 ナンジャモ\n1 マリィ\n1 アカマツ\n1 キバナ\n2 グズマ\n1 サイレントラボ\n1 パラレルシティ\n\nEnergy\n4 基本草エネルギー\n3 基本炎エネルギー\n3 ダブルドラゴンエネルギー",
       "metadata": {
         "deckId": "Y8K84Y-Siioz1-ccc8aG",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "レジドラゴ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "VdwFkF-DCIv0U-FFvVVb": {
       "id": "VdwFkF-DCIv0U-FFvVVb",
@@ -5677,13 +5677,13 @@
       "text": "### VdwFkF-DCIv0U-FFvVVb\n\nPokemon\n4 レジドラゴV\n3 レジドラゴVSTAR\n1 ディアルガGX\n1 メガカイリューex\n1 ドラパルトex\n1 オンバーンex\n1 ヒスイ ヌメルゴンVSTAR\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 オドリドリGX\n1 ラティアスex\n1 マーシャドー\n1 ウソッキー\n1 スボミー\n\nTrainer\n4 クイックボール\n4 ミステリートレジャー\n1 ハイパーボール\n1 バトルコンプレッサー\n3 バトルサーチャー\n1 ヒスイのヘビーボール\n1 すごいつりざお\n1 カウンターキャッチャー\n1 メガトンブロアー(ACE SPEC)\n2 ちからのハチマキ\n1 プラターヌ博士\n1 リーリエの決心\n1 ゼイユ\n1 N\n2 グズマ\n2 キバナ\n1 アカマツ\n1 スカイフィールド\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 基本草エネルギー\n2 基本炎エネルギー",
       "metadata": {
         "deckId": "VdwFkF-DCIv0U-FFvVVb",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "レジドラゴ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "nig96i-G4v0GI-QQngHL": {
       "id": "nig96i-G4v0GI-QQngHL",
@@ -6009,13 +6009,13 @@
       "text": "### nig96i-G4v0GI-QQngHL\n\nPokemon\n2 ホルビー\n2 ミミロル\n2 メガミミロップex\n2 ポッポ\n1 ピジョン\n1 ピジョン\n2 ピジョットex\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 ラフレシア\n2 スボミー\n1 ワタシラガV\n1 シャリタツ\n\nTrainer\n4 タッグコール\n3 なかよしポフィン\n2 ライブキャスター\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n3 グズマ&ハラ\n1 N\n2 グズマ\n2 カリン\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n1 頂への雪道\n1 サイレントラボ\n\nEnergy\n2 ジェットエネルギー\n1 キャプチャーエネルギー\n1 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
       "metadata": {
         "deckId": "nig96i-G4v0GI-QQngHL",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "メガミミロップ",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "Lgnng9-OKq2xZ-gQNLgH": {
       "id": "Lgnng9-OKq2xZ-gQNLgH",
@@ -6287,13 +6287,13 @@
       "text": "### Lgnng9-OKq2xZ-gQNLgH\n\nPokemon\n2 メガアブソルex\n2 ヤブクロン\n2 ダストダス\n1 ダストダス\n2 スボミー\n1 カプ・テテフGX\n1 デデンネGX\n2 クロバットV\n1 イキリンコex\n\nTrainer\n4 クイックボール\n3 ハイパーボール\n2 バトルVIPパス\n3 トレーナーズポスト\n3 バトルサーチャー\n3 ダークパッチ\n2 ぐんぐんシェイク\n3 バトルコンプレッサー\n1 シークレットボックス(ACE SPEC)\n4 かるいし\n1 ちからのハチマキ\n1 森の封印石\n1 リーリエの決心\n2 マリィ\n1 ゼイユ\n1 プルメリ\n1 グズマ\n1 カリン\n2 シンオウ神殿\n\nEnergy\n7 基本悪エネルギー",
       "metadata": {
         "deckId": "Lgnng9-OKq2xZ-gQNLgH",
-        "placement": "優勝",
+        "placement": "TOP16",
         "archetype": "メガアブソル",
         "eventId": "archives-321697",
         "eventName": "【CL】チャンピオンズリーグ2026愛知【エクストラ】",
         "sourceUrl": "https://pokecabook.com/archives/321697"
       },
-      "updated_at": "2026-06-21T12:33:07+00:00"
+      "updated_at": "2026-06-21T21:39:44+00:00"
     },
     "VkFdV1-hnNVWB-bkdfv1": {
       "id": "VkFdV1-hnNVWB-bkdfv1",

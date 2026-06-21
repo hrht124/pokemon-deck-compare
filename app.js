@@ -143,7 +143,7 @@ Energy
     selectedArchetype: "All",
     selectedEnvironments: new Set(),
     selectedDeckId: "",
-    minAdoption: 0.67,
+    minAdoption: 0,
     search: "",
     sort: "adoption",
     viewMode: "text",
@@ -962,7 +962,7 @@ Energy
     const scope = comparisonScopeLabel(decks);
     els.coreCardsScope.textContent = `Cards at or above threshold · ${scope}`;
     els.categorySlotsScope.textContent = `Total card slots · ${scope}`;
-    els.matrixScope.textContent = `Counts, adoption, average, and range · ${scope}`;
+    els.matrixScope.textContent = `Average count and range by archetype · ${scope}`;
   }
 
   function buildCardStats(decks) {
@@ -1061,6 +1061,31 @@ Energy
       }),
       state.sort,
     );
+  }
+
+  function buildArchetypeMatrix(stats, decks) {
+    const archetypeGroups = buildArchetypeSummary(decks);
+    const groups = archetypeGroups.length
+      ? archetypeGroups
+      : [{ archetype: "All decks", count: decks.length, decks }];
+    const rows = stats.map((stat) => ({
+      stat,
+      values: groups.map((group) => {
+        const counts = group.decks.map((deck) => deck.cards.get(stat.key) || 0);
+        const nonZero = counts.filter((count) => count > 0);
+        const total = counts.reduce((sum, count) => sum + count, 0);
+        return {
+          archetype: group.archetype,
+          deckCount: group.decks.length,
+          appearances: nonZero.length,
+          adoption: group.decks.length ? nonZero.length / group.decks.length : 0,
+          avg: group.decks.length ? total / group.decks.length : 0,
+          min: nonZero.length ? Math.min(...nonZero) : 0,
+          max: nonZero.length ? Math.max(...nonZero) : 0,
+        };
+      }),
+    }));
+    return { groups, rows };
   }
 
   function renderSummary(stats, decks) {
@@ -1673,9 +1698,10 @@ Energy
   function renderMatrix(stats, decks) {
     els.matrixHead.innerHTML = "";
     els.matrixBody.innerHTML = "";
+    const matrix = buildArchetypeMatrix(stats, decks);
 
     const headerRow = document.createElement("tr");
-    ["Card", "Category", ...decks.map((deck) => deck.name), "Adoption", "Avg", "Range"].forEach(
+    ["Card", "Category", ...matrix.groups.map((group) => `${group.archetype} (${group.count})`)].forEach(
       (label) => {
         const th = document.createElement("th");
         th.textContent = label;
@@ -1687,7 +1713,7 @@ Energy
     if (!stats.length) {
       const row = document.createElement("tr");
       const cell = document.createElement("td");
-      cell.colSpan = decks.length + 5;
+      cell.colSpan = matrix.groups.length + 2;
       cell.className = "empty";
       cell.textContent = "No matching cards.";
       row.appendChild(cell);
@@ -1695,7 +1721,7 @@ Energy
       return;
     }
 
-    stats.forEach((stat) => {
+    matrix.rows.forEach(({ stat, values }) => {
       const meta = cardMetaForName(stat.name);
       const row = document.createElement("tr");
       const name = document.createElement("th");
@@ -1707,20 +1733,15 @@ Energy
       category.innerHTML = `<span class="category ${categoryClass(stat.category)}">${stat.category}</span>`;
       row.appendChild(category);
 
-      stat.counts.forEach((count) => {
+      values.forEach((value) => {
         const cell = document.createElement("td");
-        cell.className = count ? "count count--present" : "count";
-        cell.textContent = count || "-";
+        cell.className = value.appearances ? "count count--present" : "count";
+        cell.textContent = value.appearances
+          ? `${formatAvg(value.avg)} (${value.min}-${value.max})`
+          : "-";
+        cell.title = `${value.archetype}: ${value.appearances}/${value.deckCount} deck(s), ${percentage(value.adoption)} adoption`;
         row.appendChild(cell);
       });
-
-      [percentage(stat.adoption), formatAvg(stat.avg), `${stat.min}-${stat.max}`].forEach(
-        (value) => {
-          const cell = document.createElement("td");
-          cell.textContent = value;
-          row.appendChild(cell);
-        },
-      );
       els.matrixBody.appendChild(row);
     });
   }
@@ -2199,6 +2220,7 @@ Energy
       attachDeckMetadata,
       buildAverageDeckList,
       buildArchetypeSummary,
+      buildArchetypeMatrix,
       buildArchetypeDetail,
       buildCardAdoptionByArchetype,
       buildDeckDifference,

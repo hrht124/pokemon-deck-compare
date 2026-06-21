@@ -702,6 +702,9 @@ select:focus {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
   gap: 12px;
+  max-height: 520px;
+  overflow: auto;
+  padding-right: 4px;
 }
 
 .core-card {
@@ -860,6 +863,10 @@ body[data-view-mode="image"] .core-card {
 
 .table-wrap--adoption {
   max-height: 420px;
+}
+
+.table-wrap--matrix {
+  max-height: 560px;
 }
 
 table {

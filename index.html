@@ -103,8 +103,8 @@
         <label>
           Core threshold
           <span class="range-wrap">
-            <input id="threshold" type="range" min="1" max="100" value="67" />
-            <strong id="thresholdValue">67%</strong>
+            <input id="threshold" type="range" min="0" max="100" value="0" />
+            <strong id="thresholdValue">0%</strong>
           </span>
         </label>
         <label>
@@ -244,9 +244,9 @@
       <section class="panel matrix-panel">
         <div class="panel__header">
           <h2>Deck matrix</h2>
-          <span id="matrixScope">Counts, adoption rate, average, and min-max range</span>
+          <span id="matrixScope">Average count and range by archetype</span>
         </div>
-        <div class="table-wrap">
+        <div class="table-wrap table-wrap--matrix">
           <table>
             <thead id="matrixHead"></thead>
             <tbody id="matrixBody"></tbody>
