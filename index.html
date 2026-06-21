@@ -142,6 +142,8 @@
 
       <section class="summary-strip" id="summary" aria-label="Summary"></section>
 
+      <section class="panel environment-dashboard" id="environmentDashboard"></section>
+
       <section class="event-analysis" id="eventAnalysis" hidden>
         <div class="panel">
           <div class="panel__header">
@@ -157,6 +159,16 @@
             <span>Environment, placement, and archetype per deck</span>
           </div>
           <div class="table-wrap table-wrap--compact" id="deckMetadata"></div>
+        </div>
+
+        <div class="panel event-analysis__wide" id="archetypeDetailPanel">
+          <div class="panel__header">
+            <div>
+              <h2>Archetype detail</h2>
+              <span id="archetypeDetailScope">Select an archetype</span>
+            </div>
+          </div>
+          <div id="archetypeDetailBody"></div>
         </div>
 
         <div class="panel event-analysis__wide">
@@ -185,6 +197,30 @@
             </table>
           </div>
         </div>
+      </section>
+
+      <section class="panel deck-detail-panel" id="deckDetailPanel">
+        <div class="panel__header">
+          <div>
+            <h2>Deck detail</h2>
+            <span id="deckDetailScope">Select a deck</span>
+          </div>
+          <label class="compact-select">
+            Deck
+            <select id="deckDetailSelect"></select>
+          </label>
+        </div>
+        <div id="deckDetailBody"></div>
+      </section>
+
+      <section class="panel card-detail-panel" id="cardDetailPanel">
+        <div class="panel__header">
+          <div>
+            <h2>Card detail</h2>
+            <span id="cardDetailScope">Search a card</span>
+          </div>
+        </div>
+        <div id="cardDetailBody"></div>
       </section>
 
       <section class="dashboard">

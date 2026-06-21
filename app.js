@@ -142,6 +142,7 @@ Energy
     selectedCategory: "All",
     selectedArchetype: "All",
     selectedEnvironments: new Set(),
+    selectedDeckId: "",
     minAdoption: 0.67,
     search: "",
     sort: "adoption",
@@ -578,6 +579,96 @@ Energy
     );
   }
 
+  function normalizedLibraryEvents(library) {
+    return Object.entries(library?.events || {}).map(([key, event]) => ({
+      key,
+      id: event.id || key,
+      name: event.name || event.id || key,
+      sourceUrl: event.source_url || event.sourceUrl || "",
+      updatedAt: event.updated_at || event.updatedAt || "",
+      rows: Array.isArray(event.rows) ? event.rows : [],
+    }));
+  }
+
+  function deckIdsForEnvironment(library, environmentKey) {
+    const event = (library?.events || {})[environmentKey];
+    if (!event || !Array.isArray(event.rows)) {
+      return [];
+    }
+    return Array.from(
+      new Set(
+        event.rows
+          .map((row) => row.deck_id || row.deckId || "")
+          .filter(Boolean),
+      ),
+    );
+  }
+
+  function findDuplicateEnvironmentGroups(library) {
+    const bySignature = new Map();
+    normalizedLibraryEvents(library).forEach((event) => {
+      const ids = deckIdsForEnvironment(library, event.key).sort();
+      if (!ids.length) {
+        return;
+      }
+      const signature = ids.join("|");
+      if (!bySignature.has(signature)) {
+        bySignature.set(signature, []);
+      }
+      bySignature.get(signature).push(event);
+    });
+    return Array.from(bySignature.values()).filter((events) => events.length > 1);
+  }
+
+  function buildEnvironmentDashboardRows(library, decks = []) {
+    const deckById = new Map(decks.map((deck) => [deck.deckId || deck.id || deck.name, deck]));
+    const duplicateLookup = new Map();
+    findDuplicateEnvironmentGroups(library).forEach((group) => {
+      group.forEach((event) => {
+        duplicateLookup.set(
+          event.key,
+          group.filter((item) => item.key !== event.key).map((item) => ({
+            key: item.key,
+            name: item.name,
+          })),
+        );
+      });
+    });
+
+    return normalizedLibraryEvents(library)
+      .map((event) => {
+        const ids = deckIdsForEnvironment(library, event.key);
+        const archetypeCounts = new Map();
+        ids.forEach((deckId) => {
+          const row = event.rows.find((item) => (item.deck_id || item.deckId) === deckId) || {};
+          const deck = deckById.get(deckId);
+          const archetype = normalizeArchetypeName(
+            row.archetype || deck?.metadata?.archetype || "",
+          );
+          if (!archetype) {
+            return;
+          }
+          archetypeCounts.set(archetype, (archetypeCounts.get(archetype) || 0) + 1);
+        });
+        const top = Array.from(archetypeCounts.entries()).sort(
+          (a, b) => b[1] - a[1] || a[0].localeCompare(b[0]),
+        )[0] || ["", 0];
+        return {
+          key: event.key,
+          name: event.name,
+          sourceUrl: event.sourceUrl,
+          updatedAt: event.updatedAt,
+          deckCount: ids.length,
+          archetypeCount: archetypeCounts.size,
+          topArchetype: top[0],
+          topArchetypeCount: top[1],
+          duplicateOf: (duplicateLookup.get(event.key) || []).map((item) => item.name),
+          duplicateKeys: (duplicateLookup.get(event.key) || []).map((item) => item.key),
+        };
+      })
+      .sort((a, b) => b.deckCount - a.deckCount || a.name.localeCompare(b.name));
+  }
+
   function normalizeEnvironmentSelection(environments) {
     const keys = new Set(environments.map((environment) => environment.key));
     state.selectedEnvironments.forEach((key) => {
@@ -657,6 +748,180 @@ Energy
 
   function getEnvironmentFilteredDecks() {
     return state.decks.filter(deckMatchesSelectedEnvironment);
+  }
+
+  function getArchetypeDecksForCurrentScope() {
+    const environmentDecks = getEnvironmentFilteredDecks();
+    if (state.selectedArchetype === "All") {
+      return environmentDecks.filter((deck) => deck.metadata);
+    }
+    return environmentDecks.filter(
+      (deck) => normalizeArchetypeName(deck.metadata?.archetype) === state.selectedArchetype,
+    );
+  }
+
+  function buildAverageDeckList(decks, minAdoption = 0.35) {
+    if (!decks.length) {
+      return [];
+    }
+    const candidates = buildCardStats(decks)
+      .filter((stat) => stat.adoption >= minAdoption)
+      .map((stat) => ({
+        key: stat.key,
+        name: stat.name,
+        category: stat.category,
+        adoption: stat.adoption,
+        avg: stat.avg,
+        count: Math.max(1, Math.round(stat.avg)),
+      }))
+      .sort(
+        (a, b) =>
+          categoryRank(a.category) - categoryRank(b.category) ||
+          b.adoption - a.adoption ||
+          b.avg - a.avg ||
+          a.name.localeCompare(b.name),
+      );
+
+    let total = candidates.reduce((sum, card) => sum + card.count, 0);
+    while (total > 60 && candidates.length) {
+      const removable = [...candidates]
+        .map((card, index) => ({ card, index }))
+        .sort(
+          (a, b) =>
+            a.card.adoption - b.card.adoption ||
+            a.card.avg - b.card.avg ||
+            categoryRank(b.card.category) - categoryRank(a.card.category) ||
+            b.index - a.index,
+        )[0];
+      if (!removable) {
+        break;
+      }
+      if (removable.card.count > 1) {
+        removable.card.count -= 1;
+        total -= 1;
+      } else {
+        candidates.splice(removable.index, 1);
+        total -= 1;
+      }
+    }
+    return candidates;
+  }
+
+  function buildArchetypeDetail(decks, selectedArchetype, allEnvironmentDecks) {
+    const stats = sortStats(buildCardStats(decks), "adoption");
+    const environmentDeckCount = allEnvironmentDecks.filter((deck) => deck.metadata).length;
+    const coreCards = stats.filter((stat) => stat.adoption >= state.minAdoption);
+    const flexCards = stats.filter(
+      (stat) => stat.adoption >= 0.2 && stat.adoption < state.minAdoption,
+    );
+    const topByCategory = ["Pokemon", "Trainer", "Energy"].map((category) => ({
+      category,
+      cards: stats
+        .filter((stat) => stat.category === category)
+        .sort((a, b) => b.adoption - a.adoption || b.avg - a.avg || a.name.localeCompare(b.name))
+        .slice(0, 8),
+    }));
+    return {
+      archetype: selectedArchetype,
+      deckCount: decks.length,
+      environmentDeckCount,
+      share: environmentDeckCount ? decks.length / environmentDeckCount : 0,
+      coreCards,
+      flexCards,
+      topByCategory,
+      averageDeck: buildAverageDeckList(decks),
+    };
+  }
+
+  function getDeckDetailCandidates() {
+    return getComparisonDecks();
+  }
+
+  function ensureSelectedDeckId(decks) {
+    const ids = decks.map((deck) => deck.deckId || deck.id || deck.name).filter(Boolean);
+    if (!ids.length) {
+      state.selectedDeckId = "";
+      return "";
+    }
+    if (!ids.includes(state.selectedDeckId)) {
+      state.selectedDeckId = ids[0];
+    }
+    return state.selectedDeckId;
+  }
+
+  function buildDeckDifference(deck, archetypeDecks, threshold = state.minAdoption) {
+    if (!deck || !archetypeDecks.length) {
+      return { missingCommon: [], aboveAverage: [], belowAverage: [] };
+    }
+    const stats = buildCardStats(archetypeDecks);
+    const missingCommon = [];
+    const aboveAverage = [];
+    const belowAverage = [];
+    stats.forEach((stat) => {
+      const actual = deck.cards.get(stat.key) || 0;
+      const expected = Math.max(1, Math.round(stat.avg));
+      const entry = { ...stat, actual, expected };
+      if (stat.adoption >= threshold && actual === 0) {
+        missingCommon.push(entry);
+      } else if (actual > expected) {
+        aboveAverage.push(entry);
+      } else if (actual > 0 && actual < expected) {
+        belowAverage.push(entry);
+      }
+    });
+    const sortDiff = (a, b) => b.adoption - a.adoption || b.expected - a.expected || a.name.localeCompare(b.name);
+    return {
+      missingCommon: missingCommon.sort(sortDiff),
+      aboveAverage: aboveAverage.sort(sortDiff),
+      belowAverage: belowAverage.sort(sortDiff),
+    };
+  }
+
+  function findExactCardStat(decks, query) {
+    const key = normalizeForKey(query || "");
+    if (!key) {
+      return null;
+    }
+    return buildCardStats(decks).find((stat) => stat.key === key) || null;
+  }
+
+  function buildCardAdoptionByArchetype(decks, cardName) {
+    const key = normalizeForKey(cardName || "");
+    if (!key) {
+      return [];
+    }
+    const grouped = new Map();
+    decks.forEach((deck) => {
+      const archetype = normalizeArchetypeName(deck.metadata?.archetype);
+      if (!archetype) {
+        return;
+      }
+      if (!grouped.has(archetype)) {
+        grouped.set(archetype, {
+          archetype,
+          deckCount: 0,
+          appearances: 0,
+          total: 0,
+          deckIds: [],
+        });
+      }
+      const row = grouped.get(archetype);
+      const count = deck.cards.get(key) || 0;
+      row.deckCount += 1;
+      if (count > 0) {
+        row.appearances += 1;
+        row.total += count;
+        row.deckIds.push(deck.deckId || deck.name);
+      }
+    });
+    return Array.from(grouped.values())
+      .filter((row) => row.appearances > 0)
+      .map((row) => ({
+        ...row,
+        adoption: row.deckCount ? row.appearances / row.deckCount : 0,
+        avg: row.appearances ? row.total / row.appearances : 0,
+      }))
+      .sort((a, b) => b.adoption - a.adoption || b.deckCount - a.deckCount || a.archetype.localeCompare(b.archetype));
   }
 
   function ensureSelectedArchetype(summary) {
@@ -803,6 +1068,161 @@ Energy
     });
   }
 
+  function renderEnvironmentDashboard() {
+    const rows = buildEnvironmentDashboardRows(state.library, state.decks);
+    els.environmentDashboard.innerHTML = "";
+    if (!rows.length) {
+      els.environmentDashboard.hidden = true;
+      return;
+    }
+    els.environmentDashboard.hidden = false;
+    const canManage = canUseServer();
+    const table = document.createElement("div");
+    table.className = "table-wrap table-wrap--compact";
+    table.innerHTML = `
+      <div class="panel__header">
+        <div>
+          <h2>Environment dashboard</h2>
+          <span>Saved Extra-format environments</span>
+        </div>
+      </div>
+      <table class="environment-table">
+        <thead>
+          <tr>
+            <th>Environment</th>
+            <th>Decks</th>
+            <th>Archetypes</th>
+            <th>Top archetype</th>
+            <th>Source</th>
+            <th>Updated</th>
+            <th>Warnings</th>
+            ${canManage ? "<th>Actions</th>" : ""}
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    `;
+    const tbody = table.querySelector("tbody");
+    rows.forEach((row) => {
+      const tr = document.createElement("tr");
+      const warnings = row.duplicateOf.length
+        ? `Duplicate of ${row.duplicateOf.join(", ")}`
+        : "";
+      tr.innerHTML = `
+        <th scope="row">${escapeHtml(row.name)}</th>
+        <td>${row.deckCount}</td>
+        <td>${row.archetypeCount}</td>
+        <td>${row.topArchetype ? `${escapeHtml(row.topArchetype)} ${row.topArchetypeCount}` : "-"}</td>
+        <td>${
+          row.sourceUrl
+            ? `<a href="${escapeAttribute(row.sourceUrl)}" target="_blank" rel="noopener">Open</a>`
+            : "-"
+        }</td>
+        <td>${row.updatedAt ? escapeHtml(new Date(row.updatedAt).toLocaleDateString()) : "-"}</td>
+        <td>${warnings ? `<span class="warning-chip">${escapeHtml(warnings)}</span>` : ""}</td>
+        ${canManage ? '<td class="row-actions"></td>' : ""}
+      `;
+      if (canManage) {
+        const actions = tr.querySelector(".row-actions");
+        const deleteButton = document.createElement("button");
+        deleteButton.type = "button";
+        deleteButton.className = "button-small";
+        deleteButton.textContent = "Delete";
+        deleteButton.addEventListener("click", () => deleteEnvironment(row.key, row.name));
+        actions.appendChild(deleteButton);
+        if (row.duplicateKeys.length) {
+          const mergeButton = document.createElement("button");
+          mergeButton.type = "button";
+          mergeButton.className = "button-small";
+          mergeButton.textContent = "Merge";
+          mergeButton.addEventListener("click", () => mergeEnvironment(row.key, row.duplicateKeys[0]));
+          actions.appendChild(mergeButton);
+        }
+      }
+      tbody.appendChild(tr);
+    });
+    els.environmentDashboard.appendChild(table);
+  }
+
+  function renderStatPills(stats, limit = 8) {
+    if (!stats.length) {
+      return '<span class="empty">No cards.</span>';
+    }
+    return `<div class="pill-list">${stats
+      .slice(0, limit)
+      .map(
+        (stat) =>
+          `<span class="stat-pill"><strong>${escapeHtml(stat.name)}</strong><small>${percentage(stat.adoption)} / ${formatAvg(stat.avg)}</small></span>`,
+      )
+      .join("")}</div>`;
+  }
+
+  function renderAverageDeckList(cards) {
+    if (!cards.length) {
+      return '<p class="empty">No average list available.</p>';
+    }
+    const grouped = new Map();
+    cards.forEach((card) => {
+      if (!grouped.has(card.category)) {
+        grouped.set(card.category, []);
+      }
+      grouped.get(card.category).push(card);
+    });
+    return ["Pokemon", "Trainer", "Energy", "Other"]
+      .filter((category) => grouped.has(category))
+      .map(
+        (category) => `
+          <div class="average-list__section">
+            <h3>${escapeHtml(category)}</h3>
+            <ul>${grouped
+              .get(category)
+              .map((card) => `<li><strong>${card.count}</strong> ${escapeHtml(card.name)}</li>`)
+              .join("")}</ul>
+          </div>
+        `,
+      )
+      .join("");
+  }
+
+  function renderArchetypeDetail() {
+    const environmentDecks = getEnvironmentFilteredDecks();
+    const decks = getArchetypeDecksForCurrentScope();
+    els.archetypeDetailBody.innerHTML = "";
+    if (!decks.length || state.selectedArchetype === "All") {
+      els.archetypeDetailScope.textContent = "Select an archetype";
+      els.archetypeDetailBody.innerHTML = '<p class="empty">Choose an archetype to inspect core, flex, and average-list details.</p>';
+      return;
+    }
+    const detail = buildArchetypeDetail(decks, state.selectedArchetype, environmentDecks);
+    els.archetypeDetailScope.textContent = `${detail.deckCount} deck(s) · ${percentage(detail.share)} of selected environment scope`;
+    els.archetypeDetailBody.innerHTML = `
+      <div class="detail-grid">
+        <div class="detail-block">
+          <h3>Core cards</h3>
+          ${renderStatPills(detail.coreCards, 12)}
+        </div>
+        <div class="detail-block">
+          <h3>Flex cards</h3>
+          ${renderStatPills(detail.flexCards, 12)}
+        </div>
+        ${detail.topByCategory
+          .map(
+            (group) => `
+              <div class="detail-block">
+                <h3>${escapeHtml(group.category)}</h3>
+                ${renderStatPills(group.cards, 8)}
+              </div>
+            `,
+          )
+          .join("")}
+        <div class="detail-block detail-block--wide">
+          <h3>Average list</h3>
+          <div class="average-list">${renderAverageDeckList(detail.averageDeck)}</div>
+        </div>
+      </div>
+    `;
+  }
+
   function renderEventAnalysis() {
     const environmentDecks = getEnvironmentFilteredDecks();
     const summary = buildArchetypeSummary(environmentDecks);
@@ -811,6 +1231,7 @@ Energy
     els.deckMetadata.innerHTML = "";
     renderArchetypeSelect(summary);
     renderArchetypeAdoption();
+    renderArchetypeDetail();
 
     if (!summary.length) {
       return;
@@ -832,6 +1253,7 @@ Energy
       `;
       row.addEventListener("click", () => {
         state.selectedArchetype = item.archetype;
+        state.selectedDeckId = "";
         render();
       });
       els.archetypeDistribution.appendChild(row);
@@ -918,6 +1340,181 @@ Energy
       `;
       els.archetypeAdoptionBody.appendChild(row);
     });
+  }
+
+  function renderDeckCards(deck) {
+    const sections = ["Pokemon", "Trainer", "Energy", "Other"];
+    return sections
+      .map((category) => {
+        const cards = [];
+        deck.cards.forEach((count, key) => {
+          if ((deck.categories.get(key) || "Other") !== category) {
+            return;
+          }
+          const name = deck.displayNames.get(key);
+          const meta = cardMetaForName(name);
+          cards.push({ count, name, meta });
+        });
+        if (!cards.length) {
+          return "";
+        }
+        if (state.viewMode === "image") {
+          return `
+            <div class="deck-card-section">
+              <h3>${escapeHtml(category)}</h3>
+              <div class="deck-image-grid">${cards
+                .map((card) => {
+                  const image = card.meta?.imageUrl
+                    ? `<img src="${escapeAttribute(card.meta.imageUrl)}" alt="${escapeAttribute(card.name)}" loading="lazy" />`
+                    : '<div class="card-image-placeholder" aria-hidden="true"></div>';
+                  const linkStart = card.meta?.officialUrl
+                    ? `<a href="${escapeAttribute(card.meta.officialUrl)}" target="_blank" rel="noopener">`
+                    : "";
+                  const linkEnd = card.meta?.officialUrl ? "</a>" : "";
+                  return `<article class="deck-image-card">${linkStart}${image}${linkEnd}<strong>${card.count}</strong><span>${escapeHtml(card.name)}</span></article>`;
+                })
+                .join("")}</div>
+            </div>
+          `;
+        }
+        return `
+          <div class="deck-card-section">
+            <h3>${escapeHtml(category)}</h3>
+            <ul>${cards
+              .map((card) => `<li><strong>${card.count}</strong> ${escapeHtml(card.name)}</li>`)
+              .join("")}</ul>
+          </div>
+        `;
+      })
+      .join("");
+  }
+
+  function renderDiffList(items, emptyText) {
+    if (!items.length) {
+      return `<p class="empty">${escapeHtml(emptyText)}</p>`;
+    }
+    return `<ul class="diff-list">${items
+      .slice(0, 12)
+      .map(
+        (item) =>
+          `<li><strong>${escapeHtml(item.name)}</strong><span>${item.actual} vs avg ${item.expected}</span></li>`,
+      )
+      .join("")}</ul>`;
+  }
+
+  function renderDeckDetail() {
+    const decks = getDeckDetailCandidates();
+    ensureSelectedDeckId(decks);
+    els.deckDetailSelect.innerHTML = "";
+    decks.forEach((deck) => {
+      const option = document.createElement("option");
+      option.value = deck.deckId || deck.name;
+      option.textContent = deck.deckId || deck.name;
+      els.deckDetailSelect.appendChild(option);
+    });
+    els.deckDetailPanel.hidden = decks.length === 0;
+    if (!decks.length) {
+      els.deckDetailScope.textContent = "No decks in scope";
+      els.deckDetailBody.innerHTML = "";
+      return;
+    }
+    els.deckDetailSelect.value = state.selectedDeckId;
+    const deck = decks.find((item) => (item.deckId || item.name) === state.selectedDeckId) || decks[0];
+    const archetype = normalizeArchetypeName(deck.metadata?.archetype);
+    const archetypeDecks = getEnvironmentFilteredDecks().filter(
+      (item) => normalizeArchetypeName(item.metadata?.archetype) === archetype,
+    );
+    const diff = buildDeckDifference(deck, archetypeDecks);
+    const officialDeckUrl = deck.deckId
+      ? `https://www.pokemon-card.com/deck/confirm.html/deckID/${encodeURIComponent(deck.deckId)}`
+      : "";
+    els.deckDetailScope.textContent = `${archetype || "Untagged"} · ${deck.metadata?.placement || ""}`;
+    els.deckDetailBody.innerHTML = `
+      <div class="detail-grid">
+        <div class="detail-block">
+          <h3>Metadata</h3>
+          <dl class="metadata-list">
+            <dt>Deck ID</dt><dd><code>${escapeHtml(deck.deckId || deck.name)}</code></dd>
+            <dt>Environment</dt><dd>${escapeHtml(deck.metadata?.eventName || "")}</dd>
+            <dt>Placement</dt><dd>${escapeHtml(deck.metadata?.placement || "")}</dd>
+            <dt>Archetype</dt><dd>${escapeHtml(archetype || "")}</dd>
+          </dl>
+          <div class="inline-actions">
+            ${officialDeckUrl ? `<a class="button-link" href="${escapeAttribute(officialDeckUrl)}" target="_blank" rel="noopener">Official deck</a>` : ""}
+            ${deck.metadata?.sourceUrl ? `<a class="button-link" href="${escapeAttribute(deck.metadata.sourceUrl)}" target="_blank" rel="noopener">Source</a>` : ""}
+            <button id="copyDeckText" type="button" class="button-small">Copy text</button>
+          </div>
+        </div>
+        <div class="detail-block">
+          <h3>Missing common cards</h3>
+          ${renderDiffList(diff.missingCommon, "No missing common cards.")}
+        </div>
+        <div class="detail-block">
+          <h3>Above average</h3>
+          ${renderDiffList(diff.aboveAverage, "No cards above average.")}
+        </div>
+        <div class="detail-block">
+          <h3>Below average</h3>
+          ${renderDiffList(diff.belowAverage, "No cards below average.")}
+        </div>
+        <div class="detail-block detail-block--wide">
+          <h3>Deck list</h3>
+          <div class="deck-card-list">${renderDeckCards(deck)}</div>
+        </div>
+      </div>
+    `;
+    const copyButton = document.getElementById("copyDeckText");
+    if (copyButton) {
+      copyButton.addEventListener("click", () => {
+        navigator.clipboard.writeText(serializeParsedDeck(deck));
+        copyButton.textContent = "Copied";
+        window.setTimeout(() => {
+          copyButton.textContent = "Copy text";
+        }, 1200);
+      });
+    }
+  }
+
+  function renderCardDetail() {
+    const decks = getEnvironmentFilteredDecks();
+    const query = state.search.trim();
+    const stat = findExactCardStat(decks, query);
+    els.cardDetailBody.innerHTML = "";
+    if (!query || !stat) {
+      els.cardDetailScope.textContent = "Search a card";
+      els.cardDetailBody.innerHTML = '<p class="empty">Enter an exact card name to inspect adoption by archetype.</p>';
+      return;
+    }
+    const rows = buildCardAdoptionByArchetype(decks, stat.name);
+    els.cardDetailScope.textContent = `${stat.name} · ${percentage(stat.adoption)} overall adoption`;
+    els.cardDetailBody.innerHTML = `
+      <div class="table-wrap table-wrap--compact">
+        <table>
+          <thead>
+            <tr>
+              <th>Archetype</th>
+              <th>Decks</th>
+              <th>Adoption</th>
+              <th>Avg copies</th>
+              <th>Deck IDs</th>
+            </tr>
+          </thead>
+          <tbody>${rows
+            .map(
+              (row) => `
+                <tr>
+                  <th scope="row">${escapeHtml(row.archetype)}</th>
+                  <td>${row.appearances}/${row.deckCount}</td>
+                  <td>${percentage(row.adoption)}</td>
+                  <td>${formatAvg(row.avg)}</td>
+                  <td>${row.deckIds.slice(0, 8).map((id) => `<code>${escapeHtml(id)}</code>`).join(" ")}</td>
+                </tr>
+              `,
+            )
+            .join("")}</tbody>
+        </table>
+      </div>
+    `;
   }
 
   function renderCoreCards(stats) {
@@ -1043,6 +1640,7 @@ Energy
         if (state.selectedEnvironments.size === allKeys.length) {
           state.selectedEnvironments.clear();
         }
+        state.selectedDeckId = "";
         render();
       });
       label.appendChild(input);
@@ -1127,9 +1725,12 @@ Energy
     renderSummary(stats, decks);
     renderCategoryFilter(decks);
     renderComparisonScopeLabels(decks);
+    renderEnvironmentDashboard();
     renderCoreCards(stats);
     renderCategorySummary(decks);
     renderEventAnalysis();
+    renderDeckDetail();
+    renderCardDetail();
     renderMatrix(stats, decks);
     els.thresholdValue.textContent = percentage(state.minAdoption);
     els.deckWarning.hidden = state.decks.length > 0;
@@ -1360,6 +1961,60 @@ Energy
     }
   }
 
+  async function refreshLibraryAfterMutation(successMessage) {
+    const payload = await fetchLibrary();
+    updateLibraryMeta(payload);
+    restoreLibrary(payload);
+    setLibraryStatus(successMessage, "success");
+    return payload;
+  }
+
+  async function deleteEnvironment(eventId, eventName) {
+    if (!canUseServer()) {
+      return;
+    }
+    if (!window.confirm(`Delete environment "${eventName}"?`)) {
+      return;
+    }
+    setLibraryStatus("Deleting environment...", "loading");
+    try {
+      const response = await fetch(`/api/library/environment?id=${encodeURIComponent(eventId)}`, {
+        method: "DELETE",
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.error || "Environment delete failed.");
+      }
+      await refreshLibraryAfterMutation("Environment deleted.");
+    } catch (error) {
+      setLibraryStatus(error.message, "error");
+    }
+  }
+
+  async function mergeEnvironment(sourceId, targetId) {
+    if (!canUseServer()) {
+      return;
+    }
+    if (!window.confirm(`Merge "${sourceId}" into "${targetId}"?`)) {
+      return;
+    }
+    setLibraryStatus("Merging environments...", "loading");
+    try {
+      const response = await fetch("/api/library/environment/merge", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ source_id: sourceId, target_id: targetId }),
+      });
+      const payload = await response.json();
+      if (!response.ok) {
+        throw new Error(payload.error || "Environment merge failed.");
+      }
+      await refreshLibraryAfterMutation("Environment merged.");
+    } catch (error) {
+      setLibraryStatus(error.message, "error");
+    }
+  }
+
   function copyCsv() {
     const decks = getComparisonDecks();
     const stats = getFilteredStats(decks);
@@ -1407,6 +2062,7 @@ Energy
       "loadSample",
       "clearInput",
       "summary",
+      "environmentDashboard",
       "coreCards",
       "coreCardsScope",
       "categorySummary",
@@ -1417,6 +2073,16 @@ Energy
       "archetypeSelect",
       "archetypeScope",
       "archetypeAdoptionBody",
+      "archetypeDetailPanel",
+      "archetypeDetailScope",
+      "archetypeDetailBody",
+      "deckDetailPanel",
+      "deckDetailScope",
+      "deckDetailSelect",
+      "deckDetailBody",
+      "cardDetailPanel",
+      "cardDetailScope",
+      "cardDetailBody",
       "matrixHead",
       "matrixBody",
       "matrixScope",
@@ -1471,7 +2137,12 @@ Energy
     });
     els.archetypeSelect.addEventListener("change", () => {
       state.selectedArchetype = els.archetypeSelect.value;
+      state.selectedDeckId = "";
       render();
+    });
+    els.deckDetailSelect.addEventListener("change", () => {
+      state.selectedDeckId = els.deckDetailSelect.value;
+      renderDeckDetail();
     });
     els.textView.addEventListener("click", () => {
       state.viewMode = "text";
@@ -1510,10 +2181,18 @@ Energy
       parseDecks,
       registerCardMeta,
       attachDeckMetadata,
+      buildAverageDeckList,
       buildArchetypeSummary,
+      buildArchetypeDetail,
+      buildCardAdoptionByArchetype,
+      buildDeckDifference,
       buildDeckMetadataMap,
+      buildEnvironmentDashboardRows,
       buildLibraryPayload,
       buildEnvironmentSummary,
+      deckIdsForEnvironment,
+      findDuplicateEnvironmentGroups,
+      findExactCardStat,
       normalizeArchetypeName,
       normalizeStoredDeck,
       scopedDecksForArchetype,
