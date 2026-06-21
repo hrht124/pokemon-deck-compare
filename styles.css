@@ -320,6 +320,39 @@ select:focus {
   font-weight: 700;
 }
 
+.control-group--wide {
+  min-width: min(100%, 360px);
+}
+
+.filter-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  max-width: 520px;
+}
+
+.filter-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 2.1rem;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: var(--surface);
+  padding: 0.35rem 0.55rem;
+  color: var(--text);
+  font-size: 0.8rem;
+  font-weight: 700;
+}
+
+.filter-chip input {
+  margin: 0;
+}
+
+.filter-chip small {
+  color: var(--muted);
+}
+
 .segmented {
   display: inline-grid;
   grid-template-columns: repeat(2, minmax(72px, 1fr));

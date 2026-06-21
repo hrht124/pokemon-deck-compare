@@ -22,9 +22,9 @@
 
         <div class="event-panel" aria-labelledby="event-title">
           <div>
-            <h2 id="event-title">Event article</h2>
+            <h2 id="event-title">Environment article</h2>
             <p>
-              Collect archetype names and official deck IDs from an event summary
+              Collect archetype names and official deck IDs from an environment summary
               page.
             </p>
           </div>
@@ -69,7 +69,7 @@
         <div class="library-panel" aria-labelledby="library-title">
           <div>
             <h2 id="library-title">Library</h2>
-            <p>Persist fetched decks with event, placement, and archetype metadata.</p>
+            <p>Persist fetched decks with environment, placement, and archetype metadata.</p>
           </div>
           <div class="library-actions">
             <button id="saveLibrary" type="button">Save current</button>
@@ -124,6 +124,10 @@
             <option value="name">Name</option>
           </select>
         </label>
+        <div class="control-group control-group--wide">
+          <span>Environment</span>
+          <div class="filter-list" id="environmentFilters"></div>
+        </div>
         <div class="control-group">
           <span>View</span>
           <div class="segmented" aria-label="View mode">
@@ -142,7 +146,7 @@
         <div class="panel">
           <div class="panel__header">
             <h2>Archetype distribution</h2>
-            <span>Event-tagged decks by archetype</span>
+            <span>Environment-filtered decks by archetype</span>
           </div>
           <div class="distribution-list" id="archetypeDistribution"></div>
         </div>
@@ -150,7 +154,7 @@
         <div class="panel">
           <div class="panel__header">
             <h2>Deck metadata</h2>
-            <span>Event, placement, and archetype per deck</span>
+            <span>Environment, placement, and archetype per deck</span>
           </div>
           <div class="table-wrap table-wrap--compact" id="deckMetadata"></div>
         </div>
@@ -159,7 +163,7 @@
           <div class="panel__header">
             <div>
               <h2>Archetype adoption</h2>
-              <span id="archetypeScope">No event-tagged decks</span>
+              <span id="archetypeScope">No environment-tagged decks</span>
             </div>
             <label class="compact-select">
               Archetype

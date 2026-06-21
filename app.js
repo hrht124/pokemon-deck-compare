@@ -100,6 +100,7 @@ Energy
     library: null,
     selectedCategory: "All",
     selectedArchetype: "All",
+    selectedEnvironments: new Set(),
     minAdoption: 0.67,
     search: "",
     sort: "adoption",
@@ -492,7 +493,81 @@ Energy
     const eventCount = Object.keys(library?.events || {}).length;
     const deckCount = Object.keys(library?.decks || {}).length;
     const updatedAt = library?.updated_at ? ` · ${new Date(library.updated_at).toLocaleString()}` : "";
-    els.libraryMeta.textContent = `${eventCount} event(s), ${deckCount} deck(s)${updatedAt}`;
+    els.libraryMeta.textContent = `${eventCount} environment(s), ${deckCount} deck(s)${updatedAt}`;
+  }
+
+  function environmentKey(metadata) {
+    return metadata.eventId || metadata.sourceUrl || metadata.eventName || "";
+  }
+
+  function environmentName(metadata) {
+    return metadata.eventName || metadata.eventId || metadata.sourceUrl || "Unknown environment";
+  }
+
+  function buildEnvironmentSummary(decks) {
+    const grouped = new Map();
+    decks.forEach((deck) => {
+      const metadata = deck.metadata;
+      const key = metadata ? environmentKey(metadata) : "";
+      if (!key) {
+        return;
+      }
+      if (!grouped.has(key)) {
+        grouped.set(key, {
+          key,
+          name: environmentName(metadata),
+          sourceUrl: metadata.sourceUrl || "",
+          count: 0,
+        });
+      }
+      grouped.get(key).count += 1;
+    });
+    return Array.from(grouped.values()).sort(
+      (a, b) => a.name.localeCompare(b.name) || a.key.localeCompare(b.key),
+    );
+  }
+
+  function normalizeEnvironmentSelection(environments) {
+    const keys = new Set(environments.map((environment) => environment.key));
+    state.selectedEnvironments.forEach((key) => {
+      if (!keys.has(key)) {
+        state.selectedEnvironments.delete(key);
+      }
+    });
+    if (state.selectedEnvironments.size === keys.size) {
+      state.selectedEnvironments.clear();
+    }
+  }
+
+  function selectedEnvironmentLabel() {
+    const environments = buildEnvironmentSummary(state.decks);
+    if (!environments.length) {
+      return "All decks";
+    }
+    if (!state.selectedEnvironments.size) {
+      return "All environments";
+    }
+    const names = environments
+      .filter((environment) => state.selectedEnvironments.has(environment.key))
+      .map((environment) => environment.name);
+    if (names.length <= 2) {
+      return names.join(", ");
+    }
+    return `${names.length} environments`;
+  }
+
+  function metadataMatchesSelectedEnvironment(metadata) {
+    return (
+      state.selectedEnvironments.size === 0 ||
+      state.selectedEnvironments.has(environmentKey(metadata))
+    );
+  }
+
+  function deckMatchesSelectedEnvironment(deck) {
+    if (!state.selectedEnvironments.size) {
+      return true;
+    }
+    return deck.metadata ? metadataMatchesSelectedEnvironment(deck.metadata) : false;
   }
 
   function buildArchetypeSummary(decks) {
@@ -524,7 +599,11 @@ Energy
   }
 
   function getComparisonDecks() {
-    return scopedDecksForArchetype(state.decks, state.selectedArchetype);
+    return scopedDecksForArchetype(getEnvironmentFilteredDecks(), state.selectedArchetype);
+  }
+
+  function getEnvironmentFilteredDecks() {
+    return state.decks.filter(deckMatchesSelectedEnvironment);
   }
 
   function ensureSelectedArchetype(summary) {
@@ -535,13 +614,14 @@ Energy
   }
 
   function comparisonScopeLabel(decks) {
+    const environment = selectedEnvironmentLabel();
     if (state.selectedArchetype !== "All") {
-      return `${state.selectedArchetype} · ${decks.length} deck(s)`;
+      return `${environment} · ${state.selectedArchetype} · ${decks.length} deck(s)`;
     }
     if (state.decks.some((deck) => deck.metadata?.archetype)) {
-      return `All archetypes · ${decks.length} deck(s)`;
+      return `${environment} · All archetypes · ${decks.length} deck(s)`;
     }
-    return `${decks.length} deck(s)`;
+    return `${environment} · ${decks.length} deck(s)`;
   }
 
   function renderComparisonScopeLabels(decks) {
@@ -671,7 +751,8 @@ Energy
   }
 
   function renderEventAnalysis() {
-    const summary = buildArchetypeSummary(state.decks);
+    const environmentDecks = getEnvironmentFilteredDecks();
+    const summary = buildArchetypeSummary(environmentDecks);
     els.eventAnalysis.hidden = summary.length === 0;
     els.archetypeDistribution.innerHTML = "";
     els.deckMetadata.innerHTML = "";
@@ -711,13 +792,13 @@ Energy
           <th>Deck ID</th>
           <th>Placement</th>
           <th>Archetype</th>
-          <th>Event</th>
+          <th>Environment</th>
         </tr>
       </thead>
       <tbody></tbody>
     `;
     const tbody = table.querySelector("tbody");
-    state.decks
+    environmentDecks
       .filter((deck) => deck.metadata)
       .forEach((deck) => {
         const row = document.createElement("tr");
@@ -752,15 +833,16 @@ Energy
   }
 
   function renderArchetypeAdoption() {
+    const environmentDecks = getEnvironmentFilteredDecks();
     const decks =
       state.selectedArchetype === "All"
-        ? state.decks.filter((deck) => deck.metadata)
-        : state.decks.filter((deck) => deck.metadata?.archetype === state.selectedArchetype);
+        ? environmentDecks.filter((deck) => deck.metadata)
+        : environmentDecks.filter((deck) => deck.metadata?.archetype === state.selectedArchetype);
     const stats = sortStats(buildCardStats(decks), state.sort);
     els.archetypeAdoptionBody.innerHTML = "";
     els.archetypeScope.textContent = decks.length
       ? `${decks.length} deck(s)`
-      : "No event-tagged decks";
+      : "No environment-tagged decks";
 
     if (!decks.length || !stats.length) {
       const row = document.createElement("tr");
@@ -875,6 +957,50 @@ Energy
     els.categoryFilter.value = state.selectedCategory;
   }
 
+  function renderEnvironmentFilters() {
+    const environments = buildEnvironmentSummary(state.decks);
+    normalizeEnvironmentSelection(environments);
+    els.environmentFilters.innerHTML = "";
+    if (!environments.length) {
+      els.environmentFilters.innerHTML = '<span class="empty">No environment metadata.</span>';
+      return;
+    }
+
+    environments.forEach((environment) => {
+      const label = document.createElement("label");
+      label.className = "filter-chip";
+      const input = document.createElement("input");
+      input.type = "checkbox";
+      input.value = environment.key;
+      input.checked =
+        state.selectedEnvironments.size === 0 ||
+        state.selectedEnvironments.has(environment.key);
+      input.addEventListener("change", () => {
+        const allKeys = environments.map((item) => item.key);
+        if (state.selectedEnvironments.size === 0) {
+          state.selectedEnvironments = new Set(allKeys);
+        }
+        if (input.checked) {
+          state.selectedEnvironments.add(environment.key);
+        } else {
+          state.selectedEnvironments.delete(environment.key);
+        }
+        if (state.selectedEnvironments.size === allKeys.length) {
+          state.selectedEnvironments.clear();
+        }
+        render();
+      });
+      label.appendChild(input);
+      label.append(
+        document.createTextNode(environment.name),
+        Object.assign(document.createElement("small"), {
+          textContent: String(environment.count),
+        }),
+      );
+      els.environmentFilters.appendChild(label);
+    });
+  }
+
   function renderMatrix(stats, decks) {
     els.matrixHead.innerHTML = "";
     els.matrixBody.innerHTML = "";
@@ -931,7 +1057,8 @@ Energy
   }
 
   function render() {
-    const summary = buildArchetypeSummary(state.decks);
+    renderEnvironmentFilters();
+    const summary = buildArchetypeSummary(getEnvironmentFilteredDecks());
     ensureSelectedArchetype(summary);
     const decks = getComparisonDecks();
     if (state.selectedCategory !== "All") {
@@ -1049,11 +1176,11 @@ Energy
   async function collectEventDecks() {
     const pageUrl = els.eventUrlInput.value.trim();
     if (!pageUrl) {
-      setEventStatus("Enter an event article URL.", "error");
+      setEventStatus("Enter an environment article URL.", "error");
       return;
     }
     if (!canUseServer()) {
-      setEventStatus("Event collection is only available from the local server.", "error");
+      setEventStatus("Environment collection is only available from the local server.", "error");
       return;
     }
 
@@ -1063,7 +1190,7 @@ Energy
       const response = await fetch(`/api/event-decks?url=${encodeURIComponent(pageUrl)}`);
       const payload = await response.json();
       if (!response.ok) {
-        throw new Error(payload.error || "Event collection failed.");
+        throw new Error(payload.error || "Environment collection failed.");
       }
       state.eventRows = payload.rows || [];
       state.eventInfo = payload.event || null;
@@ -1121,7 +1248,7 @@ Energy
       return null;
     }
     if (!state.decks.length && !state.eventRows.length) {
-      setLibraryStatus("No current decks or event metadata to save.", "error");
+      setLibraryStatus("No current decks or environment metadata to save.", "error");
       return null;
     }
 
@@ -1217,6 +1344,7 @@ Energy
       "deckInput",
       "fetchDecks",
       "fetchStatus",
+      "environmentFilters",
       "saveLibrary",
       "loadLibrary",
       "libraryStatus",
@@ -1330,6 +1458,7 @@ Energy
       buildArchetypeSummary,
       buildDeckMetadataMap,
       buildLibraryPayload,
+      buildEnvironmentSummary,
       normalizeStoredDeck,
       scopedDecksForArchetype,
       sortStats,
