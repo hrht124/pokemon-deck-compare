@@ -766,15 +766,40 @@ select:focus {
 }
 
 body[data-view-mode="image"] .core-grid {
-  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  align-items: start;
 }
 
 body[data-view-mode="image"] .core-card__image {
   display: flex;
+  width: 100%;
+  min-height: 0;
+  aspect-ratio: 63 / 88;
+  overflow: hidden;
 }
 
 body[data-view-mode="image"] .core-card {
+  grid-template-rows: auto minmax(0, auto) auto auto;
   align-content: start;
+  min-height: 430px;
+}
+
+body[data-view-mode="image"] .core-card__image img,
+body[data-view-mode="image"] .core-card__image .card-image-placeholder {
+  width: 100%;
+  height: 100%;
+  max-height: none;
+  object-fit: contain;
+}
+
+body[data-view-mode="image"] .core-card h3 {
+  overflow-wrap: anywhere;
+  line-height: 1.25;
+}
+
+body[data-view-mode="image"] .core-card__stats {
+  display: grid;
+  gap: 4px;
 }
 
 .core-card__stats {
