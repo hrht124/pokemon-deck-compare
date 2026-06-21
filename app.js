@@ -180,8 +180,24 @@ Energy
     return ids;
   }
 
+  function decodeHtmlEntities(value) {
+    const text = String(value || "");
+    if (typeof document !== "undefined") {
+      const textarea = document.createElement("textarea");
+      textarea.innerHTML = text;
+      return textarea.value;
+    }
+    return text
+      .replace(/&amp;/g, "&")
+      .replace(/&lt;/g, "<")
+      .replace(/&gt;/g, ">")
+      .replace(/&quot;/g, '"')
+      .replace(/&#039;/g, "'")
+      .replace(/&#39;/g, "'");
+  }
+
   function normalizeCardName(name) {
-    return name
+    return decodeHtmlEntities(name)
       .replace(/\s+/g, " ")
       .replace(/[　]/g, " ")
       .trim();
@@ -193,7 +209,7 @@ Energy
   }
 
   function normalizeArchetypeName(name) {
-    const normalized = (name || "")
+    const normalized = decodeHtmlEntities(name)
       .replace(/<[^>]+>/g, "")
       .replace(/[〖〗]/g, (value) => (value === "〖" ? "【" : "】"))
       .replace(/\s+/g, "")
@@ -405,18 +421,18 @@ Energy
     const metadata = normalizeSavedMetadata(deck.metadata, id);
     return {
       id,
-      name: deck.name || id,
+      name: decodeHtmlEntities(deck.name || id),
       total: deck.total || 0,
       cards: (deck.cards || []).map((card) => ({
         id: card.id || card.card_id || "",
         count: Number(card.count || 0),
-        name: card.name || "",
+        name: normalizeCardName(card.name || ""),
         category: card.category || "Other",
         section: card.section || card.category || "Other",
         image_url: card.image_url || card.imageUrl || "",
         official_url: card.official_url || card.officialUrl || "",
       })),
-      text: deck.text || "",
+      text: decodeHtmlEntities(deck.text || ""),
       metadata,
     };
   }
@@ -2193,6 +2209,8 @@ Energy
       deckIdsForEnvironment,
       findDuplicateEnvironmentGroups,
       findExactCardStat,
+      decodeHtmlEntities,
+      normalizeCardName,
       normalizeArchetypeName,
       normalizeStoredDeck,
       scopedDecksForArchetype,

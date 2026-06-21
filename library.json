@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-21T14:57:09Z",
+  "updated_at": "2026-06-21T21:28:30+00:00",
   "events": {
     "archives-321697": {
       "id": "archives-321697",
@@ -1153,7 +1153,7 @@
         {
           "id": "37446",
           "count": 1,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037446_P_OROTTOYONOWARUGX.jpg",
@@ -1430,7 +1430,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/44962"
         }
       ],
-      "text": "### QnLLQ9-qvPVqa-g9gi6Q\n\nPokemon\n4 こくばバドレックスVMAX\n3 こくばバドレックスV\n1 オーロット&amp;ヨノワールGX\n2 リーリエのピッピex\n2 カプ・テテフGX\n1 ラティアスex\n1 ディアルガGX\n1 ミミッキュ\n1 キリンリキ\n1 マーシャドー\n1 かがやくムゲンダイナ\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 クイックボール\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 フィールドブロアー\n1 夜のタンカ\n1 アンフェアスタンプ(ACE SPEC)\n1 かるいし\n1 森の封印石\n2 リーリエの決心\n1 ゼイユ\n1 ナンジャモ\n1 センパイとコウハイ\n1 キバナ\n1 アセロラ\n1 グズマ\n1 リップ\n2 スカイフィールド\n1 次元の谷\n\nEnergy\n11 基本超エネルギー",
+      "text": "### QnLLQ9-qvPVqa-g9gi6Q\n\nPokemon\n4 こくばバドレックスVMAX\n3 こくばバドレックスV\n1 オーロット&ヨノワールGX\n2 リーリエのピッピex\n2 カプ・テテフGX\n1 ラティアスex\n1 ディアルガGX\n1 ミミッキュ\n1 キリンリキ\n1 マーシャドー\n1 かがやくムゲンダイナ\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 クイックボール\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 フィールドブロアー\n1 夜のタンカ\n1 アンフェアスタンプ(ACE SPEC)\n1 かるいし\n1 森の封印石\n2 リーリエの決心\n1 ゼイユ\n1 ナンジャモ\n1 センパイとコウハイ\n1 キバナ\n1 アセロラ\n1 グズマ\n1 リップ\n2 スカイフィールド\n1 次元の谷\n\nEnergy\n11 基本超エネルギー",
       "metadata": {
         "deckId": "QnLLQ9-qvPVqa-g9gi6Q",
         "placement": "優勝",
@@ -1701,7 +1701,7 @@
         {
           "id": "37387",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037387_T_GUZUMAHARA.jpg",
@@ -1710,7 +1710,7 @@
         {
           "id": "37462",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037462_T_JUJUBEHACHIKUMAN.jpg",
@@ -1789,7 +1789,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/31997"
         }
       ],
-      "text": "### FVkbFV-S0oL2k-VvFvkF\n\nPokemon\n2 ホルビー\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n1 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 ラフレシアGX\n2 ヨーテリー\n2 ハーデリア\n1 ムーランド\n1 ジーランス\n1 バリヤード\n1 キリンリキ\n1 スボミー\n1 ジラーチ\n\nTrainer\n4 タッグコール\n3 隠密フード\n2 ワザマシン エヴォリューション\n1 カウンターゲイン\n1 クロケア\n1 カリン\n1 プルメリ\n1 グラジオ\n1 ザオボー\n2 グズマ\n1 ルザミーネ\n4 グズマ&amp;ハラ\n1 ジュジュベ&amp;ハチクマン\n1 シャクヤ\n1 エール団の応援\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 キャプチャーエネルギー\n2 ジェットエネルギー\n1 メモリーエネルギー\n1 基本草エネルギー",
+      "text": "### FVkbFV-S0oL2k-VvFvkF\n\nPokemon\n2 ホルビー\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n1 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 ラフレシアGX\n2 ヨーテリー\n2 ハーデリア\n1 ムーランド\n1 ジーランス\n1 バリヤード\n1 キリンリキ\n1 スボミー\n1 ジラーチ\n\nTrainer\n4 タッグコール\n3 隠密フード\n2 ワザマシン エヴォリューション\n1 カウンターゲイン\n1 クロケア\n1 カリン\n1 プルメリ\n1 グラジオ\n1 ザオボー\n2 グズマ\n1 ルザミーネ\n4 グズマ&ハラ\n1 ジュジュベ&ハチクマン\n1 シャクヤ\n1 エール団の応援\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 キャプチャーエネルギー\n2 ジェットエネルギー\n1 メモリーエネルギー\n1 基本草エネルギー",
       "metadata": {
         "deckId": "FVkbFV-S0oL2k-VvFvkF",
         "placement": "優勝",
@@ -2230,7 +2230,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -2444,7 +2444,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/35609"
         }
       ],
-      "text": "### LNnnHg-baOFyZ-Qgg69n\n\nPokemon\n1 メタモン プリズムスター\n2 アローラ ライチュウ\n2 ビリリダマ\n3 マルマインGX\n1 イキリンコex\n2 クロバットV\n2 デデンネGX\n1 ゲンガー&amp;ミミッキュGX\n1 ピカチュウ\n1 クレッフィ\n1 ワタシラガV\n1 カプ・テテフGX\n\nTrainer\n4 クイックボール\n1 ハイパーボール\n2 ヒスイのヘビーボール\n1 バトルVIPパス\n4 バトルコンプレッサー（フレア団ギア）\n3 あなぬけのヒモ\n4 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 望遠スコープ\n1 Uターンボード\n1 森の封印石\n1 グラジオ\n1 ゼイユ\n1 ポケモンレンジャー\n1 リーリエの決心\n3 スカイフィールド\n\nEnergy\n4 カウンターエネルギー\n4 リバーサルエネルギー\n4 ユニットエネルギー雷超鋼",
+      "text": "### LNnnHg-baOFyZ-Qgg69n\n\nPokemon\n1 メタモン プリズムスター\n2 アローラ ライチュウ\n2 ビリリダマ\n3 マルマインGX\n1 イキリンコex\n2 クロバットV\n2 デデンネGX\n1 ゲンガー&ミミッキュGX\n1 ピカチュウ\n1 クレッフィ\n1 ワタシラガV\n1 カプ・テテフGX\n\nTrainer\n4 クイックボール\n1 ハイパーボール\n2 ヒスイのヘビーボール\n1 バトルVIPパス\n4 バトルコンプレッサー（フレア団ギア）\n3 あなぬけのヒモ\n4 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 望遠スコープ\n1 Uターンボード\n1 森の封印石\n1 グラジオ\n1 ゼイユ\n1 ポケモンレンジャー\n1 リーリエの決心\n3 スカイフィールド\n\nEnergy\n4 カウンターエネルギー\n4 リバーサルエネルギー\n4 ユニットエネルギー雷超鋼",
       "metadata": {
         "deckId": "LNnnHg-baOFyZ-Qgg69n",
         "placement": "優勝",
@@ -2876,7 +2876,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -2885,7 +2885,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -3063,7 +3063,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/36872"
         }
       ],
-      "text": "### xcYcJ8-qkR87j-cc4GGc\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 タッグコール\n2 キャンプセット\n1 殿堂の書\n3 トレーナーズポスト\n3 バトルサーチャー\n4 クラッシュハンマー\n2 改造ハンマー\n1 魅惑のポフレ\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n1 殿堂ベルト\n1 ハンディサーキュレーター\n1 ツールジャマー\n2 グズマ&amp;ハラ\n1 シロナ&amp;カトレア\n4 プルメリ\n2 フレア団のしたっぱ\n1 スカル団のしたっぱ\n1 ザオボー\n1 ビワ\n1 カゲツ\n3 グズマ\n2 ルザミーネ\n1 グラジオ\n1 リーリエの決心\n1 ロケット団の工作\n1 トロピカルビーチ\n1 プレイヤーズセレモニー\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n2 キャプチャーエネルギー\n1 スパイクエネルギー\n1 ダブル無色エネルギー",
+      "text": "### xcYcJ8-qkR87j-cc4GGc\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 タッグコール\n2 キャンプセット\n1 殿堂の書\n3 トレーナーズポスト\n3 バトルサーチャー\n4 クラッシュハンマー\n2 改造ハンマー\n1 魅惑のポフレ\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n1 殿堂ベルト\n1 ハンディサーキュレーター\n1 ツールジャマー\n2 グズマ&ハラ\n1 シロナ&カトレア\n4 プルメリ\n2 フレア団のしたっぱ\n1 スカル団のしたっぱ\n1 ザオボー\n1 ビワ\n1 カゲツ\n3 グズマ\n2 ルザミーネ\n1 グラジオ\n1 リーリエの決心\n1 ロケット団の工作\n1 トロピカルビーチ\n1 プレイヤーズセレモニー\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n2 キャプチャーエネルギー\n1 スパイクエネルギー\n1 ダブル無色エネルギー",
       "metadata": {
         "deckId": "xcYcJ8-qkR87j-cc4GGc",
         "placement": "優勝",
@@ -3316,7 +3316,7 @@
         {
           "id": "37462",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037462_T_JUJUBEHACHIKUMAN.jpg",
@@ -3413,7 +3413,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46340"
         }
       ],
-      "text": "### nQnggi-vYIYm3-69nQNn\n\nPokemon\n3 ソーナンス\n2 レジロック\n2 カビゴン\n1 ラクライ\n1 キリンリキ\n3 ミミッキュ\n\nTrainer\n3 バトルサーチャー\n3 殿堂の書\n2 みがわりロボ（フレア団ギア）\n1 リーリエのピッピ人形\n1 レスキュータンカ\n1 改造ハンマー\n1 魅惑のポフレ\n1 ターゲットホイッスル（フレア団ギア）\n1 フィールドブロアー\n1 メガトンブロアー(ACE SPEC)\n3 カウンターキャッチャー\n1 ネストボール\n1 ツールジャマー\n4 ダイゴの決断\n2 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 グズマ\n1 ポケモンレンジャー\n1 ロケット団の工作\n1 ジュジュベ&amp;ハチクマン\n2 N\n2 センパイとコウハイ\n2 ルザミーネ\n1 グラジオ\n2 リーリエの決心\n2 混沌のうねり\n1 ボウルタウン\n\nEnergy\n1 リサイクルエネルギー\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
+      "text": "### nQnggi-vYIYm3-69nQNn\n\nPokemon\n3 ソーナンス\n2 レジロック\n2 カビゴン\n1 ラクライ\n1 キリンリキ\n3 ミミッキュ\n\nTrainer\n3 バトルサーチャー\n3 殿堂の書\n2 みがわりロボ（フレア団ギア）\n1 リーリエのピッピ人形\n1 レスキュータンカ\n1 改造ハンマー\n1 魅惑のポフレ\n1 ターゲットホイッスル（フレア団ギア）\n1 フィールドブロアー\n1 メガトンブロアー(ACE SPEC)\n3 カウンターキャッチャー\n1 ネストボール\n1 ツールジャマー\n4 ダイゴの決断\n2 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 グズマ\n1 ポケモンレンジャー\n1 ロケット団の工作\n1 ジュジュベ&ハチクマン\n2 N\n2 センパイとコウハイ\n2 ルザミーネ\n1 グラジオ\n2 リーリエの決心\n2 混沌のうねり\n1 ボウルタウン\n\nEnergy\n1 リサイクルエネルギー\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
       "metadata": {
         "deckId": "nQnggi-vYIYm3-69nQNn",
         "placement": "優勝",
@@ -3791,7 +3791,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -4077,7 +4077,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/25303"
         }
       ],
-      "text": "### 8cY8cc-3eQBxJ-c8Kx8G\n\nPokemon\n1 メガアブソルex\n1 ゲンガー&amp;ミミッキュGX\n1 ヤミラミV\n2 マルマインGX\n1 ビリリダマ\n2 リククラゲ\n1 ノノクラゲ\n4 アンノーン\n1 デデンネGX\n1 イキリンコex\n\nTrainer\n4 バトルVIPパス\n3 ハイパーボール\n2 ヒスイのヘビーボール\n4 トレーナーズポスト\n4 レスキューキャリー\n3 レスキュータンカ\n2 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 あなぬけのヒモ\n1 キャンセルコロン\n1 シークレットボックス(ACE SPEC)\n1 かるいし\n1 ちからのハチマキ\n1 森の封印石\n2 ナンジャモ\n2 グズマ\n1 プルメリ\n2 サイレントラボ\n1 頂への雪道\n1 ポケストップ\n\nEnergy\n4 プリズムエネルギー\n1 テレパス超エネルギー\n2 基本悪エネルギー",
+      "text": "### 8cY8cc-3eQBxJ-c8Kx8G\n\nPokemon\n1 メガアブソルex\n1 ゲンガー&ミミッキュGX\n1 ヤミラミV\n2 マルマインGX\n1 ビリリダマ\n2 リククラゲ\n1 ノノクラゲ\n4 アンノーン\n1 デデンネGX\n1 イキリンコex\n\nTrainer\n4 バトルVIPパス\n3 ハイパーボール\n2 ヒスイのヘビーボール\n4 トレーナーズポスト\n4 レスキューキャリー\n3 レスキュータンカ\n2 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 あなぬけのヒモ\n1 キャンセルコロン\n1 シークレットボックス(ACE SPEC)\n1 かるいし\n1 ちからのハチマキ\n1 森の封印石\n2 ナンジャモ\n2 グズマ\n1 プルメリ\n2 サイレントラボ\n1 頂への雪道\n1 ポケストップ\n\nEnergy\n4 プリズムエネルギー\n1 テレパス超エネルギー\n2 基本悪エネルギー",
       "metadata": {
         "deckId": "8cY8cc-3eQBxJ-c8Kx8G",
         "placement": "優勝",
@@ -5891,7 +5891,7 @@
         {
           "id": "37151",
           "count": 3,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -6006,7 +6006,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46116"
         }
       ],
-      "text": "### nig96i-G4v0GI-QQngHL\n\nPokemon\n2 ホルビー\n2 ミミロル\n2 メガミミロップex\n2 ポッポ\n1 ピジョン\n1 ピジョン\n2 ピジョットex\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 ラフレシア\n2 スボミー\n1 ワタシラガV\n1 シャリタツ\n\nTrainer\n4 タッグコール\n3 なかよしポフィン\n2 ライブキャスター\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n3 グズマ&amp;ハラ\n1 N\n2 グズマ\n2 カリン\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n1 頂への雪道\n1 サイレントラボ\n\nEnergy\n2 ジェットエネルギー\n1 キャプチャーエネルギー\n1 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
+      "text": "### nig96i-G4v0GI-QQngHL\n\nPokemon\n2 ホルビー\n2 ミミロル\n2 メガミミロップex\n2 ポッポ\n1 ピジョン\n1 ピジョン\n2 ピジョットex\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 ラフレシア\n2 スボミー\n1 ワタシラガV\n1 シャリタツ\n\nTrainer\n4 タッグコール\n3 なかよしポフィン\n2 ライブキャスター\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n3 グズマ&ハラ\n1 N\n2 グズマ\n2 カリン\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n1 頂への雪道\n1 サイレントラボ\n\nEnergy\n2 ジェットエネルギー\n1 キャプチャーエネルギー\n1 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
       "metadata": {
         "deckId": "nig96i-G4v0GI-QQngHL",
         "placement": "優勝",
@@ -15771,7 +15771,7 @@
         {
           "id": "37130",
           "count": 1,
-          "name": "アーゴヨン&amp;アクジキングGX",
+          "name": "アーゴヨン&アクジキングGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037130_P_AGOYONAKUJIKINGUGX.jpg",
@@ -15780,7 +15780,7 @@
         {
           "id": "37303",
           "count": 1,
-          "name": "ガブリアス&amp;ギラティナGX",
+          "name": "ガブリアス&ギラティナGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037303_P_GABURIASUGIRATEINAGX.jpg",
@@ -16039,7 +16039,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37377"
         }
       ],
-      "text": "### fFkdvv-0qZ660-VVf1bf\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 アーゴヨン&amp;アクジキングGX\n1 ガブリアス&amp;ギラティナGX\n1 メガラティアスex\n1 ガブリアスV\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 マーシャドー\n1 ハバタクカミ\n1 ピッピ\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n4 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n1 トレーナーズポスト\n3 スペシャルチャージ\n1 フィールドブロアー\n1 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n1 アララギ博士\n1 マリィ\n1 グズマ\n2 ミツル\n1 ネジキ\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 ダブル無色エネルギー\n1 リサイクルエネルギー",
+      "text": "### fFkdvv-0qZ660-VVf1bf\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 アーゴヨン&アクジキングGX\n1 ガブリアス&ギラティナGX\n1 メガラティアスex\n1 ガブリアスV\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 マーシャドー\n1 ハバタクカミ\n1 ピッピ\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n4 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n1 トレーナーズポスト\n3 スペシャルチャージ\n1 フィールドブロアー\n1 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n1 アララギ博士\n1 マリィ\n1 グズマ\n2 ミツル\n1 ネジキ\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 ダブル無色エネルギー\n1 リサイクルエネルギー",
       "metadata": {
         "deckId": "fFkdvv-0qZ660-VVf1bf",
         "placement": "優勝",
@@ -16121,7 +16121,7 @@
         {
           "id": "37130",
           "count": 1,
-          "name": "アーゴヨン&amp;アクジキングGX",
+          "name": "アーゴヨン&アクジキングGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037130_P_AGOYONAKUJIKINGUGX.jpg",
@@ -16344,7 +16344,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/40328"
         }
       ],
-      "text": "### kfFkF5-VidroO-kffkkb\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 オーガポン いどのめんex\n1 テツノカイナex\n1 トドロクツキex\n1 メガエアームドex\n1 アーゴヨン&amp;アクジキングGX\n1 カプ・テテフGX\n1 デデンネGX\n1 クロバットV\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n2 スペシャルチャージ\n2 レスキュータンカ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n1 博士の研究\n1 ナンジャモ\n1 N\n2 グズマ\n1 ミツル\n2 サイレントラボ\n1 混沌のうねり\n\nEnergy\n4 プリズムエネルギー\n3 オーロラエネルギー\n3 ダブル無色エネルギー\n2 パワフル無色エネルギー",
+      "text": "### kfFkF5-VidroO-kffkkb\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 オーガポン いどのめんex\n1 テツノカイナex\n1 トドロクツキex\n1 メガエアームドex\n1 アーゴヨン&アクジキングGX\n1 カプ・テテフGX\n1 デデンネGX\n1 クロバットV\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n2 スペシャルチャージ\n2 レスキュータンカ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n1 博士の研究\n1 ナンジャモ\n1 N\n2 グズマ\n1 ミツル\n2 サイレントラボ\n1 混沌のうねり\n\nEnergy\n4 プリズムエネルギー\n3 オーロラエネルギー\n3 ダブル無色エネルギー\n2 パワフル無色エネルギー",
       "metadata": {
         "deckId": "kfFkF5-VidroO-kffkkb",
         "placement": "優勝",
@@ -16390,7 +16390,7 @@
         {
           "id": "37130",
           "count": 1,
-          "name": "アーゴヨン&amp;アクジキングGX",
+          "name": "アーゴヨン&アクジキングGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037130_P_AGOYONAKUJIKINGUGX.jpg",
@@ -16399,7 +16399,7 @@
         {
           "id": "37303",
           "count": 1,
-          "name": "ガブリアス&amp;ギラティナGX",
+          "name": "ガブリアス&ギラティナGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037303_P_GABURIASUGIRATEINAGX.jpg",
@@ -16640,7 +16640,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42029"
         }
       ],
-      "text": "### UMypXy-4MPvAR-S3pRMM\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 アーゴヨン&amp;アクジキングGX\n1 ガブリアス&amp;ギラティナGX\n1 ガブリアスV\n1 デデンネGX\n1 カプ・テテフGX\n1 クロバットV\n1 ハバタクカミ\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n3 バトルサーチャー\n4 バトルコンプレッサー（フレア団ギア）\n1 トレーナーズポスト\n2 スペシャルチャージ\n2 フィールドブロアー\n1 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n2 ミツル\n1 博士の研究\n1 グズマ\n1 N\n1 マリィ\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 パワフル無色エネルギー\n3 ダブル無色エネルギー\n1 ミストエネルギー\n1 Vガードエネルギー",
+      "text": "### UMypXy-4MPvAR-S3pRMM\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 アーゴヨン&アクジキングGX\n1 ガブリアス&ギラティナGX\n1 ガブリアスV\n1 デデンネGX\n1 カプ・テテフGX\n1 クロバットV\n1 ハバタクカミ\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n3 バトルサーチャー\n4 バトルコンプレッサー（フレア団ギア）\n1 トレーナーズポスト\n2 スペシャルチャージ\n2 フィールドブロアー\n1 レスキュータンカ\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n2 ミツル\n1 博士の研究\n1 グズマ\n1 N\n1 マリィ\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 パワフル無色エネルギー\n3 ダブル無色エネルギー\n1 ミストエネルギー\n1 Vガードエネルギー",
       "metadata": {
         "deckId": "UMypXy-4MPvAR-S3pRMM",
         "placement": "優勝",
@@ -17009,7 +17009,7 @@
         {
           "id": "37303",
           "count": 1,
-          "name": "ガブリアス&amp;ギラティナGX",
+          "name": "ガブリアス&ギラティナGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037303_P_GABURIASUGIRATEINAGX.jpg",
@@ -17268,7 +17268,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37377"
         }
       ],
-      "text": "### Lg6nn9-bO1QrZ-gg9LHL\n\nPokemon\n3 ルギアV\n2 ルギアVSTAR\n3 アーケオス\n1 ガブリアス&amp;ギラティナGX\n1 ガブリアスV\n1 ディアルガGX\n2 キュレム\n1 オンバット\n1 オンバーンex\n1 デデンネGX\n2 カプ・テテフGX\n1 ミュウex\n1 ハバタクカミ\n1 マーシャドー\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n4 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n3 スペシャルチャージ\n1 フィールドブロアー\n1 レスキュータンカ\n1 メガトンブロアー(ACE SPEC)\n1 リーリエの決心\n1 ナンジャモ\n1 ゼイユ\n2 グズマ\n1 ミツル\n1 ネジキ\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 ダブル無色エネルギー\n1 リサイクルエネルギー",
+      "text": "### Lg6nn9-bO1QrZ-gg9LHL\n\nPokemon\n3 ルギアV\n2 ルギアVSTAR\n3 アーケオス\n1 ガブリアス&ギラティナGX\n1 ガブリアスV\n1 ディアルガGX\n2 キュレム\n1 オンバット\n1 オンバーンex\n1 デデンネGX\n2 カプ・テテフGX\n1 ミュウex\n1 ハバタクカミ\n1 マーシャドー\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n4 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n3 スペシャルチャージ\n1 フィールドブロアー\n1 レスキュータンカ\n1 メガトンブロアー(ACE SPEC)\n1 リーリエの決心\n1 ナンジャモ\n1 ゼイユ\n2 グズマ\n1 ミツル\n1 ネジキ\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 ダブル無色エネルギー\n1 リサイクルエネルギー",
       "metadata": {
         "deckId": "Lg6nn9-bO1QrZ-gg9LHL",
         "placement": "優勝",
@@ -17314,7 +17314,7 @@
         {
           "id": "37303",
           "count": 1,
-          "name": "ガブリアス&amp;ギラティナGX",
+          "name": "ガブリアス&ギラティナGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037303_P_GABURIASUGIRATEINAGX.jpg",
@@ -17546,7 +17546,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37377"
         }
       ],
-      "text": "### JxDxc8-URzkUv-8GJ8Da\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 ガブリアス&amp;ギラティナGX\n1 ガブリアスV\n1 ディアルガGX\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 クロバットV\n1 ハバタクカミ\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n4 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n3 トレーナーズポスト\n3 スペシャルチャージ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 アララギ博士\n1 マリィ\n1 N\n1 グズマ\n2 ミツル\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 パワフル無色エネルギー\n3 ダブル無色エネルギー\n1 リサイクルエネルギー",
+      "text": "### JxDxc8-URzkUv-8GJ8Da\n\nPokemon\n3 ルギアV\n3 ルギアVSTAR\n3 アーケオス\n1 ガブリアス&ギラティナGX\n1 ガブリアスV\n1 ディアルガGX\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 クロバットV\n1 ハバタクカミ\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n4 バトルコンプレッサー（フレア団ギア）\n3 バトルサーチャー\n3 トレーナーズポスト\n3 スペシャルチャージ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 アララギ博士\n1 マリィ\n1 N\n1 グズマ\n2 ミツル\n2 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 パワフル無色エネルギー\n3 ダブル無色エネルギー\n1 リサイクルエネルギー",
       "metadata": {
         "deckId": "JxDxc8-URzkUv-8GJ8Da",
         "placement": "優勝",
@@ -17610,7 +17610,7 @@
         {
           "id": "37303",
           "count": 1,
-          "name": "ガブリアス&amp;ギラティナGX",
+          "name": "ガブリアス&ギラティナGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037303_P_GABURIASUGIRATEINAGX.jpg",
@@ -17815,7 +17815,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/33064"
         }
       ],
-      "text": "### 8c4D8G-mp92P6-8DD848\n\nPokemon\n3 ルギアV\n2 ルギアVSTAR\n3 アーケオス\n2 ガブリアスV\n1 コライドンex\n1 ガブリアス&amp;ギラティナGX\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 クロバットV\n\nTrainer\n4 ハイパーボール\n4 クイックボール\n3 バトルサーチャー\n4 トレーナーズポスト\n3 バトルコンプレッサー（フレア団ギア）\n3 スペシャルチャージ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n2 隠密フード\n2 プラターヌ博士\n1 ナンジャモ\n1 グズマ\n1 ミツル\n1 ネジキ\n4 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 ダブル無色エネルギー",
+      "text": "### 8c4D8G-mp92P6-8DD848\n\nPokemon\n3 ルギアV\n2 ルギアVSTAR\n3 アーケオス\n2 ガブリアスV\n1 コライドンex\n1 ガブリアス&ギラティナGX\n1 キュレム\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 クロバットV\n\nTrainer\n4 ハイパーボール\n4 クイックボール\n3 バトルサーチャー\n4 トレーナーズポスト\n3 バトルコンプレッサー（フレア団ギア）\n3 スペシャルチャージ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n2 隠密フード\n2 プラターヌ博士\n1 ナンジャモ\n1 グズマ\n1 ミツル\n1 ネジキ\n4 サイレントラボ\n\nEnergy\n4 ダブルドラゴンエネルギー\n4 ダブル無色エネルギー",
       "metadata": {
         "deckId": "8c4D8G-mp92P6-8DD848",
         "placement": "優勝",
@@ -18848,7 +18848,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -18857,7 +18857,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -18866,7 +18866,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -19008,7 +19008,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47906"
         }
       ],
-      "text": "### ccY4D8-q8RK7u-xcGGYc\n\nPokemon\n4 テツノイバラex\n\nTrainer\n3 ネストボール\n4 トレーナーズポスト\n2 バトルサーチャー\n2 タッグコール\n2 ロトムじてんしゃ\n4 クラッシュハンマー\n2 改造ハンマー\n1 アンフェアスタンプ(ACE SPEC)\n3 ブーストエナジー 未来\n1 リーリエの決心\n1 N\n2 グズマ&amp;ハラ\n1 シロナ&amp;カトレア\n1 ジュジュベ&amp;ハチクマン\n1 デンジ\n3 プルメリ\n1 フレア団のしたっぱ\n1 ザオボー\n1 スカル団のしたっぱ\n1 カゲツ\n1 ビワ\n2 グズマ\n2 ルザミーネ\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n1 混沌のうねり\n\nEnergy\n4 スピード雷エネルギー\n4 ツインエネルギー\n3 基本雷エネルギー",
+      "text": "### ccY4D8-q8RK7u-xcGGYc\n\nPokemon\n4 テツノイバラex\n\nTrainer\n3 ネストボール\n4 トレーナーズポスト\n2 バトルサーチャー\n2 タッグコール\n2 ロトムじてんしゃ\n4 クラッシュハンマー\n2 改造ハンマー\n1 アンフェアスタンプ(ACE SPEC)\n3 ブーストエナジー 未来\n1 リーリエの決心\n1 N\n2 グズマ&ハラ\n1 シロナ&カトレア\n1 ジュジュベ&ハチクマン\n1 デンジ\n3 プルメリ\n1 フレア団のしたっぱ\n1 ザオボー\n1 スカル団のしたっぱ\n1 カゲツ\n1 ビワ\n2 グズマ\n2 ルザミーネ\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n1 混沌のうねり\n\nEnergy\n4 スピード雷エネルギー\n4 ツインエネルギー\n3 基本雷エネルギー",
       "metadata": {
         "deckId": "ccY4D8-q8RK7u-xcGGYc",
         "placement": "優勝",
@@ -19153,7 +19153,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -19162,7 +19162,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -19171,7 +19171,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -19304,7 +19304,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37980"
         }
       ],
-      "text": "### ngHgn9-inQR9X-gHNL6g\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 ネストボール\n1 ヘビーボール\n4 トレーナーズポスト\n3 バトルサーチャー\n2 タッグコール\n4 クラッシュハンマー\n1 改造ハンマー\n2 殿堂の書\n1 メガトンブロアー(ACE SPEC)\n2 ブーストエナジー 未来\n2 ハンディサーキュレーター\n1 リーリエの決心\n1 N\n2 グズマ&amp;ハラ\n1 シロナ&amp;カトレア\n1 ジュジュベ&amp;ハチクマン\n4 プルメリ\n1 フレア団のしたっぱ\n1 ザオボー\n1 スカル団のしたっぱ\n2 カゲツ\n2 ビワ\n1 グズマ\n2 ルザミーネ\n2 プレイヤーズセレモニー\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n3 ダブル無色エネルギー\n1 キャプチャーエネルギー",
+      "text": "### ngHgn9-inQR9X-gHNL6g\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 ネストボール\n1 ヘビーボール\n4 トレーナーズポスト\n3 バトルサーチャー\n2 タッグコール\n4 クラッシュハンマー\n1 改造ハンマー\n2 殿堂の書\n1 メガトンブロアー(ACE SPEC)\n2 ブーストエナジー 未来\n2 ハンディサーキュレーター\n1 リーリエの決心\n1 N\n2 グズマ&ハラ\n1 シロナ&カトレア\n1 ジュジュベ&ハチクマン\n4 プルメリ\n1 フレア団のしたっぱ\n1 ザオボー\n1 スカル団のしたっぱ\n2 カゲツ\n2 ビワ\n1 グズマ\n2 ルザミーネ\n2 プレイヤーズセレモニー\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n3 ダブル無色エネルギー\n1 キャプチャーエネルギー",
       "metadata": {
         "deckId": "ngHgn9-inQR9X-gHNL6g",
         "placement": "優勝",
@@ -19449,7 +19449,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -19458,7 +19458,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -19512,7 +19512,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -19600,7 +19600,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37980"
         }
       ],
-      "text": "### D884cc-dgEiGM-Y8GKx8\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 ネストボール\n2 ヘビーボール\n4 トレーナーズポスト\n3 バトルサーチャー\n2 改造ハンマー\n2 タッグコール\n1 メガトンブロアー(ACE SPEC)\n2 ブーストエナジー 未来\n2 ハンディサーキュレーター\n3 プルメリ\n2 カゲツ\n2 フレア団のしたっぱ\n1 ザオボー\n2 グズマ&amp;ハラ\n1 シロナ&amp;カトレア\n1 N\n1 リーリエの決心\n2 グズマ\n2 ビワ\n1 ボタン\n1 ジュジュベ&amp;ハチクマン\n2 ルザミーネ\n1 野盗三姉妹\n2 混沌のうねり\n1 コトブキムラ\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n4 ダブル無色エネルギー\n1 キャプチャーエネルギー",
+      "text": "### D884cc-dgEiGM-Y8GKx8\n\nPokemon\n4 テツノイバラex\n\nTrainer\n2 ネストボール\n2 ヘビーボール\n4 トレーナーズポスト\n3 バトルサーチャー\n2 改造ハンマー\n2 タッグコール\n1 メガトンブロアー(ACE SPEC)\n2 ブーストエナジー 未来\n2 ハンディサーキュレーター\n3 プルメリ\n2 カゲツ\n2 フレア団のしたっぱ\n1 ザオボー\n2 グズマ&ハラ\n1 シロナ&カトレア\n1 N\n1 リーリエの決心\n2 グズマ\n2 ビワ\n1 ボタン\n1 ジュジュベ&ハチクマン\n2 ルザミーネ\n1 野盗三姉妹\n2 混沌のうねり\n1 コトブキムラ\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n4 ダブル無色エネルギー\n1 キャプチャーエネルギー",
       "metadata": {
         "deckId": "D884cc-dgEiGM-Y8GKx8",
         "placement": "優勝",
@@ -19655,7 +19655,7 @@
         {
           "id": "37130",
           "count": 1,
-          "name": "アーゴヨン&amp;アクジキングGX",
+          "name": "アーゴヨン&アクジキングGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037130_P_AGOYONAKUJIKINGUGX.jpg",
@@ -19844,7 +19844,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -19871,7 +19871,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -19968,7 +19968,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/40323"
         }
       ],
-      "text": "### 11vbkk-B3UWlC-FVkfkv\n\nPokemon\n4 テツノイバラex\n2 アーケン\n1 アーケン\n3 アーケオス\n1 アーゴヨン&amp;アクジキングGX\n1 ガブリアスV\n1 ピカチュウex\n1 トドロクツキex\n1 オーガポン いどのめんex\n1 テツノカイナex\n1 Nのゼクロム\n2 クレッフィ\n\nTrainer\n1 ネストボール\n1 ポケパッド\n1 ヒスイのヘビーボール\n1 タッグコール\n1 レスキュータンカ\n1 ぼうけんのカバン\n1 スタジアムナビ\n1 スペシャルチャージ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 隠密フード\n2 グズマ&amp;ハラ\n2 マリィ\n1 ナンジャモ\n1 シロナ&amp;カトレア\n1 グズマ\n1 ナギ\n4 ポケモンけんきゅうじょ\n1 嵐の山脈\n1 頂への雪道\n\nEnergy\n4 プリズムエネルギー\n3 ダブルドラゴンエネルギー\n3 ダブル無色エネルギー\n1 キャプチャーエネルギー\n2 スピード雷エネルギー",
+      "text": "### 11vbkk-B3UWlC-FVkfkv\n\nPokemon\n4 テツノイバラex\n2 アーケン\n1 アーケン\n3 アーケオス\n1 アーゴヨン&アクジキングGX\n1 ガブリアスV\n1 ピカチュウex\n1 トドロクツキex\n1 オーガポン いどのめんex\n1 テツノカイナex\n1 Nのゼクロム\n2 クレッフィ\n\nTrainer\n1 ネストボール\n1 ポケパッド\n1 ヒスイのヘビーボール\n1 タッグコール\n1 レスキュータンカ\n1 ぼうけんのカバン\n1 スタジアムナビ\n1 スペシャルチャージ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 隠密フード\n2 グズマ&ハラ\n2 マリィ\n1 ナンジャモ\n1 シロナ&カトレア\n1 グズマ\n1 ナギ\n4 ポケモンけんきゅうじょ\n1 嵐の山脈\n1 頂への雪道\n\nEnergy\n4 プリズムエネルギー\n3 ダブルドラゴンエネルギー\n3 ダブル無色エネルギー\n1 キャプチャーエネルギー\n2 スピード雷エネルギー",
       "metadata": {
         "deckId": "11vbkk-B3UWlC-FVkfkv",
         "placement": "優勝",
@@ -20095,7 +20095,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -20104,7 +20104,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -20149,7 +20149,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -20255,7 +20255,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37980"
         }
       ],
-      "text": "### fFk5VF-1ZMKxE-bFVbkV\n\nPokemon\n4 テツノイバラex\n\nTrainer\n1 ネストボール\n3 ヘビーボール\n4 トレーナーズポスト\n2 タッグコール\n3 バトルサーチャー\n2 改造ハンマー\n3 ロトムじてんしゃ\n1 メガトンブロアー(ACE SPEC)\n2 ブーストエナジー 未来\n1 リーリエの決心\n1 N\n1 シロナ&amp;カトレア\n2 グズマ&amp;ハラ\n2 フレア団のしたっぱ\n1 スカル団のしたっぱ\n2 ビワ\n2 カゲツ\n1 ジュジュベ&amp;ハチクマン\n1 ザオボー\n4 プルメリ\n2 ルザミーネ\n2 グズマ\n2 混沌のうねり\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n3 ダブル無色エネルギー\n1 ツインエネルギー\n1 キャプチャーエネルギー",
+      "text": "### fFk5VF-1ZMKxE-bFVbkV\n\nPokemon\n4 テツノイバラex\n\nTrainer\n1 ネストボール\n3 ヘビーボール\n4 トレーナーズポスト\n2 タッグコール\n3 バトルサーチャー\n2 改造ハンマー\n3 ロトムじてんしゃ\n1 メガトンブロアー(ACE SPEC)\n2 ブーストエナジー 未来\n1 リーリエの決心\n1 N\n1 シロナ&カトレア\n2 グズマ&ハラ\n2 フレア団のしたっぱ\n1 スカル団のしたっぱ\n2 ビワ\n2 カゲツ\n1 ジュジュベ&ハチクマン\n1 ザオボー\n4 プルメリ\n2 ルザミーネ\n2 グズマ\n2 混沌のうねり\n1 サンダーマウンテン プリズムスター\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n4 スピード雷エネルギー\n3 ダブル無色エネルギー\n1 ツインエネルギー\n1 キャプチャーエネルギー",
       "metadata": {
         "deckId": "fFk5VF-1ZMKxE-bFVbkV",
         "placement": "優勝",
@@ -21269,7 +21269,7 @@
         {
           "id": "37129",
           "count": 2,
-          "name": "アルセウス&amp;ディアルガ&amp;パルキアGX",
+          "name": "アルセウス&ディアルガ&パルキアGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037129_P_ARUSEUSUDEIARUGAPARUKIAGX.jpg",
@@ -21627,7 +21627,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47910"
         }
       ],
-      "text": "### 6gnnLn-qXK5fD-N6Qn9H\n\nPokemon\n2 アルセウス&amp;ディアルガ&amp;パルキアGX\n2 メガラティアスex\n2 ヤブクロン\n2 ダストダス\n1 レジドラゴ\n1 ハバタクカミ\n1 ラティアスex\n1 カプ・テテフGX\n1 イキリンコex\n1 クロバットV\n1 ヤレユータンV\n1 スボミー\n1 クレッフィ\n\nTrainer\n4 クイックボール\n2 バトルVIPパス\n2 ミステリートレジャー\n1 ヒスイのヘビーボール\n2 バトルサーチャー\n1 すごいつりざお\n1 あなぬけのヒモ\n1 ぐんぐんシェイク\n1 シークレットボックス(ACE SPEC)\n3 かるいし\n1 闘魂のまわし\n1 森の封印石\n1 リーリエの決心\n1 ゼイユ\n1 マリィ\n1 アカマツ\n1 キバナ\n2 グズマ\n1 ザオボー\n1 ミツル\n1 スカイフィールド\n1 ファッションモール\n\nEnergy\n4 ダブルドラゴンエネルギー\n2 基本炎エネルギー\n2 基本水エネルギー\n2 基本超エネルギー\n2 基本鋼エネルギー",
+      "text": "### 6gnnLn-qXK5fD-N6Qn9H\n\nPokemon\n2 アルセウス&ディアルガ&パルキアGX\n2 メガラティアスex\n2 ヤブクロン\n2 ダストダス\n1 レジドラゴ\n1 ハバタクカミ\n1 ラティアスex\n1 カプ・テテフGX\n1 イキリンコex\n1 クロバットV\n1 ヤレユータンV\n1 スボミー\n1 クレッフィ\n\nTrainer\n4 クイックボール\n2 バトルVIPパス\n2 ミステリートレジャー\n1 ヒスイのヘビーボール\n2 バトルサーチャー\n1 すごいつりざお\n1 あなぬけのヒモ\n1 ぐんぐんシェイク\n1 シークレットボックス(ACE SPEC)\n3 かるいし\n1 闘魂のまわし\n1 森の封印石\n1 リーリエの決心\n1 ゼイユ\n1 マリィ\n1 アカマツ\n1 キバナ\n2 グズマ\n1 ザオボー\n1 ミツル\n1 スカイフィールド\n1 ファッションモール\n\nEnergy\n4 ダブルドラゴンエネルギー\n2 基本炎エネルギー\n2 基本水エネルギー\n2 基本超エネルギー\n2 基本鋼エネルギー",
       "metadata": {
         "deckId": "6gnnLn-qXK5fD-N6Qn9H",
         "placement": "優勝",
@@ -21646,7 +21646,7 @@
         {
           "id": "37129",
           "count": 2,
-          "name": "アルセウス&amp;ディアルガ&amp;パルキアGX",
+          "name": "アルセウス&ディアルガ&パルキアGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037129_P_ARUSEUSUDEIARUGAPARUKIAGX.jpg",
@@ -21772,7 +21772,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -21781,7 +21781,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -21808,7 +21808,7 @@
         {
           "id": "37153",
           "count": 1,
-          "name": "マオ&amp;スイレン",
+          "name": "マオ&スイレン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037153_T_MAOSUIREN.jpg",
@@ -21869,7 +21869,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48307"
         }
       ],
-      "text": "### 8cYGcG-v0KgHW-48xK4c\n\nPokemon\n2 アルセウス&amp;ディアルガ&amp;パルキアGX\n2 メガラティアスex\n2 ラティオス\n1 ホウオウEX\n2 スボミー\n\nTrainer\n3 タッグコール\n4 ネストボール\n2 バトルVIPパス\n4 トレーナーズポスト\n2 バトルサーチャー\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n3 かるいし\n4 リーリエの決心\n1 シロナ&amp;カトレア\n4 グズマ&amp;ハラ\n1 アカマツ\n3 グズマ\n1 マオ&amp;スイレン\n1 アセロラ\n3 頂への雪道\n\nEnergy\n4 ダブルドラゴンエネルギー\n3 基本炎エネルギー\n3 基本水エネルギー\n3 基本超エネルギー",
+      "text": "### 8cYGcG-v0KgHW-48xK4c\n\nPokemon\n2 アルセウス&ディアルガ&パルキアGX\n2 メガラティアスex\n2 ラティオス\n1 ホウオウEX\n2 スボミー\n\nTrainer\n3 タッグコール\n4 ネストボール\n2 バトルVIPパス\n4 トレーナーズポスト\n2 バトルサーチャー\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n3 かるいし\n4 リーリエの決心\n1 シロナ&カトレア\n4 グズマ&ハラ\n1 アカマツ\n3 グズマ\n1 マオ&スイレン\n1 アセロラ\n3 頂への雪道\n\nEnergy\n4 ダブルドラゴンエネルギー\n3 基本炎エネルギー\n3 基本水エネルギー\n3 基本超エネルギー",
       "metadata": {
         "deckId": "8cYGcG-v0KgHW-48xK4c",
         "placement": "優勝",
@@ -21888,7 +21888,7 @@
         {
           "id": "37129",
           "count": 1,
-          "name": "アルセウス&amp;ディアルガ&amp;パルキアGX",
+          "name": "アルセウス&ディアルガ&パルキアGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037129_P_ARUSEUSUDEIARUGAPARUKIAGX.jpg",
@@ -22086,7 +22086,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -22156,7 +22156,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/40323"
         }
       ],
-      "text": "### dkVkbb-Kya6d3-V5F5FF\n\nPokemon\n1 アルセウス&amp;ディアルガ&amp;パルキアGX\n4 ピカチュウV-UNION\n2 ミライドンex\n1 クワガノンV\n1 ライコウV\n1 カプ・コケコ プリズムスター\n1 デデンネGX\n1 ネオラントV\n1 クロバットV\n\nTrainer\n4 ハイパーボール\n2 クイックボール\n4 エレキパワー\n3 エレキジェネレーター\n2 タッグコール\n1 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n1 プライムキャッチャー(ACE SPEC)\n2 かるいし\n1 森の封印石\n2 博士の研究\n1 マリィ\n1 ツツジ\n2 グズマ&amp;ハラ\n2 グズマ\n2 シャクヤ\n1 サンダーマウンテン プリズムスター\n1 嵐の山脈\n\nEnergy\n10 基本雷エネルギー\n1 ダブルドラゴンエネルギー\n1 スピード雷エネルギー",
+      "text": "### dkVkbb-Kya6d3-V5F5FF\n\nPokemon\n1 アルセウス&ディアルガ&パルキアGX\n4 ピカチュウV-UNION\n2 ミライドンex\n1 クワガノンV\n1 ライコウV\n1 カプ・コケコ プリズムスター\n1 デデンネGX\n1 ネオラントV\n1 クロバットV\n\nTrainer\n4 ハイパーボール\n2 クイックボール\n4 エレキパワー\n3 エレキジェネレーター\n2 タッグコール\n1 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n1 プライムキャッチャー(ACE SPEC)\n2 かるいし\n1 森の封印石\n2 博士の研究\n1 マリィ\n1 ツツジ\n2 グズマ&ハラ\n2 グズマ\n2 シャクヤ\n1 サンダーマウンテン プリズムスター\n1 嵐の山脈\n\nEnergy\n10 基本雷エネルギー\n1 ダブルドラゴンエネルギー\n1 スピード雷エネルギー",
       "metadata": {
         "deckId": "dkVkbb-Kya6d3-V5F5FF",
         "placement": "優勝",
@@ -24238,7 +24238,7 @@
         {
           "id": "37205",
           "count": 1,
-          "name": "フェローチェ&amp;マッシブーンGX",
+          "name": "フェローチェ&マッシブーンGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037205_P_FEROCHIEMASSHIBUNGX.jpg",
@@ -24425,7 +24425,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46116"
         }
       ],
-      "text": "### cGGaJ8-HGV88O-YD4xx8\n\nPokemon\n3 フシギダネ\n3 フシギソウ\n2 メガフシギバナex\n2 フシギバナ\n3 オーガポン みどりのめんex\n1 フェローチェ&amp;マッシブーンGX\n1 ワタシラガV\n1 シェイミ プリズムスター\n\nTrainer\n4 むしとりセット\n4 ネットボール\n2 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n3 トレーナーズポスト\n2 活力剤\n2 フィールドブロアー\n1 つりざおMAX(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 リーリエの決心\n1 プラターヌ博士\n1 ナンジャモ\n1 マリィ\n1 グズマ\n1 AZ\n3 活力の森\n\nEnergy\n11 基本草エネルギー",
+      "text": "### cGGaJ8-HGV88O-YD4xx8\n\nPokemon\n3 フシギダネ\n3 フシギソウ\n2 メガフシギバナex\n2 フシギバナ\n3 オーガポン みどりのめんex\n1 フェローチェ&マッシブーンGX\n1 ワタシラガV\n1 シェイミ プリズムスター\n\nTrainer\n4 むしとりセット\n4 ネットボール\n2 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n3 トレーナーズポスト\n2 活力剤\n2 フィールドブロアー\n1 つりざおMAX(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 リーリエの決心\n1 プラターヌ博士\n1 ナンジャモ\n1 マリィ\n1 グズマ\n1 AZ\n3 活力の森\n\nEnergy\n11 基本草エネルギー",
       "metadata": {
         "deckId": "cGGaJ8-HGV88O-YD4xx8",
         "placement": "優勝",
@@ -24507,7 +24507,7 @@
         {
           "id": "37257",
           "count": 1,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -24820,7 +24820,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### pRp2yp-uh6IHi-RySXRS\n\nPokemon\n3 ラルトス\n1 ラルトス\n3 キルリア\n1 キルリア\n2 サーナイトex\n1 メガサーナイトex\n1 サーナイト\n1 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n1 サケブシッポ\n1 カプ・テテフGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 なかよしポフィン\n1 ヒスイのヘビーボール\n1 バトルサーチャー\n1 トレーナーズポスト\n1 バトルコンプレッサー（フレア団ギア）\n1 ふしぎなアメ\n1 レスキュータンカ\n1 すごいつりざお\n1 カウンターキャッチャー\n1 ともだちてちょう\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 勇気のおまもり\n1 リーリエの決心\n1 ゼイユ\n1 マリィ\n1 ペパー\n1 グズマ\n1 アセロラ\n1 ミツル\n1 シンオウ神殿\n1 ミステリーガーデン\n\nEnergy\n8 基本超エネルギー",
+      "text": "### pRp2yp-uh6IHi-RySXRS\n\nPokemon\n3 ラルトス\n1 ラルトス\n3 キルリア\n1 キルリア\n2 サーナイトex\n1 メガサーナイトex\n1 サーナイト\n1 オーロット&ヨノワールGX\n1 リーリエのピッピex\n1 サケブシッポ\n1 カプ・テテフGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 なかよしポフィン\n1 ヒスイのヘビーボール\n1 バトルサーチャー\n1 トレーナーズポスト\n1 バトルコンプレッサー（フレア団ギア）\n1 ふしぎなアメ\n1 レスキュータンカ\n1 すごいつりざお\n1 カウンターキャッチャー\n1 ともだちてちょう\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 勇気のおまもり\n1 リーリエの決心\n1 ゼイユ\n1 マリィ\n1 ペパー\n1 グズマ\n1 アセロラ\n1 ミツル\n1 シンオウ神殿\n1 ミステリーガーデン\n\nEnergy\n8 基本超エネルギー",
       "metadata": {
         "deckId": "pRp2yp-uh6IHi-RySXRS",
         "placement": "優勝",
@@ -24902,7 +24902,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -25188,7 +25188,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### pXyXpR-nyRiTT-2MpUyp\n\nPokemon\n2 ラルトス\n1 ラルトス\n1 ラルトス\n4 キルリア\n2 サーナイトex\n1 メガサーナイトex\n1 サーナイト\n1 ゲンガー&amp;ミミッキュGX\n1 リーリエのピッピex\n1 サケブシッポ\n1 キチキギス\n1 ラティアスex\n2 カプ・テテフGX\n1 ソーナンス\n1 チリーン\n1 ミュウ\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 ふしぎなアメ\n2 レスキュータンカ\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 ピクニックバスケット\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 リーリエの決心\n2 ペパー\n1 グズマ\n1 N\n1 ナンジャモ\n1 博士の研究\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
+      "text": "### pXyXpR-nyRiTT-2MpUyp\n\nPokemon\n2 ラルトス\n1 ラルトス\n1 ラルトス\n4 キルリア\n2 サーナイトex\n1 メガサーナイトex\n1 サーナイト\n1 ゲンガー&ミミッキュGX\n1 リーリエのピッピex\n1 サケブシッポ\n1 キチキギス\n1 ラティアスex\n2 カプ・テテフGX\n1 ソーナンス\n1 チリーン\n1 ミュウ\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n1 バトルコンプレッサー（フレア団ギア）\n1 ふしぎなアメ\n2 レスキュータンカ\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 ピクニックバスケット\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 リーリエの決心\n2 ペパー\n1 グズマ\n1 N\n1 ナンジャモ\n1 博士の研究\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
       "metadata": {
         "deckId": "pXyXpR-nyRiTT-2MpUyp",
         "placement": "優勝",
@@ -25243,7 +25243,7 @@
         {
           "id": "37257",
           "count": 1,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -25511,7 +25511,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### kbFVVV-7TCPMY-5b5VF1\n\nPokemon\n4 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n1 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n1 ザシアンV\n2 カプ・テテフGX\n1 ソーナンス\n1 チリーン\n1 ミュウ\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n1 ふしぎなアメ\n1 バトルコンプレッサー（フレア団ギア）\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 森の封印石\n1 博士の研究\n1 リーリエの決心\n1 ナンジャモ\n1 N\n2 ペパー\n1 グズマ\n1 フトゥー博士のシナリオ\n2 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
+      "text": "### kbFVVV-7TCPMY-5b5VF1\n\nPokemon\n4 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n1 オーロット&ヨノワールGX\n1 リーリエのピッピex\n1 ザシアンV\n2 カプ・テテフGX\n1 ソーナンス\n1 チリーン\n1 ミュウ\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n1 ふしぎなアメ\n1 バトルコンプレッサー（フレア団ギア）\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 森の封印石\n1 博士の研究\n1 リーリエの決心\n1 ナンジャモ\n1 N\n2 ペパー\n1 グズマ\n1 フトゥー博士のシナリオ\n2 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
       "metadata": {
         "deckId": "kbFVVV-7TCPMY-5b5VF1",
         "placement": "優勝",
@@ -25593,7 +25593,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -25843,7 +25843,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### HLgiH9-HZqLK4-nin9gg\n\nPokemon\n2 ラルトス\n2 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n1 リーリエのピッピex\n1 サケブシッポ\n1 ゲンガー&amp;ミミッキュGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n2 カプ・テテフGX\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n2 ふしぎなアメ\n1 バトルコンプレッサー（フレア団ギア）\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 ピクニックバスケット\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 リーリエの決心\n1 ナンジャモ\n1 アララギ博士\n1 N\n2 ペパー\n2 グズマ\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
+      "text": "### HLgiH9-HZqLK4-nin9gg\n\nPokemon\n2 ラルトス\n2 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n1 リーリエのピッピex\n1 サケブシッポ\n1 ゲンガー&ミミッキュGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n2 カプ・テテフGX\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n2 ふしぎなアメ\n1 バトルコンプレッサー（フレア団ギア）\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 ピクニックバスケット\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 リーリエの決心\n1 ナンジャモ\n1 アララギ博士\n1 N\n2 ペパー\n2 グズマ\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
       "metadata": {
         "deckId": "HLgiH9-HZqLK4-nin9gg",
         "placement": "優勝",
@@ -25925,7 +25925,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -26166,7 +26166,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### yU2p2p-kEeIdS-yXypR2\n\nPokemon\n2 ラルトス\n2 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n1 リーリエのピッピex\n1 サケブシッポ\n1 ゲンガー&amp;ミミッキュGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n2 カプ・テテフGX\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n2 ふしぎなアメ\n1 バトルコンプレッサー（フレア団ギア）\n1 カウンターキャッチャー\n2 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 博士の研究\n1 リーリエの決心\n1 ナンジャモ\n1 N\n2 ペパー\n2 グズマ\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
+      "text": "### yU2p2p-kEeIdS-yXypR2\n\nPokemon\n2 ラルトス\n2 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n1 リーリエのピッピex\n1 サケブシッポ\n1 ゲンガー&ミミッキュGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n2 カプ・テテフGX\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n2 ふしぎなアメ\n1 バトルコンプレッサー（フレア団ギア）\n1 カウンターキャッチャー\n2 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 博士の研究\n1 リーリエの決心\n1 ナンジャモ\n1 N\n2 ペパー\n2 グズマ\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
       "metadata": {
         "deckId": "yU2p2p-kEeIdS-yXypR2",
         "placement": "優勝",
@@ -26248,7 +26248,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -26498,7 +26498,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### GcxDY8-EzQFZm-aaDxc8\n\nPokemon\n2 ラルトス\n2 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n2 リーリエのピッピex\n1 サケブシッポ\n1 ゲンガー&amp;ミミッキュGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n2 カプ・テテフGX\n1 ラティアスex\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n1 ふしぎなアメ\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 カウンターゲイン\n1 リーリエの決心\n1 ナンジャモ\n1 アララギ博士\n1 N\n2 ペパー\n2 グズマ\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
+      "text": "### GcxDY8-EzQFZm-aaDxc8\n\nPokemon\n2 ラルトス\n2 ラルトス\n4 キルリア\n2 サーナイトex\n2 メガサーナイトex\n2 リーリエのピッピex\n1 サケブシッポ\n1 ゲンガー&ミミッキュGX\n1 ソーナンス\n1 バリヤード\n1 チリーン\n2 カプ・テテフGX\n1 ラティアスex\n\nTrainer\n4 ミステリートレジャー\n3 霧の水晶\n1 なかよしポフィン\n2 バトルサーチャー\n2 レスキュータンカ\n1 ふしぎなアメ\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 隠密フード\n1 かるいし\n1 ワザマシン エヴォリューション\n1 カウンターゲイン\n1 リーリエの決心\n1 ナンジャモ\n1 アララギ博士\n1 N\n2 ペパー\n2 グズマ\n1 シンオウ神殿\n1 スカイフィールド\n\nEnergy\n8 基本超エネルギー",
       "metadata": {
         "deckId": "GcxDY8-EzQFZm-aaDxc8",
         "placement": "優勝",
@@ -28724,7 +28724,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -28733,7 +28733,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -28812,7 +28812,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/33064"
         }
       ],
-      "text": "### L9nHHn-fPZvok-gggLH9\n\nPokemon\n4 プルリル\n4 ブルンゲルex\n4 アンノーン\n\nTrainer\n2 霧の水晶\n4 トレーナーズポスト\n4 ぐんぐんシェイク\n4 タッグコール\n3 バトルサーチャー\n4 レスキューキャリー\n1 メガトンブロアー(ACE SPEC)\n2 ちからのハチマキ\n1 隠密フード\n1 Uターンボード\n1 シロナ&amp;カトレア\n2 グズマ&amp;ハラ\n2 グズマ\n1 ルザミーネ\n1 リップ\n1 カリン\n4 次元の谷\n\nEnergy\n2 基本超エネルギー\n4 テレパス超エネルギー\n4 ダブル無色エネルギー",
+      "text": "### L9nHHn-fPZvok-gggLH9\n\nPokemon\n4 プルリル\n4 ブルンゲルex\n4 アンノーン\n\nTrainer\n2 霧の水晶\n4 トレーナーズポスト\n4 ぐんぐんシェイク\n4 タッグコール\n3 バトルサーチャー\n4 レスキューキャリー\n1 メガトンブロアー(ACE SPEC)\n2 ちからのハチマキ\n1 隠密フード\n1 Uターンボード\n1 シロナ&カトレア\n2 グズマ&ハラ\n2 グズマ\n1 ルザミーネ\n1 リップ\n1 カリン\n4 次元の谷\n\nEnergy\n2 基本超エネルギー\n4 テレパス超エネルギー\n4 ダブル無色エネルギー",
       "metadata": {
         "deckId": "L9nHHn-fPZvok-gggLH9",
         "placement": "優勝",
@@ -29692,7 +29692,7 @@
         {
           "id": "37257",
           "count": 2,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -29960,7 +29960,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47907"
         }
       ],
-      "text": "### xGJ84c-V1PZyj-D8c4x8\n\nPokemon\n3 こくばバドレックスV\n3 こくばバドレックスVMAX\n2 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n1 プルリル\n1 ブルンゲルex\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 チリーン\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n2 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 夜のタンカ\n1 カウンターキャッチャー\n1 アンフェアスタンプ(ACE SPEC)\n1 森の封印石\n2 かるいし\n1 リーリエの決心\n1 マリィ\n1 ナンジャモ\n1 ペパー\n1 キバナ\n2 グズマ\n1 アセロラ\n1 リップ\n1 ザオボー\n2 シンオウ神殿\n1 サイレントラボ\n\nEnergy\n11 基本超エネルギー",
+      "text": "### xGJ84c-V1PZyj-D8c4x8\n\nPokemon\n3 こくばバドレックスV\n3 こくばバドレックスVMAX\n2 オーロット&ヨノワールGX\n1 リーリエのピッピex\n1 プルリル\n1 ブルンゲルex\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 チリーン\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n2 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 夜のタンカ\n1 カウンターキャッチャー\n1 アンフェアスタンプ(ACE SPEC)\n1 森の封印石\n2 かるいし\n1 リーリエの決心\n1 マリィ\n1 ナンジャモ\n1 ペパー\n1 キバナ\n2 グズマ\n1 アセロラ\n1 リップ\n1 ザオボー\n2 シンオウ神殿\n1 サイレントラボ\n\nEnergy\n11 基本超エネルギー",
       "metadata": {
         "deckId": "xGJ84c-V1PZyj-D8c4x8",
         "placement": "優勝",
@@ -29997,7 +29997,7 @@
         {
           "id": "37257",
           "count": 1,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -30229,7 +30229,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47907"
         }
       ],
-      "text": "### Gc4YDc-Fu30Lm-8Yccc4\n\nPokemon\n4 こくばバドレックスV\n3 こくばバドレックスVMAX\n1 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n2 カプ・テテフGX\n1 ラティアスex\n2 チリーン\n1 ソーナンス\n1 キリンリキ\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 バトルVIPパス\n1 ハイパーボール\n4 バトルサーチャー\n1 フィールドブロアー\n1 メガトンブロアー(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 博士の研究\n1 マリィ\n1 ナンジャモ\n1 ペパー\n1 グズマ\n1 リップ\n1 アセロラ\n1 ザオボー\n4 シンオウ神殿\n\nEnergy\n13 基本超エネルギー",
+      "text": "### Gc4YDc-Fu30Lm-8Yccc4\n\nPokemon\n4 こくばバドレックスV\n3 こくばバドレックスVMAX\n1 オーロット&ヨノワールGX\n1 リーリエのピッピex\n2 カプ・テテフGX\n1 ラティアスex\n2 チリーン\n1 ソーナンス\n1 キリンリキ\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 バトルVIPパス\n1 ハイパーボール\n4 バトルサーチャー\n1 フィールドブロアー\n1 メガトンブロアー(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 博士の研究\n1 マリィ\n1 ナンジャモ\n1 ペパー\n1 グズマ\n1 リップ\n1 アセロラ\n1 ザオボー\n4 シンオウ神殿\n\nEnergy\n13 基本超エネルギー",
       "metadata": {
         "deckId": "Gc4YDc-Fu30Lm-8Yccc4",
         "placement": "優勝",
@@ -30266,7 +30266,7 @@
         {
           "id": "37257",
           "count": 1,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -30525,7 +30525,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49712"
         }
       ],
-      "text": "### 9QgngN-xHnDtE-nNg9ng\n\nPokemon\n4 こくばバドレックスV\n3 こくばバドレックスVMAX\n1 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n2 プルリル\n2 ブルンゲルex\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 マーシャドー\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 夜のタンカ\n1 フィールドブロアー\n1 アンフェアスタンプ(ACE SPEC)\n1 森の封印石\n1 かるいし\n2 リーリエの決心\n1 ナンジャモ\n1 キバナ\n2 グズマ\n1 アセロラ\n1 リップ\n1 ザオボー\n1 カリン\n2 パラレルシティ\n1 サイレントラボ\n\nEnergy\n10 基本超エネルギー\n2 テレパス超エネルギー",
+      "text": "### 9QgngN-xHnDtE-nNg9ng\n\nPokemon\n4 こくばバドレックスV\n3 こくばバドレックスVMAX\n1 オーロット&ヨノワールGX\n1 リーリエのピッピex\n2 プルリル\n2 ブルンゲルex\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 マーシャドー\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 夜のタンカ\n1 フィールドブロアー\n1 アンフェアスタンプ(ACE SPEC)\n1 森の封印石\n1 かるいし\n2 リーリエの決心\n1 ナンジャモ\n1 キバナ\n2 グズマ\n1 アセロラ\n1 リップ\n1 ザオボー\n1 カリン\n2 パラレルシティ\n1 サイレントラボ\n\nEnergy\n10 基本超エネルギー\n2 テレパス超エネルギー",
       "metadata": {
         "deckId": "9QgngN-xHnDtE-nNg9ng",
         "placement": "優勝",
@@ -30562,7 +30562,7 @@
         {
           "id": "37257",
           "count": 2,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -30812,7 +30812,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47907"
         }
       ],
-      "text": "### 44cDKa-IF3Aox-xc8aGc\n\nPokemon\n3 こくばバドレックスV\n3 こくばバドレックスVMAX\n2 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n1 プルリル\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 チリーン\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n2 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 アンフェアスタンプ(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 リーリエの決心\n1 マリィ\n1 ナンジャモ\n2 ペパー\n1 キバナ\n2 グズマ\n1 アセロラ\n1 リップ\n1 ザオボー\n2 シンオウ神殿\n\nEnergy\n12 基本超エネルギー",
+      "text": "### 44cDKa-IF3Aox-xc8aGc\n\nPokemon\n3 こくばバドレックスV\n3 こくばバドレックスVMAX\n2 オーロット&ヨノワールGX\n1 リーリエのピッピex\n1 プルリル\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 チリーン\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n2 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 アンフェアスタンプ(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 リーリエの決心\n1 マリィ\n1 ナンジャモ\n2 ペパー\n1 キバナ\n2 グズマ\n1 アセロラ\n1 リップ\n1 ザオボー\n2 シンオウ神殿\n\nEnergy\n12 基本超エネルギー",
       "metadata": {
         "deckId": "44cDKa-IF3Aox-xc8aGc",
         "placement": "優勝",
@@ -30849,7 +30849,7 @@
         {
           "id": "37257",
           "count": 1,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -31108,7 +31108,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47907"
         }
       ],
-      "text": "### 4Jxacc-pVlmj3-c848G8\n\nPokemon\n4 こくばバドレックスV\n4 こくばバドレックスVMAX\n1 オーロット&amp;ヨノワールGX\n1 リーリエのピッピex\n1 プルリル\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 チリーン\n1 キリンリキ\n1 マーシャドー\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n2 ワンダーパッチ\n1 夜のタンカ\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 アンフェアスタンプ(ACE SPEC)\n1 森の封印石\n2 かるいし\n1 博士の研究\n1 リーリエの決心\n1 ナンジャモ\n1 キバナ\n1 グズマ\n1 アセロラ\n1 リップ\n3 シンオウ神殿\n\nEnergy\n11 基本超エネルギー",
+      "text": "### 4Jxacc-pVlmj3-c848G8\n\nPokemon\n4 こくばバドレックスV\n4 こくばバドレックスVMAX\n1 オーロット&ヨノワールGX\n1 リーリエのピッピex\n1 プルリル\n2 カプ・テテフGX\n1 ラティアスex\n1 ソーナンス\n1 チリーン\n1 キリンリキ\n1 マーシャドー\n\nTrainer\n4 ミステリートレジャー\n4 霧の水晶\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n2 ワンダーパッチ\n1 夜のタンカ\n1 カウンターキャッチャー\n1 フィールドブロアー\n1 アンフェアスタンプ(ACE SPEC)\n1 森の封印石\n2 かるいし\n1 博士の研究\n1 リーリエの決心\n1 ナンジャモ\n1 キバナ\n1 グズマ\n1 アセロラ\n1 リップ\n3 シンオウ神殿\n\nEnergy\n11 基本超エネルギー",
       "metadata": {
         "deckId": "4Jxacc-pVlmj3-c848G8",
         "placement": "優勝",
@@ -31136,7 +31136,7 @@
         {
           "id": "37205",
           "count": 1,
-          "name": "フェローチェ&amp;マッシブーンGX",
+          "name": "フェローチェ&マッシブーンGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037205_P_FEROCHIEMASSHIBUNGX.jpg",
@@ -31449,7 +31449,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46119"
         }
       ],
-      "text": "### p2RRpp-l9lXlr-pMX2yy\n\nPokemon\n2 アマージョV\n1 フェローチェ&amp;マッシブーンGX\n3 ヤブクロン\n2 ダストダス\n3 ギラティナ\n1 カイリューEX\n1 タマタマ\n1 クロバットV\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 ワタシラガV\n1 ラティアスex\n1 カプ・コケコ プリズムスター\n1 アブソル\n1 ハバタクカミ\n\nTrainer\n4 クイックボール\n2 ハイパーボール\n2 バトルVIPパス\n1 ヒスイのヘビーボール\n2 バトルサーチャー\n2 バトルコンプレッサー（フレア団ギア）\n3 ぐんぐんシェイク\n1 レスキュータンカ\n2 夜のタンカ\n1 プライムキャッチャー(ACE SPEC)\n1 森の封印石\n1 マリィ\n1 ゼイユ\n1 キバナ\n1 グズマ\n1 クララ\n2 ザオボー\n4 スカイフィールド\n\nEnergy\n4 基本草エネルギー\n2 基本雷エネルギー",
+      "text": "### p2RRpp-l9lXlr-pMX2yy\n\nPokemon\n2 アマージョV\n1 フェローチェ&マッシブーンGX\n3 ヤブクロン\n2 ダストダス\n3 ギラティナ\n1 カイリューEX\n1 タマタマ\n1 クロバットV\n1 デデンネGX\n1 カプ・テテフGX\n1 イキリンコex\n1 ワタシラガV\n1 ラティアスex\n1 カプ・コケコ プリズムスター\n1 アブソル\n1 ハバタクカミ\n\nTrainer\n4 クイックボール\n2 ハイパーボール\n2 バトルVIPパス\n1 ヒスイのヘビーボール\n2 バトルサーチャー\n2 バトルコンプレッサー（フレア団ギア）\n3 ぐんぐんシェイク\n1 レスキュータンカ\n2 夜のタンカ\n1 プライムキャッチャー(ACE SPEC)\n1 森の封印石\n1 マリィ\n1 ゼイユ\n1 キバナ\n1 グズマ\n1 クララ\n2 ザオボー\n4 スカイフィールド\n\nEnergy\n4 基本草エネルギー\n2 基本雷エネルギー",
       "metadata": {
         "deckId": "p2RRpp-l9lXlr-pMX2yy",
         "placement": "優勝",
@@ -31486,7 +31486,7 @@
         {
           "id": "36851",
           "count": 1,
-          "name": "ブラッキー&amp;ダークライGX",
+          "name": "ブラッキー&ダークライGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SMM/036851_P_BURAKKIDAKURAIGX.jpg",
@@ -31495,7 +31495,7 @@
         {
           "id": "36170",
           "count": 1,
-          "name": "ゲッコウガ&amp;ゾロアークGX",
+          "name": "ゲッコウガ&ゾロアークGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9a/036170_P_GEKKOUGAZOROAKUGX.jpg",
@@ -31504,7 +31504,7 @@
         {
           "id": "36801",
           "count": 1,
-          "name": "メガヤミラミ&amp;バンギラスGX",
+          "name": "メガヤミラミ&バンギラスGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM11/036801_P_MEGAYAMIRAMIBANGIRASUGX.jpg",
@@ -31745,7 +31745,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46122"
         }
       ],
-      "text": "### Dc8c48-Ynk0ZF-D8DGYc\n\nPokemon\n3 ムゲンダイナV\n3 ムゲンダイナVMAX\n1 ブラッキー&amp;ダークライGX\n1 ゲッコウガ&amp;ゾロアークGX\n1 メガヤミラミ&amp;バンギラスGX\n1 ニューラ\n1 ニューラ\n2 マニューラGX\n2 ダークライGX\n1 トドロクツキex\n1 アクジキング\n4 クロバットV\n1 キチキギスex\n2 カクレオン\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n1 バトルVIPパス\n2 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n1 レスキュータンカ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 森の封印石\n1 博士の研究\n1 ゼイユ\n1 ネズ\n1 グズマ\n1 フトゥー博士のシナリオ\n1 ネジキ\n2 混沌のうねり\n\nEnergy\n10 基本悪エネルギー",
+      "text": "### Dc8c48-Ynk0ZF-D8DGYc\n\nPokemon\n3 ムゲンダイナV\n3 ムゲンダイナVMAX\n1 ブラッキー&ダークライGX\n1 ゲッコウガ&ゾロアークGX\n1 メガヤミラミ&バンギラスGX\n1 ニューラ\n1 ニューラ\n2 マニューラGX\n2 ダークライGX\n1 トドロクツキex\n1 アクジキング\n4 クロバットV\n1 キチキギスex\n2 カクレオン\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n1 バトルVIPパス\n2 バトルサーチャー\n3 バトルコンプレッサー（フレア団ギア）\n1 レスキュータンカ\n1 フィールドブロアー\n1 シークレットボックス(ACE SPEC)\n1 森の封印石\n1 博士の研究\n1 ゼイユ\n1 ネズ\n1 グズマ\n1 フトゥー博士のシナリオ\n1 ネジキ\n2 混沌のうねり\n\nEnergy\n10 基本悪エネルギー",
       "metadata": {
         "deckId": "Dc8c48-Ynk0ZF-D8DGYc",
         "placement": "優勝",
@@ -31764,7 +31764,7 @@
         {
           "id": "37257",
           "count": 2,
-          "name": "オーロット&amp;ヨノワールGX",
+          "name": "オーロット&ヨノワールGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037257_P_OROTTOYONOWARUGX.jpg",
@@ -31978,7 +31978,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46120"
         }
       ],
-      "text": "### nQnPNH-qE6PjN-n9gNHH\n\nPokemon\n2 オーロット&amp;ヨノワールGX\n2 コフキムシ\n2 コフーライ\n2 ビビヨン\n4 アンノーン\n2 イキリンコex\n1 デデンネGX\n1 リーリエのピッピex\n1 ロケット団のリーシャン\n\nTrainer\n4 バトルVIPパス\n4 ハイパーボール\n4 ワンダーパッチ\n3 バトルコンプレッサー（フレア団ギア）\n2 バトルサーチャー\n4 レスキューキャリー\n3 レスキュータンカ\n3 じてんしゃ\n1 パソコン通信(ACE SPEC)\n2 かるいし\n2 ゼイユ\n1 グズマ\n1 カリン\n3 頂への雪道\n\nEnergy\n6 基本超エネルギー",
+      "text": "### nQnPNH-qE6PjN-n9gNHH\n\nPokemon\n2 オーロット&ヨノワールGX\n2 コフキムシ\n2 コフーライ\n2 ビビヨン\n4 アンノーン\n2 イキリンコex\n1 デデンネGX\n1 リーリエのピッピex\n1 ロケット団のリーシャン\n\nTrainer\n4 バトルVIPパス\n4 ハイパーボール\n4 ワンダーパッチ\n3 バトルコンプレッサー（フレア団ギア）\n2 バトルサーチャー\n4 レスキューキャリー\n3 レスキュータンカ\n3 じてんしゃ\n1 パソコン通信(ACE SPEC)\n2 かるいし\n2 ゼイユ\n1 グズマ\n1 カリン\n3 頂への雪道\n\nEnergy\n6 基本超エネルギー",
       "metadata": {
         "deckId": "nQnPNH-qE6PjN-n9gNHH",
         "placement": "優勝",
@@ -32042,7 +32042,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -32229,7 +32229,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47907"
         }
       ],
-      "text": "### c8J84D-EJvqDj-4xccGK\n\nPokemon\n4 ドガース\n4 ヨマワル\n3 サマヨール\n4 ヨノワール\n1 イベルタルex\n1 ゲンガー&amp;ミミッキュGX\n1 かがやくフーディン\n1 ラティアスex\n1 カプ・テテフGX\n4 アンノーン\n1 スボミー\n\nTrainer\n3 ポケパッド\n3 なかよしポフィン\n2 霧の水晶\n2 ヒスイのヘビーボール\n4 レスキューキャリー\n2 レスキュータンカ\n1 バトルサーチャー\n4 ランダムレシーバー\n2 ふしぎなアメ\n2 カウンターゲイン\n4 ホミカ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 カウンターエネルギー\n2 テレパス超エネルギー\n1 基本超エネルギー",
+      "text": "### c8J84D-EJvqDj-4xccGK\n\nPokemon\n4 ドガース\n4 ヨマワル\n3 サマヨール\n4 ヨノワール\n1 イベルタルex\n1 ゲンガー&ミミッキュGX\n1 かがやくフーディン\n1 ラティアスex\n1 カプ・テテフGX\n4 アンノーン\n1 スボミー\n\nTrainer\n3 ポケパッド\n3 なかよしポフィン\n2 霧の水晶\n2 ヒスイのヘビーボール\n4 レスキューキャリー\n2 レスキュータンカ\n1 バトルサーチャー\n4 ランダムレシーバー\n2 ふしぎなアメ\n2 カウンターゲイン\n4 ホミカ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 カウンターエネルギー\n2 テレパス超エネルギー\n1 基本超エネルギー",
       "metadata": {
         "deckId": "c8J84D-EJvqDj-4xccGK",
         "placement": "優勝",
@@ -32284,7 +32284,7 @@
         {
           "id": "35982",
           "count": 1,
-          "name": "ゲンガー&amp;ミミッキュGX",
+          "name": "ゲンガー&ミミッキュGX",
           "category": "Pokemon",
           "section": "Pokemon",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM9/035982_P_GENGAMIMIKKYUGX.jpg",
@@ -32480,7 +32480,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/49712"
         }
       ],
-      "text": "### 48D4c8-tFMkJa-Ga8D8D\n\nPokemon\n4 ドガース\n4 ヨマワル\n4 サマヨール\n4 ヨノワール\n1 ゲンガー&amp;ミミッキュGX\n1 かがやくフーディン\n1 ラティアスex\n1 カプ・テテフGX\n4 アンノーン\n1 スボミー\n1 イベルタルex\n\nTrainer\n4 霧の水晶\n4 なかよしポフィン\n2 ポケパッド\n2 ポケモン通信\n2 ヒスイのヘビーボール\n4 レスキューキャリー\n2 レスキュータンカ\n1 バトルサーチャー\n2 ふしぎなアメ\n2 カウンターゲイン\n4 ホミカ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 カウンターエネルギー\n1 基本超エネルギー\n1 テレパス超エネルギー",
+      "text": "### 48D4c8-tFMkJa-Ga8D8D\n\nPokemon\n4 ドガース\n4 ヨマワル\n4 サマヨール\n4 ヨノワール\n1 ゲンガー&ミミッキュGX\n1 かがやくフーディン\n1 ラティアスex\n1 カプ・テテフGX\n4 アンノーン\n1 スボミー\n1 イベルタルex\n\nTrainer\n4 霧の水晶\n4 なかよしポフィン\n2 ポケパッド\n2 ポケモン通信\n2 ヒスイのヘビーボール\n4 レスキューキャリー\n2 レスキュータンカ\n1 バトルサーチャー\n2 ふしぎなアメ\n2 カウンターゲイン\n4 ホミカ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 カウンターエネルギー\n1 基本超エネルギー\n1 テレパス超エネルギー",
       "metadata": {
         "deckId": "48D4c8-tFMkJa-Ga8D8D",
         "placement": "優勝",
@@ -32930,7 +32930,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -32993,7 +32993,7 @@
         {
           "id": "37151",
           "count": 3,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -33099,7 +33099,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/42029"
         }
       ],
-      "text": "### xcD4Yc-0Q0zrB-xxaG88\n\nPokemon\n3 メガガルーラex\n1 ルギアGX\n3 バッフロン\n1 ホルビー\n1 スピンロトム\n1 キリンリキ\n1 かがやくサーナイト\n\nTrainer\n3 バトルサーチャー\n2 タッグコール\n4 クラッシュハンマー\n1 改造ハンマー\n1 エネポーター\n1 メガトンブロアー(ACE SPEC)\n2 ハンディサーキュレーター\n1 隠密フード\n1 カウンターゲイン\n1 かるいし\n1 リーリエの決心\n1 N\n1 シロナ&amp;カトレア\n2 プルメリ\n1 カゲツ\n1 フレア団のしたっぱ\n1 スカル団のしたっぱ\n1 ザオボー\n1 ロケット団の工作\n3 グズマ&amp;ハラ\n1 グズマ\n1 ビワ\n2 ルザミーネ\n2 ボタン\n1 ハマナのバックアップ\n1 ワンダーラビリンス プリズムスター\n1 ボウルタウン\n1 混沌のうねり\n\nEnergy\n4 ダブル無色エネルギー\n3 キャプチャーエネルギー\n2 Vガードエネルギー",
+      "text": "### xcD4Yc-0Q0zrB-xxaG88\n\nPokemon\n3 メガガルーラex\n1 ルギアGX\n3 バッフロン\n1 ホルビー\n1 スピンロトム\n1 キリンリキ\n1 かがやくサーナイト\n\nTrainer\n3 バトルサーチャー\n2 タッグコール\n4 クラッシュハンマー\n1 改造ハンマー\n1 エネポーター\n1 メガトンブロアー(ACE SPEC)\n2 ハンディサーキュレーター\n1 隠密フード\n1 カウンターゲイン\n1 かるいし\n1 リーリエの決心\n1 N\n1 シロナ&カトレア\n2 プルメリ\n1 カゲツ\n1 フレア団のしたっぱ\n1 スカル団のしたっぱ\n1 ザオボー\n1 ロケット団の工作\n3 グズマ&ハラ\n1 グズマ\n1 ビワ\n2 ルザミーネ\n2 ボタン\n1 ハマナのバックアップ\n1 ワンダーラビリンス プリズムスター\n1 ボウルタウン\n1 混沌のうねり\n\nEnergy\n4 ダブル無色エネルギー\n3 キャプチャーエネルギー\n2 Vガードエネルギー",
       "metadata": {
         "deckId": "xcD4Yc-0Q0zrB-xxaG88",
         "placement": "優勝",
@@ -35334,7 +35334,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -35343,7 +35343,7 @@
         {
           "id": "37153",
           "count": 1,
-          "name": "マオ&amp;スイレン",
+          "name": "マオ&スイレン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037153_T_MAOSUIREN.jpg",
@@ -35449,7 +35449,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46116"
         }
       ],
-      "text": "### pMpM3y-Noi2PE-2XRppU\n\nPokemon\n3 ミミロル\n3 メガミミロップex\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n2 ホルビー\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 スボミー\n\nTrainer\n4 タッグコール\n3 おたすけベル\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n4 グズマ&amp;ハラ\n1 マオ&amp;スイレン\n3 グズマ\n1 N\n2 カリン\n2 ボウルタウン\n1 サイレントラボ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n2 キャプチャーエネルギー\n2 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
+      "text": "### pMpM3y-Noi2PE-2XRppU\n\nPokemon\n3 ミミロル\n3 メガミミロップex\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n2 ホルビー\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 スボミー\n\nTrainer\n4 タッグコール\n3 おたすけベル\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n4 グズマ&ハラ\n1 マオ&スイレン\n3 グズマ\n1 N\n2 カリン\n2 ボウルタウン\n1 サイレントラボ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n2 キャプチャーエネルギー\n2 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
       "metadata": {
         "deckId": "pMpM3y-Noi2PE-2XRppU",
         "placement": "優勝",
@@ -35630,7 +35630,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -35639,7 +35639,7 @@
         {
           "id": "37153",
           "count": 1,
-          "name": "マオ&amp;スイレン",
+          "name": "マオ&スイレン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037153_T_MAOSUIREN.jpg",
@@ -35745,7 +35745,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46116"
         }
       ],
-      "text": "### V5Fd5b-e0XEpW-k5VbfF\n\nPokemon\n3 ミミロル\n3 メガミミロップex\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n2 ホルビー\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 スボミー\n1 ラフレシア\n\nTrainer\n4 タッグコール\n3 おたすけベル\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n4 グズマ&amp;ハラ\n1 マオ&amp;スイレン\n3 グズマ\n1 N\n2 カリン\n2 ボウルタウン\n1 サイレントラボ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n2 キャプチャーエネルギー\n1 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
+      "text": "### V5Fd5b-e0XEpW-k5VbfF\n\nPokemon\n3 ミミロル\n3 メガミミロップex\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n2 ホルビー\n2 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 スボミー\n1 ラフレシア\n\nTrainer\n4 タッグコール\n3 おたすけベル\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n4 グズマ&ハラ\n1 マオ&スイレン\n3 グズマ\n1 N\n2 カリン\n2 ボウルタウン\n1 サイレントラボ\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n2 キャプチャーエネルギー\n1 パワフル無色エネルギー\n1 ダブル無色エネルギー\n2 基本草エネルギー",
       "metadata": {
         "deckId": "V5Fd5b-e0XEpW-k5VbfF",
         "placement": "優勝",
@@ -36177,7 +36177,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -36319,7 +36319,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/30933"
         }
       ],
-      "text": "### 88YJxY-qtmyUD-c4x8Gx\n\nPokemon\n3 シャリタツex\n4 ジバコイル\n4 ラフレシア\n2 サザンドラex\n4 ドラパルトex\n2 カイリュー\n2 エルレイド\n1 フライゴン\n\nTrainer\n4 タッグコール\n4 おたすけベル\n4 トレーナーズポスト\n1 きらめく結晶(ACE SPEC)\n1 隠密フード\n1 かるいし\n4 グズマ&amp;ハラ\n2 ルザミーネ\n1 グズマ\n1 ザオボー\n1 プルメリ\n1 グラジオ\n1 ギーマの一手\n1 トウコ\n1 カリン\n1 ポケモンレンジャー\n1 ワタル プリズムスター\n1 頂への雪道\n1 サイレントラボ\n1 夜のアカデミー\n\nEnergy\n1 超ブーストエネルギー プリズムスター\n4 ダブルドラゴンエネルギー",
+      "text": "### 88YJxY-qtmyUD-c4x8Gx\n\nPokemon\n3 シャリタツex\n4 ジバコイル\n4 ラフレシア\n2 サザンドラex\n4 ドラパルトex\n2 カイリュー\n2 エルレイド\n1 フライゴン\n\nTrainer\n4 タッグコール\n4 おたすけベル\n4 トレーナーズポスト\n1 きらめく結晶(ACE SPEC)\n1 隠密フード\n1 かるいし\n4 グズマ&ハラ\n2 ルザミーネ\n1 グズマ\n1 ザオボー\n1 プルメリ\n1 グラジオ\n1 ギーマの一手\n1 トウコ\n1 カリン\n1 ポケモンレンジャー\n1 ワタル プリズムスター\n1 頂への雪道\n1 サイレントラボ\n1 夜のアカデミー\n\nEnergy\n1 超ブーストエネルギー プリズムスター\n4 ダブルドラゴンエネルギー",
       "metadata": {
         "deckId": "88YJxY-qtmyUD-c4x8Gx",
         "placement": "優勝",
@@ -36518,7 +36518,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -36633,7 +36633,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/40331"
         }
       ],
-      "text": "### Vfk5b1-nV8w8v-F5wwF1\n\nPokemon\n3 ユキワラシ\n2 メガユキメノコex\n3 ホルビー\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n3 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 スピンロトム\n1 スボミー\n1 マナフィ\n\nTrainer\n4 タッグコール\n3 なかよしポフィン\n1 トレーナーズポスト\n1 ポケモン通信\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n4 グズマ&amp;ハラ\n1 ナンジャモ\n1 ロケット団のいやがらせ\n2 グズマ\n1 ミツルの思いやり\n1 カリン\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 基本水エネルギー\n1 バブル水エネルギー\n1 スプラッシュエネルギー\n2 ジェットエネルギー\n2 キャプチャーエネルギー",
+      "text": "### Vfk5b1-nV8w8v-F5wwF1\n\nPokemon\n3 ユキワラシ\n2 メガユキメノコex\n3 ホルビー\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n3 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 スピンロトム\n1 スボミー\n1 マナフィ\n\nTrainer\n4 タッグコール\n3 なかよしポフィン\n1 トレーナーズポスト\n1 ポケモン通信\n2 ワザマシン エヴォリューション\n2 隠密フード\n1 かるいし\n1 こだわりベルト\n4 グズマ&ハラ\n1 ナンジャモ\n1 ロケット団のいやがらせ\n2 グズマ\n1 ミツルの思いやり\n1 カリン\n2 ボウルタウン\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 基本水エネルギー\n1 バブル水エネルギー\n1 スプラッシュエネルギー\n2 ジェットエネルギー\n2 キャプチャーエネルギー",
       "metadata": {
         "deckId": "Vfk5b1-nV8w8v-F5wwF1",
         "placement": "優勝",
@@ -37182,7 +37182,7 @@
         {
           "id": "37151",
           "count": 2,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -37234,7 +37234,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/37763"
         }
       ],
-      "text": "### Jx844G-N3lWP7-cxG8cG\n\nPokemon\n3 カビゴンV\n4 カビゴンVMAX\n4 ギラティナ\n4 タマタマ\n1 クロバットV\n1 デデンネGX\n1 カプ・テテフGX\n1 バリヤード\n1 かがやくムゲンダイナ\n1 マーシャドー\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n1 ヒスイのヘビーボール\n2 バトルサーチャー\n2 バトルコンプレッサー（フレア団ギア）\n2 レスキュータンカ\n1 フィールドブロアー\n2 まんたんのくすり\n1 シークレットボックス(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 リーリエの決心\n1 ナンジャモ\n1 マリィ\n2 グズマ&amp;ハラ\n1 グズマ\n1 ミツル\n4 スカイフィールド\n\nEnergy\n4 イグニッションエネルギー\n2 トリプル加速エネルギー",
+      "text": "### Jx844G-N3lWP7-cxG8cG\n\nPokemon\n3 カビゴンV\n4 カビゴンVMAX\n4 ギラティナ\n4 タマタマ\n1 クロバットV\n1 デデンネGX\n1 カプ・テテフGX\n1 バリヤード\n1 かがやくムゲンダイナ\n1 マーシャドー\n\nTrainer\n4 クイックボール\n4 ハイパーボール\n1 ヒスイのヘビーボール\n2 バトルサーチャー\n2 バトルコンプレッサー（フレア団ギア）\n2 レスキュータンカ\n1 フィールドブロアー\n2 まんたんのくすり\n1 シークレットボックス(ACE SPEC)\n2 かるいし\n1 森の封印石\n1 リーリエの決心\n1 ナンジャモ\n1 マリィ\n2 グズマ&ハラ\n1 グズマ\n1 ミツル\n4 スカイフィールド\n\nEnergy\n4 イグニッションエネルギー\n2 トリプル加速エネルギー",
       "metadata": {
         "deckId": "Jx844G-N3lWP7-cxG8cG",
         "placement": "優勝",
@@ -37738,7 +37738,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -37835,7 +37835,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/48307"
         }
       ],
-      "text": "### 5VFb5k-ZWtCG2-fbwkFv\n\nPokemon\n1 ナマケロ\n2 ナマケロ\n3 ヤルキモノ\n2 ケッキングex\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n2 ホルビー\n2 スピンロトム\n3 ヨマワル\n3 サマヨール\n2 ヨノワール\n1 カプ・テテフGX\n\nTrainer\n4 タッグコール\n2 霧の水晶\n1 バトルサーチャー\n1 レスキュータンカ\n1 フィールドブロアー\n3 ワザマシン エヴォリューション\n2 隠密フード\n1 力の砂時計\n4 グズマ&amp;ハラ\n1 キバナ\n1 グズマ\n1 クロケア\n2 ボウルタウン\n1 頂への雪道\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n1 キャプチャーエネルギー\n1 ダブル無色エネルギー\n3 基本超エネルギー",
+      "text": "### 5VFb5k-ZWtCG2-fbwkFv\n\nPokemon\n1 ナマケロ\n2 ナマケロ\n3 ヤルキモノ\n2 ケッキングex\n2 ポッポ\n2 ピジョン\n2 ピジョットex\n2 ホルビー\n2 スピンロトム\n3 ヨマワル\n3 サマヨール\n2 ヨノワール\n1 カプ・テテフGX\n\nTrainer\n4 タッグコール\n2 霧の水晶\n1 バトルサーチャー\n1 レスキュータンカ\n1 フィールドブロアー\n3 ワザマシン エヴォリューション\n2 隠密フード\n1 力の砂時計\n4 グズマ&ハラ\n1 キバナ\n1 グズマ\n1 クロケア\n2 ボウルタウン\n1 頂への雪道\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n1 キャプチャーエネルギー\n1 ダブル無色エネルギー\n3 基本超エネルギー",
       "metadata": {
         "deckId": "5VFb5k-ZWtCG2-fbwkFv",
         "placement": "優勝",
@@ -38034,7 +38034,7 @@
         {
           "id": "37151",
           "count": 4,
-          "name": "グズマ&amp;ハラ",
+          "name": "グズマ&ハラ",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037151_T_GUZUMAHARA.jpg",
@@ -38061,7 +38061,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -38070,7 +38070,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -38185,7 +38185,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47903"
         }
       ],
-      "text": "### pR2yp3-t1ip00-MM2ER2\n\nPokemon\n2 ヨーテリー\n2 ハーデリア\n2 ムーランド\n1 ポッポ\n1 ポッポ\n2 ピジョン\n2 ピジョットex\n3 ホルビー\n1 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 バリヤード\n1 ジーランス\n\nTrainer\n4 タッグコール\n2 なかよしポフィン\n2 ワザマシン エヴォリューション\n1 隠密フード\n1 かるいし\n1 メモリーカプセル\n4 グズマ&amp;ハラ\n2 ルザミーネ\n1 グラジオ\n1 ジュジュベ&amp;ハチクマン\n1 シロナ&amp;カトレア\n1 ロケット団の工作\n1 プルメリ\n1 グズマ\n1 ザオボー\n1 ナンジャモ\n2 ボウルタウン\n1 混沌のうねり\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n2 キャプチャーエネルギー\n2 メモリーエネルギー\n1 基本草エネルギー",
+      "text": "### pR2yp3-t1ip00-MM2ER2\n\nPokemon\n2 ヨーテリー\n2 ハーデリア\n2 ムーランド\n1 ポッポ\n1 ポッポ\n2 ピジョン\n2 ピジョットex\n3 ホルビー\n1 スピンロトム\n2 ナゾノクサ\n2 クサイハナ\n2 ラフレシア\n1 バリヤード\n1 ジーランス\n\nTrainer\n4 タッグコール\n2 なかよしポフィン\n2 ワザマシン エヴォリューション\n1 隠密フード\n1 かるいし\n1 メモリーカプセル\n4 グズマ&ハラ\n2 ルザミーネ\n1 グラジオ\n1 ジュジュベ&ハチクマン\n1 シロナ&カトレア\n1 ロケット団の工作\n1 プルメリ\n1 グズマ\n1 ザオボー\n1 ナンジャモ\n2 ボウルタウン\n1 混沌のうねり\n1 偉大な大樹(ACE SPEC)\n\nEnergy\n2 ジェットエネルギー\n2 キャプチャーエネルギー\n2 メモリーエネルギー\n1 基本草エネルギー",
       "metadata": {
         "deckId": "pR2yp3-t1ip00-MM2ER2",
         "placement": "優勝",
@@ -38519,7 +38519,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -38607,7 +38607,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46846"
         }
       ],
-      "text": "### pRpUyE-2BgrAv-ySpS2p\n\nPokemon\n2 カビゴン\n2 テツノイバラex\n2 レジロック\n1 ラクライ\n1 ミミッキュ\n1 キリンリキ\n2 ソーナンス\n\nTrainer\n1 ネストボール\n1 バトルVIPパス\n2 バトルサーチャー\n3 殿堂の書\n3 カウンターキャッチャー\n1 レスキュータンカ\n1 魅惑のポフレ\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n1 かるいし\n1 ツールジャマー\n1 殿堂ベルト\n1 なべメット\n1 ハンディサーキュレーター\n4 ペパー\n2 ルザミーネ\n2 センパイとコウハイ\n1 リーリエの決心\n1 ナンジャモ\n1 N\n1 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 カゲツ\n1 スカル団のしたっぱ\n1 ビワ\n1 グラジオ\n1 シャクヤ\n1 ジュジュベ&amp;ハチクマン\n1 ボタン\n1 ロケット団の工作\n1 グズマ\n1 混沌のうねり\n1 プレイヤーズセレモニー\n1 ボウルタウン\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
+      "text": "### pRpUyE-2BgrAv-ySpS2p\n\nPokemon\n2 カビゴン\n2 テツノイバラex\n2 レジロック\n1 ラクライ\n1 ミミッキュ\n1 キリンリキ\n2 ソーナンス\n\nTrainer\n1 ネストボール\n1 バトルVIPパス\n2 バトルサーチャー\n3 殿堂の書\n3 カウンターキャッチャー\n1 レスキュータンカ\n1 魅惑のポフレ\n1 やまびこホーン\n1 メガトンブロアー(ACE SPEC)\n1 かるいし\n1 ツールジャマー\n1 殿堂ベルト\n1 なべメット\n1 ハンディサーキュレーター\n4 ペパー\n2 ルザミーネ\n2 センパイとコウハイ\n1 リーリエの決心\n1 ナンジャモ\n1 N\n1 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 カゲツ\n1 スカル団のしたっぱ\n1 ビワ\n1 グラジオ\n1 シャクヤ\n1 ジュジュベ&ハチクマン\n1 ボタン\n1 ロケット団の工作\n1 グズマ\n1 混沌のうねり\n1 プレイヤーズセレモニー\n1 ボウルタウン\n1 ワンダーラビリンス プリズムスター\n\nEnergy\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
       "metadata": {
         "deckId": "pRpUyE-2BgrAv-ySpS2p",
         "placement": "優勝",
@@ -38869,7 +38869,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -38939,7 +38939,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47216"
         }
       ],
-      "text": "### My2pXy-eB6tDO-Ry3pyS\n\nPokemon\n1 カビゴン\n1 カビゴン\n2 ソーナンス\n2 テツノイバラex\n1 レジロック\n1 ラクライ\n1 ピジョットV\n\nTrainer\n4 ネストボール\n1 ヒスイのヘビーボール\n4 ポケギア3.0\n3 バトルサーチャー\n3 カウンターキャッチャー\n2 改造ハンマー\n1 やまびこホーン\n2 レスキュータンカ\n2 みがわりロボ（フレア団ギア）\n1 いれかえカート\n1 フィールドブロアー\n2 かるいし\n4 リーリエの決心\n2 ナンジャモ\n1 エリートトレーナー\n2 ペパー\n2 ルザミーネ\n1 グラジオ\n1 ビワ\n1 野盗三姉妹\n1 ジュジュベ&amp;ハチクマン\n1 ボスの指令\n1 エリカの招待\n2 フレア団のしたっぱ\n1 ザオボー\n2 ボタン\n1 ポケモンレンジャー\n2 ボウルタウン",
+      "text": "### My2pXy-eB6tDO-Ry3pyS\n\nPokemon\n1 カビゴン\n1 カビゴン\n2 ソーナンス\n2 テツノイバラex\n1 レジロック\n1 ラクライ\n1 ピジョットV\n\nTrainer\n4 ネストボール\n1 ヒスイのヘビーボール\n4 ポケギア3.0\n3 バトルサーチャー\n3 カウンターキャッチャー\n2 改造ハンマー\n1 やまびこホーン\n2 レスキュータンカ\n2 みがわりロボ（フレア団ギア）\n1 いれかえカート\n1 フィールドブロアー\n2 かるいし\n4 リーリエの決心\n2 ナンジャモ\n1 エリートトレーナー\n2 ペパー\n2 ルザミーネ\n1 グラジオ\n1 ビワ\n1 野盗三姉妹\n1 ジュジュベ&ハチクマン\n1 ボスの指令\n1 エリカの招待\n2 フレア団のしたっぱ\n1 ザオボー\n2 ボタン\n1 ポケモンレンジャー\n2 ボウルタウン",
       "metadata": {
         "deckId": "My2pXy-eB6tDO-Ry3pyS",
         "placement": "優勝",
@@ -39237,7 +39237,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -39246,7 +39246,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -39352,7 +39352,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/47217"
         }
       ],
-      "text": "### g9nnNg-VSN3Dj-Hg6N9H\n\nPokemon\n3 カビゴン\n1 ミミッキュ\n2 レジロック\n1 ラクライ\n1 ホルビー\n1 キリンリキ\n\nTrainer\n3 バトルサーチャー\n1 ネストボール\n1 ヒスイのヘビーボール\n1 バトルVIPパス\n3 カウンターキャッチャー\n2 魅惑のポフレ\n1 やまびこホーン\n1 レスキュータンカ\n2 改造ハンマー\n1 フィールドブロアー\n1 殿堂の書\n1 プレシャスキャリー(ACE SPEC)\n1 かるいし\n1 ツールジャマー\n1 なべメット\n3 ペパー\n2 センパイとコウハイ\n1 リーリエの決心\n1 N\n2 ルザミーネ\n1 グズマ\n2 プルメリ\n2 フレア団のしたっぱ\n1 ビワ\n1 ロケット団の工作\n1 ジュジュベ&amp;ハチクマン\n1 シロナ&amp;カトレア\n1 カゲツ\n1 ボタン\n1 ザオボー\n1 ポケモンレンジャー\n1 スカル団のしたっぱ\n1 シャクヤ\n1 ボウルタウン\n1 混沌のうねり\n1 プレイヤーズセレモニー\n\nEnergy\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
+      "text": "### g9nnNg-VSN3Dj-Hg6N9H\n\nPokemon\n3 カビゴン\n1 ミミッキュ\n2 レジロック\n1 ラクライ\n1 ホルビー\n1 キリンリキ\n\nTrainer\n3 バトルサーチャー\n1 ネストボール\n1 ヒスイのヘビーボール\n1 バトルVIPパス\n3 カウンターキャッチャー\n2 魅惑のポフレ\n1 やまびこホーン\n1 レスキュータンカ\n2 改造ハンマー\n1 フィールドブロアー\n1 殿堂の書\n1 プレシャスキャリー(ACE SPEC)\n1 かるいし\n1 ツールジャマー\n1 なべメット\n3 ペパー\n2 センパイとコウハイ\n1 リーリエの決心\n1 N\n2 ルザミーネ\n1 グズマ\n2 プルメリ\n2 フレア団のしたっぱ\n1 ビワ\n1 ロケット団の工作\n1 ジュジュベ&ハチクマン\n1 シロナ&カトレア\n1 カゲツ\n1 ボタン\n1 ザオボー\n1 ポケモンレンジャー\n1 スカル団のしたっぱ\n1 シャクヤ\n1 ボウルタウン\n1 混沌のうねり\n1 プレイヤーズセレモニー\n\nEnergy\n2 キャプチャーエネルギー\n1 ジェットエネルギー",
       "metadata": {
         "deckId": "g9nnNg-VSN3Dj-Hg6N9H",
         "placement": "優勝",
@@ -39677,7 +39677,7 @@
         {
           "id": "37152",
           "count": 1,
-          "name": "シロナ&amp;カトレア",
+          "name": "シロナ&カトレア",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12/037152_T_SHIRONAKATOREA.jpg",
@@ -39686,7 +39686,7 @@
         {
           "id": "37356",
           "count": 1,
-          "name": "ジュジュベ&amp;ハチクマン",
+          "name": "ジュジュベ&ハチクマン",
           "category": "Trainer",
           "section": "Trainer",
           "image_url": "https://www.pokemon-card.com/assets/images/card_images/large/SM12a/037356_T_JUJUBEHACHIKUMAN.jpg",
@@ -39774,7 +39774,7 @@
           "official_url": "https://www.pokemon-card.com/card-search/details.php/card/46846"
         }
       ],
-      "text": "### 2RyRXM-DL77JD-MppyRM\n\nPokemon\n3 カビゴン\n2 レジロック\n1 ラクライ\n1 アローラ ニャース\n1 アローラ ペルシアンGX\n1 ホルビー\n1 ミミッキュ\n1 キリンリキ\n1 ロトムV\n\nTrainer\n1 ネストボール\n1 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n3 カウンターキャッチャー\n1 レスキュータンカ\n1 ぐんぐんシェイク\n2 魅惑のポフレ\n1 ターゲットホイッスル（フレア団ギア）\n1 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 かるいし\n1 ツールジャマー\n1 森の封印石\n4 ペパー\n2 ルザミーネ\n2 センパイとコウハイ\n1 リーリエの決心\n1 ナンジャモ\n1 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 カゲツ\n1 ビワ\n1 グラジオ\n1 シロナ&amp;カトレア\n1 ジュジュベ&amp;ハチクマン\n1 ボタン\n1 ロケット団の工作\n1 グズマ\n1 ポケモンレンジャー\n1 混沌のうねり\n1 プレイヤーズセレモニー\n1 ボウルタウン\n\nEnergy\n2 キャプチャーエネルギー\n2 ジェットエネルギー",
+      "text": "### 2RyRXM-DL77JD-MppyRM\n\nPokemon\n3 カビゴン\n2 レジロック\n1 ラクライ\n1 アローラ ニャース\n1 アローラ ペルシアンGX\n1 ホルビー\n1 ミミッキュ\n1 キリンリキ\n1 ロトムV\n\nTrainer\n1 ネストボール\n1 バトルVIPパス\n1 ヒスイのヘビーボール\n3 バトルサーチャー\n3 カウンターキャッチャー\n1 レスキュータンカ\n1 ぐんぐんシェイク\n2 魅惑のポフレ\n1 ターゲットホイッスル（フレア団ギア）\n1 フィールドブロアー\n1 プレシャスキャリー(ACE SPEC)\n1 かるいし\n1 ツールジャマー\n1 森の封印石\n4 ペパー\n2 ルザミーネ\n2 センパイとコウハイ\n1 リーリエの決心\n1 ナンジャモ\n1 ザオボー\n1 プルメリ\n1 フレア団のしたっぱ\n1 カゲツ\n1 ビワ\n1 グラジオ\n1 シロナ&カトレア\n1 ジュジュベ&ハチクマン\n1 ボタン\n1 ロケット団の工作\n1 グズマ\n1 ポケモンレンジャー\n1 混沌のうねり\n1 プレイヤーズセレモニー\n1 ボウルタウン\n\nEnergy\n2 キャプチャーエネルギー\n2 ジェットエネルギー",
       "metadata": {
         "deckId": "2RyRXM-DL77JD-MppyRM",
         "placement": "優勝",
