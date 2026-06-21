@@ -1825,8 +1825,8 @@ Energy
   }
 
   async function fetchLibrary() {
-    const endpoint = canUseServer() ? "/api/library" : "library.json";
-    const response = await fetch(endpoint);
+    const endpoint = canUseServer() ? "/api/library" : `library.json?v=${Date.now()}`;
+    const response = await fetch(endpoint, { cache: "no-store" });
     const payload = await response.json();
     if (!response.ok) {
       throw new Error(payload.error || "Library load failed.");
