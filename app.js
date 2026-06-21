@@ -28,6 +28,47 @@
     ["プラターヌ博士", "博士の研究"],
   ]);
 
+  const EXTRA_ARCHETYPE_ALIASES = new Map([
+    ["アマージョV", "アマージョ"],
+    ["イルカマンex", "イルカマン"],
+    ["ウガツホムラex", "ウガツホムラ"],
+    ["オリジンパルキアVSTAR", "オリジンパルキア"],
+    ["オーロット＆ヨノワールGX", "オーロット＆ヨノワール"],
+    ["カビゴンLO", "カビゴン"],
+    ["ケッキングex", "ケッキング"],
+    ["こくばバドレックスVMAX", "こくばバドレックス"],
+    ["サーナイトex", "サーナイト"],
+    ["サーフゴーex", "サーフゴー"],
+    ["シャリタツex", "シャリタツ"],
+    ["スピアーex", "スピアー"],
+    ["ソウブレイズex", "ソウブレイズ"],
+    ["タケルライコex", "タケルライコ"],
+    ["テツノイバラex", "テツノイバラ"],
+    ["テツノイバラコントロール", "テツノイバラ"],
+    ["テツノイバラ単", "テツノイバラ"],
+    ["テツノブジンex", "テツノブジン"],
+    ["トドロクツキex", "トドロクツキ"],
+    ["ドラパルトex", "ドラパルト"],
+    ["ハピナスV", "ハピナス"],
+    ["パンプジンex", "パンプジン"],
+    ["ブルンゲルex", "ブルンゲル"],
+    ["ミライドンex", "ミライドン"],
+    ["ムゲンダイナVMAX", "ムゲンダイナ"],
+    ["メガアブソルex", "メガアブソル"],
+    ["メガアブソルダストダス", "メガアブソル"],
+    ["メガガルーラex", "メガガルーラ"],
+    ["メガゲッコウガex", "メガゲッコウガ"],
+    ["メガニウム＋オーガポンex", "メガニウム＋オーガポン"],
+    ["メガフシギバナex", "メガフシギバナ"],
+    ["メガミミロップex", "メガミミロップ"],
+    ["メガユキメノコex", "メガユキメノコ"],
+    ["メガルカリオex", "メガルカリオ"],
+    ["リザードンex", "リザードン"],
+    ["ルギアVSTAR", "ルギア"],
+    ["レジドラゴVSTAR", "レジドラゴ"],
+    ["ドガース〖ホミカ〗", "ドガース【ホミカ】"],
+  ]);
+
   const DEFAULT_SAMPLE = `### Charizard A
 Pokemon
 4 Charmander
@@ -148,6 +189,16 @@ Energy
   function canonicalCardName(name) {
     const normalized = normalizeCardName(name);
     return CARD_NAME_ALIASES.get(normalized) || normalized;
+  }
+
+  function normalizeArchetypeName(name) {
+    const normalized = (name || "")
+      .replace(/<[^>]+>/g, "")
+      .replace(/[〖〗]/g, (value) => (value === "〖" ? "【" : "】"))
+      .replace(/\s+/g, "")
+      .replace(/デッキ$/, "")
+      .trim();
+    return EXTRA_ARCHETYPE_ALIASES.get(normalized) || normalized;
   }
 
   function normalizeForKey(name) {
@@ -306,7 +357,7 @@ Energy
       metadata.set(row.deck_id, {
         deckId: row.deck_id,
         placement: row.placement || "",
-        archetype: row.archetype || "",
+        archetype: normalizeArchetypeName(row.archetype || ""),
         eventId: row.event_id || eventInfo?.id || "",
         eventName: row.event_name || eventInfo?.name || "",
         sourceUrl: row.source_url || eventInfo?.source_url || "",
@@ -330,7 +381,7 @@ Energy
     return {
       deckId: metadata.deckId || metadata.deck_id || deckId,
       placement: metadata.placement || "",
-      archetype: metadata.archetype || "",
+      archetype: normalizeArchetypeName(metadata.archetype || ""),
       eventId: metadata.eventId || metadata.event_id || "",
       eventName: metadata.eventName || metadata.event_name || "",
       sourceUrl: metadata.sourceUrl || metadata.source_url || "",
@@ -341,7 +392,7 @@ Energy
     return {
       deck_id: metadata.deckId,
       placement: metadata.placement,
-      archetype: metadata.archetype,
+      archetype: normalizeArchetypeName(metadata.archetype),
       event_id: metadata.eventId,
       event_name: metadata.eventName,
       source_url: metadata.sourceUrl,
@@ -573,7 +624,7 @@ Energy
   function buildArchetypeSummary(decks) {
     const grouped = new Map();
     decks.forEach((deck) => {
-      const archetype = deck.metadata?.archetype;
+        const archetype = normalizeArchetypeName(deck.metadata?.archetype);
       if (!archetype) {
         return;
       }
@@ -590,9 +641,11 @@ Energy
   }
 
   function scopedDecksForArchetype(decks, selectedArchetype) {
-    const taggedDecks = decks.filter((deck) => deck.metadata?.archetype);
+    const taggedDecks = decks.filter((deck) => normalizeArchetypeName(deck.metadata?.archetype));
     if (selectedArchetype !== "All") {
-      const scoped = taggedDecks.filter((deck) => deck.metadata.archetype === selectedArchetype);
+      const scoped = taggedDecks.filter(
+        (deck) => normalizeArchetypeName(deck.metadata.archetype) === selectedArchetype,
+      );
       return scoped.length ? scoped : taggedDecks;
     }
     return taggedDecks.length ? taggedDecks : decks;
@@ -618,7 +671,7 @@ Energy
     if (state.selectedArchetype !== "All") {
       return `${environment} · ${state.selectedArchetype} · ${decks.length} deck(s)`;
     }
-    if (state.decks.some((deck) => deck.metadata?.archetype)) {
+    if (state.decks.some((deck) => normalizeArchetypeName(deck.metadata?.archetype))) {
       return `${environment} · All archetypes · ${decks.length} deck(s)`;
     }
     return `${environment} · ${decks.length} deck(s)`;
@@ -837,7 +890,9 @@ Energy
     const decks =
       state.selectedArchetype === "All"
         ? environmentDecks.filter((deck) => deck.metadata)
-        : environmentDecks.filter((deck) => deck.metadata?.archetype === state.selectedArchetype);
+        : environmentDecks.filter(
+            (deck) => normalizeArchetypeName(deck.metadata?.archetype) === state.selectedArchetype,
+          );
     const stats = sortStats(buildCardStats(decks), state.sort);
     els.archetypeAdoptionBody.innerHTML = "";
     els.archetypeScope.textContent = decks.length
@@ -1459,6 +1514,7 @@ Energy
       buildDeckMetadataMap,
       buildLibraryPayload,
       buildEnvironmentSummary,
+      normalizeArchetypeName,
       normalizeStoredDeck,
       scopedDecksForArchetype,
       sortStats,

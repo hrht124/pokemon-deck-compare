@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-06-21T12:50:27Z",
+  "updated_at": "2026-06-21T14:57:09Z",
   "events": {
     "archives-321697": {
       "id": "archives-321697",
@@ -161,7 +161,7 @@
       "rows": [
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "VkFdV1-hnNVWB-bkdfv1",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/VkFdV1-hnNVWB-bkdfv1",
           "event_id": "archives-183915",
@@ -170,7 +170,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "pS2pSS-1D9qml-p2RpSy",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/pS2pSS-1D9qml-p2RpSy",
           "event_id": "archives-183915",
@@ -179,7 +179,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "bdFvvv-wMbVHI-fkFkfk",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/bdFvvv-wMbVHI-fkFkfk",
           "event_id": "archives-183915",
@@ -188,7 +188,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "4GYa8x-Pll7iI-acD4c8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/4GYa8x-Pll7iI-acD4c8",
           "event_id": "archives-183915",
@@ -197,7 +197,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "11VkVF-AQfCPc-5VfwVb",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/11VkVF-AQfCPc-5VfwVb",
           "event_id": "archives-183915",
@@ -206,7 +206,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "bfFkVd-AA7RvB-1VkwfF",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/bfFkVd-AA7RvB-1VkwfF",
           "event_id": "archives-183915",
@@ -215,7 +215,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "RyXMS2-JDSBUD-ypRypp",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/RyXMS2-JDSBUD-ypRypp",
           "event_id": "archives-183915",
@@ -224,7 +224,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "yppSRS-wJzgku-Xpyy2X",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/yppSRS-wJzgku-Xpyy2X",
           "event_id": "archives-183915",
@@ -233,7 +233,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "H69nQ6-I8LXOX-NgPngn",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/H69nQ6-I8LXOX-NgPngn",
           "event_id": "archives-183915",
@@ -242,7 +242,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "F1wVkw-AoXQSd-5F15bF",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/F1wVkw-AoXQSd-5F15bF",
           "event_id": "archives-183915",
@@ -251,7 +251,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "LHg9LQ-WYU6mz-ng9ngi",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/LHg9LQ-WYU6mz-ng9ngi",
           "event_id": "archives-183915",
@@ -260,7 +260,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "ngiHL6-K831VY-PgHL9L",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ngiHL6-K831VY-PgHL9L",
           "event_id": "archives-183915",
@@ -269,7 +269,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "G84Jcc-njmdBG-Gx88cY",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/G84Jcc-njmdBG-Gx88cY",
           "event_id": "archives-183915",
@@ -278,7 +278,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "DxDaY4-LjSoaY-cxaGx8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/DxDaY4-LjSoaY-cxaGx8",
           "event_id": "archives-183915",
@@ -287,7 +287,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "nH9nNg-KWDe3F-nHNLLg",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/nH9nNg-KWDe3F-nHNLLg",
           "event_id": "archives-183915",
@@ -296,7 +296,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "VbkvbF-fUyC2g-fF5fVV",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/VbkvbF-fUyC2g-fF5fVV",
           "event_id": "archives-183915",
@@ -305,7 +305,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "cDxY4x-cPPj0c-8Gc88G",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/cDxY4x-cPPj0c-8Gc88G",
           "event_id": "archives-183915",
@@ -314,7 +314,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "pyRpXR-K4DqQY-M2Xy2M",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/pyRpXR-K4DqQY-M2Xy2M",
           "event_id": "archives-183915",
@@ -323,7 +323,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "gnLnNn-AOn7D0-HNiLQ9",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/gnLnNn-AOn7D0-HNiLQ9",
           "event_id": "archives-183915",
@@ -332,7 +332,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "cD4Gc4-87MtqE-488488",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/cD4Gc4-87MtqE-488488",
           "event_id": "archives-183915",
@@ -341,7 +341,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "xc8x8c-jarMIu-D8Yx4G",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/xc8x8c-jarMIu-D8Yx4G",
           "event_id": "archives-183915",
@@ -350,7 +350,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "ypXXpU-K8FDhR-2y2XRy",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ypXXpU-K8FDhR-2y2XRy",
           "event_id": "archives-183915",
@@ -359,7 +359,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "kFdkfF-vwiddy-VFf5Fb",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/kFdkfF-vwiddy-VFf5Fb",
           "event_id": "archives-183915",
@@ -368,7 +368,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "vfFFv5-LetP1c-kVFbvk",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/vfFFv5-LetP1c-kVFbvk",
           "event_id": "archives-183915",
@@ -377,7 +377,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "5kF5kF-uY287e-FfFffb",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/5kF5kF-uY287e-FfFffb",
           "event_id": "archives-183915",
@@ -386,7 +386,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "488xD4-uByYdl-c8xGc4",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/488xD4-uByYdl-c8xGc4",
           "event_id": "archives-183915",
@@ -395,7 +395,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "レジドラゴVSTAR",
+          "archetype": "レジドラゴ",
           "deck_id": "NLPLLH-yTCyh4-Hn9i6g",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/NLPLLH-yTCyh4-Hn9i6g",
           "event_id": "archives-183915",
@@ -404,7 +404,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "fFkdvv-0qZ660-VVf1bf",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/fFkdvv-0qZ660-VVf1bf",
           "event_id": "archives-183915",
@@ -413,7 +413,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "kfFkF5-VidroO-kffkkb",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/kfFkF5-VidroO-kffkkb",
           "event_id": "archives-183915",
@@ -422,7 +422,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "UMypXy-4MPvAR-S3pRMM",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/UMypXy-4MPvAR-S3pRMM",
           "event_id": "archives-183915",
@@ -431,7 +431,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "2p2MSp-6Rzln5-pX2pRy",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/2p2MSp-6Rzln5-pX2pRy",
           "event_id": "archives-183915",
@@ -440,7 +440,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "Lg6nn9-bO1QrZ-gg9LHL",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Lg6nn9-bO1QrZ-gg9LHL",
           "event_id": "archives-183915",
@@ -449,7 +449,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "JxDxc8-URzkUv-8GJ8Da",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/JxDxc8-URzkUv-8GJ8Da",
           "event_id": "archives-183915",
@@ -458,7 +458,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ルギアVSTAR",
+          "archetype": "ルギア",
           "deck_id": "8c4D8G-mp92P6-8DD848",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/8c4D8G-mp92P6-8DD848",
           "event_id": "archives-183915",
@@ -467,7 +467,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ミライドンex",
+          "archetype": "ミライドン",
           "deck_id": "2SMppp-FDu6mD-UpyR2y",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/2SMppp-FDu6mD-UpyR2y",
           "event_id": "archives-183915",
@@ -476,7 +476,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ミライドンex",
+          "archetype": "ミライドン",
           "deck_id": "HnHnin-D8AcGP-Qgigg9",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/HnHnin-D8AcGP-Qgigg9",
           "event_id": "archives-183915",
@@ -485,7 +485,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ミライドンex",
+          "archetype": "ミライドン",
           "deck_id": "2pypp2-BYFpjl-pyXRyy",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/2pypp2-BYFpjl-pyXRyy",
           "event_id": "archives-183915",
@@ -494,7 +494,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "テツノイバラex",
+          "archetype": "テツノイバラ",
           "deck_id": "ccY4D8-q8RK7u-xcGGYc",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ccY4D8-q8RK7u-xcGGYc",
           "event_id": "archives-183915",
@@ -503,7 +503,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "テツノイバラex",
+          "archetype": "テツノイバラ",
           "deck_id": "ngHgn9-inQR9X-gHNL6g",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ngHgn9-inQR9X-gHNL6g",
           "event_id": "archives-183915",
@@ -512,7 +512,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "テツノイバラex",
+          "archetype": "テツノイバラ",
           "deck_id": "D884cc-dgEiGM-Y8GKx8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/D884cc-dgEiGM-Y8GKx8",
           "event_id": "archives-183915",
@@ -521,7 +521,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "テツノイバラex",
+          "archetype": "テツノイバラ",
           "deck_id": "11vbkk-B3UWlC-FVkfkv",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/11vbkk-B3UWlC-FVkfkv",
           "event_id": "archives-183915",
@@ -530,7 +530,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "テツノイバラex",
+          "archetype": "テツノイバラ",
           "deck_id": "fFk5VF-1ZMKxE-bFVbkV",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/fFk5VF-1ZMKxE-bFVbkV",
           "event_id": "archives-183915",
@@ -539,7 +539,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ソウブレイズex",
+          "archetype": "ソウブレイズ",
           "deck_id": "5vbfFk-C4YUu0-FfFb5V",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/5vbfFk-C4YUu0-FfFb5V",
           "event_id": "archives-183915",
@@ -548,7 +548,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ソウブレイズex",
+          "archetype": "ソウブレイズ",
           "deck_id": "nn9LNL-CHi6zr-9H9ngn",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/nn9LNL-CHi6zr-9H9ngn",
           "event_id": "archives-183915",
@@ -557,7 +557,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ソウブレイズex",
+          "archetype": "ソウブレイズ",
           "deck_id": "G4x8Gx-aH8Ucz-cxcx48",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/G4x8Gx-aH8Ucz-cxcx48",
           "event_id": "archives-183915",
@@ -566,7 +566,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "タケルライコex",
+          "archetype": "タケルライコ",
           "deck_id": "XyMR2p-dkxyDI-2MMpSp",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/XyMR2p-dkxyDI-2MMpSp",
           "event_id": "archives-183915",
@@ -602,7 +602,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "スピアーex",
+          "archetype": "スピアー",
           "deck_id": "Fkb5fk-thg9zc-FVFvVf",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Fkb5fk-thg9zc-FVFvVf",
           "event_id": "archives-183915",
@@ -611,7 +611,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "パンプジンex",
+          "archetype": "パンプジン",
           "deck_id": "i9n6Ng-zKxVOG-niHLgg",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/i9n6Ng-zKxVOG-niHLgg",
           "event_id": "archives-183915",
@@ -620,7 +620,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "パンプジンex",
+          "archetype": "パンプジン",
           "deck_id": "g6ngQg-mCcFWZ-9gNQnn",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/g6ngQg-mCcFWZ-9gNQnn",
           "event_id": "archives-183915",
@@ -629,7 +629,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "パンプジンex",
+          "archetype": "パンプジン",
           "deck_id": "8Yccc8-3hjDkR-GxYD8c",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/8Yccc8-3hjDkR-GxYD8c",
           "event_id": "archives-183915",
@@ -638,7 +638,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガゲッコウガex",
+          "archetype": "メガゲッコウガ",
           "deck_id": "x48c8D-N4OJwM-8GY8c8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/x48c8D-N4OJwM-8GY8c8",
           "event_id": "archives-183915",
@@ -647,7 +647,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガゲッコウガex",
+          "archetype": "メガゲッコウガ",
           "deck_id": "Fbb5V5-EVSrnD-kfFVFV",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Fbb5V5-EVSrnD-kfFVFV",
           "event_id": "archives-183915",
@@ -656,7 +656,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガゲッコウガex",
+          "archetype": "メガゲッコウガ",
           "deck_id": "Xpy3My-AEngmy-UMREpS",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Xpy3My-AEngmy-UMREpS",
           "event_id": "archives-183915",
@@ -665,7 +665,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガフシギバナex",
+          "archetype": "メガフシギバナ",
           "deck_id": "cGGaJ8-HGV88O-YD4xx8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/cGGaJ8-HGV88O-YD4xx8",
           "event_id": "archives-183915",
@@ -674,7 +674,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーナイトex",
+          "archetype": "サーナイト",
           "deck_id": "pRp2yp-uh6IHi-RySXRS",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/pRp2yp-uh6IHi-RySXRS",
           "event_id": "archives-183915",
@@ -683,7 +683,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーナイトex",
+          "archetype": "サーナイト",
           "deck_id": "pXyXpR-nyRiTT-2MpUyp",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/pXyXpR-nyRiTT-2MpUyp",
           "event_id": "archives-183915",
@@ -692,7 +692,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーナイトex",
+          "archetype": "サーナイト",
           "deck_id": "kbFVVV-7TCPMY-5b5VF1",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/kbFVVV-7TCPMY-5b5VF1",
           "event_id": "archives-183915",
@@ -701,7 +701,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーナイトex",
+          "archetype": "サーナイト",
           "deck_id": "HLgiH9-HZqLK4-nin9gg",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/HLgiH9-HZqLK4-nin9gg",
           "event_id": "archives-183915",
@@ -710,7 +710,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーナイトex",
+          "archetype": "サーナイト",
           "deck_id": "yU2p2p-kEeIdS-yXypR2",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/yU2p2p-kEeIdS-yXypR2",
           "event_id": "archives-183915",
@@ -719,7 +719,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーナイトex",
+          "archetype": "サーナイト",
           "deck_id": "GcxDY8-EzQFZm-aaDxc8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/GcxDY8-EzQFZm-aaDxc8",
           "event_id": "archives-183915",
@@ -728,7 +728,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ドラパルトex",
+          "archetype": "ドラパルト",
           "deck_id": "kVdFb5-Vp4J5x-FFFffk",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/kVdFb5-Vp4J5x-FFFffk",
           "event_id": "archives-183915",
@@ -737,7 +737,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ドラパルトex",
+          "archetype": "ドラパルト",
           "deck_id": "U2XpMM-12GG7I-2pyRUU",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/U2XpMM-12GG7I-2pyRUU",
           "event_id": "archives-183915",
@@ -746,7 +746,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ドラパルトex",
+          "archetype": "ドラパルト",
           "deck_id": "ypRySX-bqFXNy-yEpy32",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ypRySX-bqFXNy-yEpy32",
           "event_id": "archives-183915",
@@ -755,7 +755,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "リザードンex",
+          "archetype": "リザードン",
           "deck_id": "bFkFk1-Qq9yRS-F5kVkF",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/bFkFk1-Qq9yRS-F5kVkF",
           "event_id": "archives-183915",
@@ -764,7 +764,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "リザードンex",
+          "archetype": "リザードン",
           "deck_id": "xcYGxc-deNUlu-848DJY",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/xcYGxc-deNUlu-848DJY",
           "event_id": "archives-183915",
@@ -773,7 +773,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "リザードンex",
+          "archetype": "リザードン",
           "deck_id": "DaGD8K-ZpuEkk-xxc8cG",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/DaGD8K-ZpuEkk-xxc8cG",
           "event_id": "archives-183915",
@@ -782,7 +782,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ブルンゲルex",
+          "archetype": "ブルンゲル",
           "deck_id": "ni9LnL-9LNYec-ggH9HN",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ni9LnL-9LNYec-ggH9HN",
           "event_id": "archives-183915",
@@ -791,7 +791,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ブルンゲルex",
+          "archetype": "ブルンゲル",
           "deck_id": "L9nHHn-fPZvok-gggLH9",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/L9nHHn-fPZvok-gggLH9",
           "event_id": "archives-183915",
@@ -800,7 +800,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "トドロクツキex",
+          "archetype": "トドロクツキ",
           "deck_id": "FkFFv1-CaQFzm-kfbFkF",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/FkFFv1-CaQFzm-kfbFkF",
           "event_id": "archives-183915",
@@ -809,7 +809,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "トドロクツキex",
+          "archetype": "トドロクツキ",
           "deck_id": "Ffbk5V-Ytt43q-VV5dFV",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Ffbk5V-Ytt43q-VV5dFV",
           "event_id": "archives-183915",
@@ -818,7 +818,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガルカリオex",
+          "archetype": "メガルカリオ",
           "deck_id": "gL9gnN-A0U7mw-HgngHg",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/gL9gnN-A0U7mw-HgngHg",
           "event_id": "archives-183915",
@@ -827,7 +827,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "こくばバドレックスVMAX",
+          "archetype": "こくばバドレックス",
           "deck_id": "xGJ84c-V1PZyj-D8c4x8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/xGJ84c-V1PZyj-D8c4x8",
           "event_id": "archives-183915",
@@ -836,7 +836,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "こくばバドレックスVMAX",
+          "archetype": "こくばバドレックス",
           "deck_id": "Gc4YDc-Fu30Lm-8Yccc4",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Gc4YDc-Fu30Lm-8Yccc4",
           "event_id": "archives-183915",
@@ -845,7 +845,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "こくばバドレックスVMAX",
+          "archetype": "こくばバドレックス",
           "deck_id": "9QgngN-xHnDtE-nNg9ng",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/9QgngN-xHnDtE-nNg9ng",
           "event_id": "archives-183915",
@@ -854,7 +854,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "こくばバドレックスVMAX",
+          "archetype": "こくばバドレックス",
           "deck_id": "44cDKa-IF3Aox-xc8aGc",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/44cDKa-IF3Aox-xc8aGc",
           "event_id": "archives-183915",
@@ -863,7 +863,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "こくばバドレックスVMAX",
+          "archetype": "こくばバドレックス",
           "deck_id": "4Jxacc-pVlmj3-c848G8",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/4Jxacc-pVlmj3-c848G8",
           "event_id": "archives-183915",
@@ -872,7 +872,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "アマージョV",
+          "archetype": "アマージョ",
           "deck_id": "p2RRpp-l9lXlr-pMX2yy",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/p2RRpp-l9lXlr-pMX2yy",
           "event_id": "archives-183915",
@@ -881,7 +881,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ムゲンダイナVMAX",
+          "archetype": "ムゲンダイナ",
           "deck_id": "Dc8c48-Ynk0ZF-D8DGYc",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Dc8c48-Ynk0ZF-D8DGYc",
           "event_id": "archives-183915",
@@ -890,7 +890,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "オーロット＆ヨノワールGX",
+          "archetype": "オーロット＆ヨノワール",
           "deck_id": "nQnPNH-qE6PjN-n9gNHH",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/nQnPNH-qE6PjN-n9gNHH",
           "event_id": "archives-183915",
@@ -926,7 +926,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガガルーラex",
+          "archetype": "メガガルーラ",
           "deck_id": "xcD4Yc-0Q0zrB-xxaG88",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/xcD4Yc-0Q0zrB-xxaG88",
           "event_id": "archives-183915",
@@ -935,7 +935,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガアブソルex",
+          "archetype": "メガアブソル",
           "deck_id": "48c8Da-geAaqg-4ccY4G",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/48c8Da-geAaqg-4ccY4G",
           "event_id": "archives-183915",
@@ -944,7 +944,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "オリジンパルキアVSTAR",
+          "archetype": "オリジンパルキア",
           "deck_id": "cY8cGG-tf6AaS-D84DGc",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/cY8cGG-tf6AaS-D84DGc",
           "event_id": "archives-183915",
@@ -953,7 +953,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "イルカマンex",
+          "archetype": "イルカマン",
           "deck_id": "ppyR3p-QtIcLm-2XyMSy",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/ppyR3p-QtIcLm-2XyMSy",
           "event_id": "archives-183915",
@@ -962,7 +962,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガニウム＋オーガポンex",
+          "archetype": "メガニウム＋オーガポン",
           "deck_id": "nHNgg9-5jRxof-NgQiNn",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/nHNgg9-5jRxof-NgQiNn",
           "event_id": "archives-183915",
@@ -971,7 +971,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ウガツホムラex",
+          "archetype": "ウガツホムラ",
           "deck_id": "yMp332-U1cro1-ypRMU2",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/yMp332-U1cro1-ypRMU2",
           "event_id": "archives-183915",
@@ -980,7 +980,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "テツノブジンex",
+          "archetype": "テツノブジン",
           "deck_id": "FVkbVb-Duu7TM-bFVFF5",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/FVkbVb-Duu7TM-bFVFF5",
           "event_id": "archives-183915",
@@ -998,7 +998,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガミミロップex",
+          "archetype": "メガミミロップ",
           "deck_id": "pMpM3y-Noi2PE-2XRppU",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/pMpM3y-Noi2PE-2XRppU",
           "event_id": "archives-183915",
@@ -1007,7 +1007,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガミミロップex",
+          "archetype": "メガミミロップ",
           "deck_id": "V5Fd5b-e0XEpW-k5VbfF",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/V5Fd5b-e0XEpW-k5VbfF",
           "event_id": "archives-183915",
@@ -1016,7 +1016,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ハピナスV",
+          "archetype": "ハピナス",
           "deck_id": "yyXpyR-tJEFgq-2ypypM",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/yyXpyR-tJEFgq-2ypypM",
           "event_id": "archives-183915",
@@ -1025,7 +1025,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "シャリタツex",
+          "archetype": "シャリタツ",
           "deck_id": "88YJxY-qtmyUD-c4x8Gx",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/88YJxY-qtmyUD-c4x8Gx",
           "event_id": "archives-183915",
@@ -1034,7 +1034,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガユキメノコex",
+          "archetype": "メガユキメノコ",
           "deck_id": "Vfk5b1-nV8w8v-F5wwF1",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Vfk5b1-nV8w8v-F5wwF1",
           "event_id": "archives-183915",
@@ -1043,7 +1043,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "メガユキメノコex",
+          "archetype": "メガユキメノコ",
           "deck_id": "Jc8x8G-CEDrk6-c48DcK",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/Jc8x8G-CEDrk6-c48DcK",
           "event_id": "archives-183915",
@@ -1061,7 +1061,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "サーフゴーex",
+          "archetype": "サーフゴー",
           "deck_id": "bkvVkF-62mY1d-Fff5bv",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/bkvVkF-62mY1d-Fff5bv",
           "event_id": "archives-183915",
@@ -1070,7 +1070,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "ケッキングex",
+          "archetype": "ケッキング",
           "deck_id": "5VFb5k-ZWtCG2-fbwkFv",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/5VFb5k-ZWtCG2-fbwkFv",
           "event_id": "archives-183915",
@@ -1088,7 +1088,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "カビゴンLO",
+          "archetype": "カビゴン",
           "deck_id": "pRpUyE-2BgrAv-ySpS2p",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/pRpUyE-2BgrAv-ySpS2p",
           "event_id": "archives-183915",
@@ -1097,7 +1097,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "カビゴンLO",
+          "archetype": "カビゴン",
           "deck_id": "My2pXy-eB6tDO-Ry3pyS",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/My2pXy-eB6tDO-Ry3pyS",
           "event_id": "archives-183915",
@@ -1106,7 +1106,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "カビゴンLO",
+          "archetype": "カビゴン",
           "deck_id": "g9nnNg-VSN3Dj-Hg6N9H",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/g9nnNg-VSN3Dj-Hg6N9H",
           "event_id": "archives-183915",
@@ -1115,7 +1115,7 @@
         },
         {
           "placement": "優勝",
-          "archetype": "カビゴンLO",
+          "archetype": "カビゴン",
           "deck_id": "2RyRXM-DL77JD-MppyRM",
           "deck_url": "https://www.pokemon-card.com/deck/confirm.html/deckID/2RyRXM-DL77JD-MppyRM",
           "event_id": "archives-183915",
@@ -6620,7 +6620,7 @@
       "metadata": {
         "deckId": "VkFdV1-hnNVWB-bkdfv1",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -6961,7 +6961,7 @@
       "metadata": {
         "deckId": "pS2pSS-1D9qml-p2RpSy",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -7293,7 +7293,7 @@
       "metadata": {
         "deckId": "bdFvvv-wMbVHI-fkFkfk",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -7634,7 +7634,7 @@
       "metadata": {
         "deckId": "4GYa8x-Pll7iI-acD4c8",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -7975,7 +7975,7 @@
       "metadata": {
         "deckId": "11VkVF-AQfCPc-5VfwVb",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -8343,7 +8343,7 @@
       "metadata": {
         "deckId": "bfFkVd-AA7RvB-1VkwfF",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -8711,7 +8711,7 @@
       "metadata": {
         "deckId": "RyXMS2-JDSBUD-ypRypp",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -9052,7 +9052,7 @@
       "metadata": {
         "deckId": "yppSRS-wJzgku-Xpyy2X",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -9384,7 +9384,7 @@
       "metadata": {
         "deckId": "H69nQ6-I8LXOX-NgPngn",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -9734,7 +9734,7 @@
       "metadata": {
         "deckId": "F1wVkw-AoXQSd-5F15bF",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -10093,7 +10093,7 @@
       "metadata": {
         "deckId": "LHg9LQ-WYU6mz-ng9ngi",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -10434,7 +10434,7 @@
       "metadata": {
         "deckId": "ngiHL6-K831VY-PgHL9L",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -10766,7 +10766,7 @@
       "metadata": {
         "deckId": "G84Jcc-njmdBG-Gx88cY",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -11125,7 +11125,7 @@
       "metadata": {
         "deckId": "DxDaY4-LjSoaY-cxaGx8",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -11457,7 +11457,7 @@
       "metadata": {
         "deckId": "nH9nNg-KWDe3F-nHNLLg",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -11861,7 +11861,7 @@
       "metadata": {
         "deckId": "VbkvbF-fUyC2g-fF5fVV",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -12220,7 +12220,7 @@
       "metadata": {
         "deckId": "cDxY4x-cPPj0c-8Gc88G",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -12570,7 +12570,7 @@
       "metadata": {
         "deckId": "pyRpXR-K4DqQY-M2Xy2M",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -12929,7 +12929,7 @@
       "metadata": {
         "deckId": "gnLnNn-AOn7D0-HNiLQ9",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -13270,7 +13270,7 @@
       "metadata": {
         "deckId": "cD4Gc4-87MtqE-488488",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -13647,7 +13647,7 @@
       "metadata": {
         "deckId": "xc8x8c-jarMIu-D8Yx4G",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -14015,7 +14015,7 @@
       "metadata": {
         "deckId": "ypXXpU-K8FDhR-2y2XRy",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -14356,7 +14356,7 @@
       "metadata": {
         "deckId": "kFdkfF-vwiddy-VFf5Fb",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -14715,7 +14715,7 @@
       "metadata": {
         "deckId": "vfFFv5-LetP1c-kVFbvk",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -15047,7 +15047,7 @@
       "metadata": {
         "deckId": "5kF5kF-uY287e-FfFffb",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -15388,7 +15388,7 @@
       "metadata": {
         "deckId": "488xD4-uByYdl-c8xGc4",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -15729,7 +15729,7 @@
       "metadata": {
         "deckId": "NLPLLH-yTCyh4-Hn9i6g",
         "placement": "優勝",
-        "archetype": "レジドラゴVSTAR",
+        "archetype": "レジドラゴ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -16043,7 +16043,7 @@
       "metadata": {
         "deckId": "fFkdvv-0qZ660-VVf1bf",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -16348,7 +16348,7 @@
       "metadata": {
         "deckId": "kfFkF5-VidroO-kffkkb",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -16644,7 +16644,7 @@
       "metadata": {
         "deckId": "UMypXy-4MPvAR-S3pRMM",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -16967,7 +16967,7 @@
       "metadata": {
         "deckId": "2p2MSp-6Rzln5-pX2pRy",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -17272,7 +17272,7 @@
       "metadata": {
         "deckId": "Lg6nn9-bO1QrZ-gg9LHL",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -17550,7 +17550,7 @@
       "metadata": {
         "deckId": "JxDxc8-URzkUv-8GJ8Da",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -17819,7 +17819,7 @@
       "metadata": {
         "deckId": "8c4D8G-mp92P6-8DD848",
         "placement": "優勝",
-        "archetype": "ルギアVSTAR",
+        "archetype": "ルギア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -18124,7 +18124,7 @@
       "metadata": {
         "deckId": "2SMppp-FDu6mD-UpyR2y",
         "placement": "優勝",
-        "archetype": "ミライドンex",
+        "archetype": "ミライドン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -18429,7 +18429,7 @@
       "metadata": {
         "deckId": "HnHnin-D8AcGP-Qgigg9",
         "placement": "優勝",
-        "archetype": "ミライドンex",
+        "archetype": "ミライドン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -18725,7 +18725,7 @@
       "metadata": {
         "deckId": "2pypp2-BYFpjl-pyXRyy",
         "placement": "優勝",
-        "archetype": "ミライドンex",
+        "archetype": "ミライドン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -19012,7 +19012,7 @@
       "metadata": {
         "deckId": "ccY4D8-q8RK7u-xcGGYc",
         "placement": "優勝",
-        "archetype": "テツノイバラex",
+        "archetype": "テツノイバラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -19308,7 +19308,7 @@
       "metadata": {
         "deckId": "ngHgn9-inQR9X-gHNL6g",
         "placement": "優勝",
-        "archetype": "テツノイバラex",
+        "archetype": "テツノイバラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -19604,7 +19604,7 @@
       "metadata": {
         "deckId": "D884cc-dgEiGM-Y8GKx8",
         "placement": "優勝",
-        "archetype": "テツノイバラex",
+        "archetype": "テツノイバラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -19972,7 +19972,7 @@
       "metadata": {
         "deckId": "11vbkk-B3UWlC-FVkfkv",
         "placement": "優勝",
-        "archetype": "テツノイバラex",
+        "archetype": "テツノイバラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -20259,7 +20259,7 @@
       "metadata": {
         "deckId": "fFk5VF-1ZMKxE-bFVbkV",
         "placement": "優勝",
-        "archetype": "テツノイバラex",
+        "archetype": "テツノイバラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -20510,7 +20510,7 @@
       "metadata": {
         "deckId": "5vbfFk-C4YUu0-FfFb5V",
         "placement": "優勝",
-        "archetype": "ソウブレイズex",
+        "archetype": "ソウブレイズ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -20743,7 +20743,7 @@
       "metadata": {
         "deckId": "nn9LNL-CHi6zr-9H9ngn",
         "placement": "優勝",
-        "archetype": "ソウブレイズex",
+        "archetype": "ソウブレイズ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -20985,7 +20985,7 @@
       "metadata": {
         "deckId": "G4x8Gx-aH8Ucz-cxcx48",
         "placement": "優勝",
-        "archetype": "ソウブレイズex",
+        "archetype": "ソウブレイズ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -21254,7 +21254,7 @@
       "metadata": {
         "deckId": "XyMR2p-dkxyDI-2MMpSp",
         "placement": "優勝",
-        "archetype": "タケルライコex",
+        "archetype": "タケルライコ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -22474,7 +22474,7 @@
       "metadata": {
         "deckId": "Fkb5fk-thg9zc-FVFvVf",
         "placement": "優勝",
-        "archetype": "スピアーex",
+        "archetype": "スピアー",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -22788,7 +22788,7 @@
       "metadata": {
         "deckId": "i9n6Ng-zKxVOG-niHLgg",
         "placement": "優勝",
-        "archetype": "パンプジンex",
+        "archetype": "パンプジン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -23093,7 +23093,7 @@
       "metadata": {
         "deckId": "g6ngQg-mCcFWZ-9gNQnn",
         "placement": "優勝",
-        "archetype": "パンプジンex",
+        "archetype": "パンプジン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -23380,7 +23380,7 @@
       "metadata": {
         "deckId": "8Yccc8-3hjDkR-GxYD8c",
         "placement": "優勝",
-        "archetype": "パンプジンex",
+        "archetype": "パンプジン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -23676,7 +23676,7 @@
       "metadata": {
         "deckId": "x48c8D-N4OJwM-8GY8c8",
         "placement": "優勝",
-        "archetype": "メガゲッコウガex",
+        "archetype": "メガゲッコウガ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -23927,7 +23927,7 @@
       "metadata": {
         "deckId": "Fbb5V5-EVSrnD-kfFVFV",
         "placement": "優勝",
-        "archetype": "メガゲッコウガex",
+        "archetype": "メガゲッコウガ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -24178,7 +24178,7 @@
       "metadata": {
         "deckId": "Xpy3My-AEngmy-UMREpS",
         "placement": "優勝",
-        "archetype": "メガゲッコウガex",
+        "archetype": "メガゲッコウガ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -24429,7 +24429,7 @@
       "metadata": {
         "deckId": "cGGaJ8-HGV88O-YD4xx8",
         "placement": "優勝",
-        "archetype": "メガフシギバナex",
+        "archetype": "メガフシギバナ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -24824,7 +24824,7 @@
       "metadata": {
         "deckId": "pRp2yp-uh6IHi-RySXRS",
         "placement": "優勝",
-        "archetype": "サーナイトex",
+        "archetype": "サーナイト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -25192,7 +25192,7 @@
       "metadata": {
         "deckId": "pXyXpR-nyRiTT-2MpUyp",
         "placement": "優勝",
-        "archetype": "サーナイトex",
+        "archetype": "サーナイト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -25515,7 +25515,7 @@
       "metadata": {
         "deckId": "kbFVVV-7TCPMY-5b5VF1",
         "placement": "優勝",
-        "archetype": "サーナイトex",
+        "archetype": "サーナイト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -25847,7 +25847,7 @@
       "metadata": {
         "deckId": "HLgiH9-HZqLK4-nin9gg",
         "placement": "優勝",
-        "archetype": "サーナイトex",
+        "archetype": "サーナイト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -26170,7 +26170,7 @@
       "metadata": {
         "deckId": "yU2p2p-kEeIdS-yXypR2",
         "placement": "優勝",
-        "archetype": "サーナイトex",
+        "archetype": "サーナイト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -26502,7 +26502,7 @@
       "metadata": {
         "deckId": "GcxDY8-EzQFZm-aaDxc8",
         "placement": "優勝",
-        "archetype": "サーナイトex",
+        "archetype": "サーナイト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -26834,7 +26834,7 @@
       "metadata": {
         "deckId": "kVdFb5-Vp4J5x-FFFffk",
         "placement": "優勝",
-        "archetype": "ドラパルトex",
+        "archetype": "ドラパルト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -27139,7 +27139,7 @@
       "metadata": {
         "deckId": "U2XpMM-12GG7I-2pyRUU",
         "placement": "優勝",
-        "archetype": "ドラパルトex",
+        "archetype": "ドラパルト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -27453,7 +27453,7 @@
       "metadata": {
         "deckId": "ypRySX-bqFXNy-yEpy32",
         "placement": "優勝",
-        "archetype": "ドラパルトex",
+        "archetype": "ドラパルト",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -27758,7 +27758,7 @@
       "metadata": {
         "deckId": "bFkFk1-Qq9yRS-F5kVkF",
         "placement": "優勝",
-        "archetype": "リザードンex",
+        "archetype": "リザードン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -28036,7 +28036,7 @@
       "metadata": {
         "deckId": "xcYGxc-deNUlu-848DJY",
         "placement": "優勝",
-        "archetype": "リザードンex",
+        "archetype": "リザードン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -28323,7 +28323,7 @@
       "metadata": {
         "deckId": "DaGD8K-ZpuEkk-xxc8cG",
         "placement": "優勝",
-        "archetype": "リザードンex",
+        "archetype": "リザードン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -28592,7 +28592,7 @@
       "metadata": {
         "deckId": "ni9LnL-9LNYec-ggH9HN",
         "placement": "優勝",
-        "archetype": "ブルンゲルex",
+        "archetype": "ブルンゲル",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -28816,7 +28816,7 @@
       "metadata": {
         "deckId": "L9nHHn-fPZvok-gggLH9",
         "placement": "優勝",
-        "archetype": "ブルンゲルex",
+        "archetype": "ブルンゲル",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -29076,7 +29076,7 @@
       "metadata": {
         "deckId": "FkFFv1-CaQFzm-kfbFkF",
         "placement": "優勝",
-        "archetype": "トドロクツキex",
+        "archetype": "トドロクツキ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -29354,7 +29354,7 @@
       "metadata": {
         "deckId": "Ffbk5V-Ytt43q-VV5dFV",
         "placement": "優勝",
-        "archetype": "トドロクツキex",
+        "archetype": "トドロクツキ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -29659,7 +29659,7 @@
       "metadata": {
         "deckId": "gL9gnN-A0U7mw-HgngHg",
         "placement": "優勝",
-        "archetype": "メガルカリオex",
+        "archetype": "メガルカリオ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -29964,7 +29964,7 @@
       "metadata": {
         "deckId": "xGJ84c-V1PZyj-D8c4x8",
         "placement": "優勝",
-        "archetype": "こくばバドレックスVMAX",
+        "archetype": "こくばバドレックス",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -30233,7 +30233,7 @@
       "metadata": {
         "deckId": "Gc4YDc-Fu30Lm-8Yccc4",
         "placement": "優勝",
-        "archetype": "こくばバドレックスVMAX",
+        "archetype": "こくばバドレックス",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -30529,7 +30529,7 @@
       "metadata": {
         "deckId": "9QgngN-xHnDtE-nNg9ng",
         "placement": "優勝",
-        "archetype": "こくばバドレックスVMAX",
+        "archetype": "こくばバドレックス",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -30816,7 +30816,7 @@
       "metadata": {
         "deckId": "44cDKa-IF3Aox-xc8aGc",
         "placement": "優勝",
-        "archetype": "こくばバドレックスVMAX",
+        "archetype": "こくばバドレックス",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -31112,7 +31112,7 @@
       "metadata": {
         "deckId": "4Jxacc-pVlmj3-c848G8",
         "placement": "優勝",
-        "archetype": "こくばバドレックスVMAX",
+        "archetype": "こくばバドレックス",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -31453,7 +31453,7 @@
       "metadata": {
         "deckId": "p2RRpp-l9lXlr-pMX2yy",
         "placement": "優勝",
-        "archetype": "アマージョV",
+        "archetype": "アマージョ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -31749,7 +31749,7 @@
       "metadata": {
         "deckId": "Dc8c48-Ynk0ZF-D8DGYc",
         "placement": "優勝",
-        "archetype": "ムゲンダイナVMAX",
+        "archetype": "ムゲンダイナ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -31982,7 +31982,7 @@
       "metadata": {
         "deckId": "nQnPNH-qE6PjN-n9gNHH",
         "placement": "優勝",
-        "archetype": "オーロット＆ヨノワールGX",
+        "archetype": "オーロット＆ヨノワール",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -33103,7 +33103,7 @@
       "metadata": {
         "deckId": "xcD4Yc-0Q0zrB-xxaG88",
         "placement": "優勝",
-        "archetype": "メガガルーラex",
+        "archetype": "メガガルーラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -33435,7 +33435,7 @@
       "metadata": {
         "deckId": "48c8Da-geAaqg-4ccY4G",
         "placement": "優勝",
-        "archetype": "メガアブソルex",
+        "archetype": "メガアブソル",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -33758,7 +33758,7 @@
       "metadata": {
         "deckId": "cY8cGG-tf6AaS-D84DGc",
         "placement": "優勝",
-        "archetype": "オリジンパルキアVSTAR",
+        "archetype": "オリジンパルキア",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -34009,7 +34009,7 @@
       "metadata": {
         "deckId": "ppyR3p-QtIcLm-2XyMSy",
         "placement": "優勝",
-        "archetype": "イルカマンex",
+        "archetype": "イルカマン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -34305,7 +34305,7 @@
       "metadata": {
         "deckId": "nHNgg9-5jRxof-NgQiNn",
         "placement": "優勝",
-        "archetype": "メガニウム＋オーガポンex",
+        "archetype": "メガニウム＋オーガポン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -34592,7 +34592,7 @@
       "metadata": {
         "deckId": "yMp332-U1cro1-ypRMU2",
         "placement": "優勝",
-        "archetype": "ウガツホムラex",
+        "archetype": "ウガツホムラ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -34861,7 +34861,7 @@
       "metadata": {
         "deckId": "FVkbVb-Duu7TM-bFVFF5",
         "placement": "優勝",
-        "archetype": "テツノブジンex",
+        "archetype": "テツノブジン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -35453,7 +35453,7 @@
       "metadata": {
         "deckId": "pMpM3y-Noi2PE-2XRppU",
         "placement": "優勝",
-        "archetype": "メガミミロップex",
+        "archetype": "メガミミロップ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -35749,7 +35749,7 @@
       "metadata": {
         "deckId": "V5Fd5b-e0XEpW-k5VbfF",
         "placement": "優勝",
-        "archetype": "メガミミロップex",
+        "archetype": "メガミミロップ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -36036,7 +36036,7 @@
       "metadata": {
         "deckId": "yyXpyR-tJEFgq-2ypypM",
         "placement": "優勝",
-        "archetype": "ハピナスV",
+        "archetype": "ハピナス",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -36323,7 +36323,7 @@
       "metadata": {
         "deckId": "88YJxY-qtmyUD-c4x8Gx",
         "placement": "優勝",
-        "archetype": "シャリタツex",
+        "archetype": "シャリタツ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -36637,7 +36637,7 @@
       "metadata": {
         "deckId": "Vfk5b1-nV8w8v-F5wwF1",
         "placement": "優勝",
-        "archetype": "メガユキメノコex",
+        "archetype": "メガユキメノコ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -36951,7 +36951,7 @@
       "metadata": {
         "deckId": "Jc8x8G-CEDrk6-c48DcK",
         "placement": "優勝",
-        "archetype": "メガユキメノコex",
+        "archetype": "メガユキメノコ",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -37534,7 +37534,7 @@
       "metadata": {
         "deckId": "bkvVkF-62mY1d-Fff5bv",
         "placement": "優勝",
-        "archetype": "サーフゴーex",
+        "archetype": "サーフゴー",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -37839,7 +37839,7 @@
       "metadata": {
         "deckId": "5VFb5k-ZWtCG2-fbwkFv",
         "placement": "優勝",
-        "archetype": "ケッキングex",
+        "archetype": "ケッキング",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -38611,7 +38611,7 @@
       "metadata": {
         "deckId": "pRpUyE-2BgrAv-ySpS2p",
         "placement": "優勝",
-        "archetype": "カビゴンLO",
+        "archetype": "カビゴン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -38943,7 +38943,7 @@
       "metadata": {
         "deckId": "My2pXy-eB6tDO-Ry3pyS",
         "placement": "優勝",
-        "archetype": "カビゴンLO",
+        "archetype": "カビゴン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -39356,7 +39356,7 @@
       "metadata": {
         "deckId": "g9nnNg-VSN3Dj-Hg6N9H",
         "placement": "優勝",
-        "archetype": "カビゴンLO",
+        "archetype": "カビゴン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
@@ -39778,7 +39778,7 @@
       "metadata": {
         "deckId": "2RyRXM-DL77JD-MppyRM",
         "placement": "優勝",
-        "archetype": "カビゴンLO",
+        "archetype": "カビゴン",
         "eventId": "archives-183915",
         "eventName": "ニンジャスピナー環境",
         "sourceUrl": "https://pokecabook.com/archives/183915"
